@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>JM Taylor</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-9ralMzdK1QYsk4yBY680hmsb4/hJ98xK3w0TIaJ3ll4POWpWUYaA2bRjGGujGT8w" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-9ralMzdK1QYsk4yBY680hmsb4/hJ98xK3w0TIaJ3ll4POWpWUYaA2bRjGGujGT8w" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,700|Raleway:200,400" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link rel="stylesheet" href="resources/css/style.css">
 </head>
@@ -49,6 +50,7 @@
 
 <!-- INTRO BLOCK STARTS HERE -->
 <div class="container">
+   
     <div class="row justify-content-md-center"> <!-- .row.justify-content-md-center 1 -->
     
         <div id="intro-block" class="content-block col-12 col-lg-auto">
@@ -67,8 +69,69 @@
         <div id="portfolio-block" class="content-block col-12 col-lg-auto">
           <h2 class="text-center">Portfolio</h2>
           
+          <hr>
+          
           <!-- <custom gradient hr"> -->
-          <div class="gradient-border identity-border"></div>
+<!--          <div class="gradient-border identity-border"></div>-->
+          
+          <div class="row">
+<!--          	<div class="card-deck">-->
+							<div class="col-md-6 d-flex align-items-stretch mb-3">    	
+  							<div class="card border-light">
+  							<div class="card-shadow">
+  							<div class="card-frame">
+									<img class="card-img-top" src="resources/img/tictactoe-web.jpg" alt="Card image cap">
+								</div>	
+								</div>
+									<div class="card-body p-3">
+										<h5 class="card-title">Tic Tac Toe</h5>
+										<p class="card-text">A Street Fighter 2 themed Tic Tac Toe game with variable difficulty modes and two selectable characters. Integrated minimax to create an unwinnable hard mode. Uses sprite maps and animated GIFs for animation, complete with intro video, title screen, character select, etc., to simulate the Street Fighter 2 game experience. Also uses Web Audio API to create seamless looping BGM.</p>
+										<p class="card-text"><small class="text-muted">Works best on Chrome and Firefox</small></p>
+									</div>
+								</div>
+							</div>
+															
+							<div class="col-md-6 d-flex align-items-stretch mb-3">
+								<div class="card">
+								  							<div class="card-frame">
+									<img class="card-img-top" src="resources/img/simon-web.jpg" alt="Card image cap">
+									</div>
+									<div class="card-body p-2">
+										<h5 class="card-title">Simon Game</h5>
+										<p class="card-text">Spiced up the original Simon game by using Street Fighter 2 themes, music, sfx, and some animated feedback.</p>
+										<p class="card-text"><small class="text-muted">Works best on Chrome and Firefox</small></p>
+									</div>
+								</div>
+							</div>
+<!--						</div>-->
+          </div>
+          
+           
+          <div class="row">
+<!--          	<div class="card-deck">-->
+							<div class="col-md-6 d-flex align-items-stretch">    	
+  							<div class="card">
+									<img class="card-img-top" src=".../100px200/" alt="Card image cap">
+									<div class="card-body">
+										<h5 class="card-title">Card title</h5>
+										<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+										<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+									</div>
+								</div>
+							</div>
+															
+							<div class="col-md-6 d-flex align-items-stretch">
+								<div class="card">
+									<img class="card-img-top" src=".../100px200/" alt="Card image cap">
+									<div class="card-body">
+										<h5 class="card-title">Card title</h5>
+										<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+										<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+									</div>
+								</div>
+							</div>
+<!--						</div>-->
+          </div>        
           
           <div class="row">
             
@@ -76,14 +139,14 @@
                 <div class="portfolio-pic">
                 <span class="pic-title">Tic Tac Toe</span>
               <a href="http://streetfighter2ttt.com" target="_blank">
-                <img src="/resources/img/tictactoe-web.jpg" class="img-fluid" alt="Street Fighter 2 - Tic Tac Toe">
+                <img src="resources/img/tictactoe-web.jpg" class="img-fluid" alt="Street Fighter 2 - Tic Tac Toe">
               </a>
               </div>
             </div>
             
             <div class="col-md-6 portfolio-pic-container" data-toggle="popover" data-placement="bottom" title="Simon Game - Street Fighter 2 version<span class='close-popover'><i class='fal fa-times fa-lg'></i></span>" data-content="Spiced up the original Simon game by using Street Fighter 2 themes, music, sfx, and some animated feedback.<br /><br />Works best on Chrome and Firefox">  
               <a href="https://codepen.io/agedengaku/full/gjLOra/" target="_blank">
-              <img src="/resources/img/simon-web.jpg" class="img-fluid portfolio-pic effectfront" alt="Street Fighter 2 - Simon Game">
+              <img src="resources/img/simon-web.jpg" class="img-fluid portfolio-pic effectfront" alt="Street Fighter 2 - Simon Game">
               </a>
             </div>
             
@@ -93,13 +156,13 @@
             
             <div class="col-md-6 portfolio-pic-container" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-html="true" title="Javascript Calculator<span class='close-popover'><i class='fal fa-times fa-lg'></i></span>" data-content="Improved on the original task of creating a Javascript calcultor by increasing decimal precision, making the results always similar to what you would get from a real calculator. Precision is achieved using a Decimal type by integrating decimal.js.">
               <a href="https://codepen.io/agedengaku/full/NYPyWy/" target="_blank">
-                <img src="/resources/img/calculator-web.jpg" class="img-fluid portfolio-pic effectfront" alt="Javascript Calcultar">
+                <img src="resources/img/calculator-web.jpg" class="img-fluid portfolio-pic effectfront" alt="Javascript Calcultar">
               </a>
             </div>
             
             <div class="col-md-6 portfolio-pic-container" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-html="true" title="Pomodoro Clock<span class='close-popover'><i class='fal fa-times fa-lg'></i></span>" data-content="Goes beyond the assignment of building a productivity clock by adding animations and original recorded sound clips to guide the user on the current state of the clock.">  
               <a href="https://codepen.io/agedengaku/full/bvZbGx/" target="_blank">
-              <img src="/resources/img/pomodoro-web.jpg" class="img-fluid portfolio-pic effectfront" alt="Pomodoro Clock">
+              <img src="resources/img/pomodoro-web.jpg" class="img-fluid portfolio-pic effectfront" alt="Pomodoro Clock">
               </a>
             </div>
             
@@ -109,13 +172,13 @@
             
             <div class="col-md-6 portfolio-pic-container" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-html="true" title="Japanese Lessons Tokyo<span class='close-popover'><i class='fal fa-times fa-lg'></i></span>" data-content="Built a website that helped a Japanese language teacher from almost going out of business, and allowed him to quit his part-time jobs to focus solely on teaching.">
               <a href="https://japaneselessonstokyo.com" target="_blank">
-                <img src="/resources/img/jlt-web.jpg" class="img-fluid portfolio-pic effectfront" alt="Japanese Lessons Tokyo website picture">
+                <img src="resources/img/jlt-web.jpg" class="img-fluid portfolio-pic effectfront" alt="Japanese Lessons Tokyo website picture">
               </a>
             </div>
             
             <div class="col-md-6 portfolio-pic-container" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-html="true" title="Redesign of outdated website<span class='close-popover'><i class='fal fa-times fa-lg'></i></span>" data-content="An exercises in redesigning an old and outdated website, including a new modern logo. Done on Wordpress, but the theme was coded completely from scratch using PHP. <a href='http://www.xpstokyo.com' target='_blank'>Click here to see the original website.</a>">  
               <a href="/xps" target="_blank">
-              <img src="/resources/img/xpstokyo-web.jpg" class="img-fluid portfolio-pic effectfront" alt="XPS Tokyo website picture">
+              <img src="resources/img/xpstokyo-web.jpg" class="img-fluid portfolio-pic effectfront" alt="XPS Tokyo website picture">
               </a>
             </div>
             
@@ -125,13 +188,13 @@
             
             <div class="col-md-6 portfolio-pic-container" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-html="true" title="Color Game<span class='close-popover'><i class='fal fa-times fa-lg'></i></span>" data-content="A game for web designers testing their knowledge of RGB colors. This was an exercise from an online web development bootcamp, and was my first Javascript project.">  
               <a href="/hello/colorgame" target="_blank">
-              <img src="/resources/img/color-web.jpg" class="img-fluid portfolio-pic effectfront" alt="Color Game web app picture">
+              <img src="resources/img/color-web.jpg" class="img-fluid portfolio-pic effectfront" alt="Color Game web app picture">
               </a>
             </div>
             
             <div class="col-md-6 portfolio-pic-container" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-html="true" title="Duterte Ipsum<span class='close-popover'><i class='fal fa-times fa-lg'></i></span>" data-content="Inspired by <a href='https://trumpipsum.net/' target='_blank'>Trump Ipsum</a>, this Lorem Ipsum generator uses some of President Duterte's ridiculous quotes intersperesed with tech and web design related words.<br />Coded with PHP.">  
               <a href="http://www.duterteipsum.com" target="_blank">
-              <img src="/resources/img/duterte-web.jpg" class="img-fluid portfolio-pic effectfront" alt="Duterte Ipsum website picture">
+              <img src="resources/img/duterte-web.jpg" class="img-fluid portfolio-pic effectfront" alt="Duterte Ipsum website picture">
               </a>
             </div>
             
@@ -141,13 +204,13 @@
             
             <div class="col-md-6 portfolio-pic-container" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-html="true" title="Design Quotes<span class='close-popover'><i class='fal fa-times fa-lg'></i></span>" data-content="A certification project wherein a quotes-generating API and Twitter API are integrated to build a random quote machine with Twitter functionality.">  
               <a href="/designquotes" target="_blank">
-              <img src="/resources/img/quotes-web.jpg" class="img-fluid portfolio-pic effectfront" alt="Design Quotes website picture">
+              <img src="resources/img/quotes-web.jpg" class="img-fluid portfolio-pic effectfront" alt="Design Quotes website picture">
               </a>
             </div>
             
             <div class="col-md-6 portfolio-pic-container">  
               <a href="/wikiviewer" target="_blank">
-              <img src="/resources/img/wiki-web.jpg" class="img-fluid portfolio-pic effectfront" alt="Wikiviewer website picture">
+              <img src="resources/img/wiki-web.jpg" class="img-fluid portfolio-pic effectfront" alt="Wikiviewer website picture">
               </a>
             </div>
             

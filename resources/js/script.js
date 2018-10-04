@@ -41,36 +41,36 @@ $(document).ready(function(){
     offset: '20%'
   });
 //SOURCE: https://embed.plnkr.co/plunk/HLqrJ6  
-  $('[data-toggle="popover"]').popover({trigger: "manual", html: true, animation: false})
-    .on("mouseenter", function (){
-      let that = this;
-      $(this).popover("show");
-      $(".popover").on("mouseleave", function (){
-        $(that).popover('hide');
-      });
-    }).on("mouseleave", function(){
-      let that = this;
-      setTimeout(function(){
-        if (!$(".popover:hover").length) {
-          $(that).popover("hide");
-        }
-    },200);
-}); 
+//  $('[data-toggle="popover"]').popover({trigger: "manual", html: true, animation: false})
+//    .on("mouseenter", function (){
+//      let that = this;
+//      $(this).popover("show");
+//      $(".popover").on("mouseleave", function (){
+//        $(that).popover('hide');
+//      });
+//    }).on("mouseleave", function(){
+//      let that = this;
+//      setTimeout(function(){
+//        if (!$(".popover:hover").length) {
+//          $(that).popover("hide");
+//        }
+//    },200);
+//}); 
 //END SOURCE  
-  $(document).on('click touchstart', '.close-popover', function() {
-    $('.popover').popover('hide');
-  });
+//  $(document).on('click touchstart', '.close-popover', function() {
+//    $('.popover').popover('hide');
+//  });
 //SOURCE: https://stackoverflow.com/questions/7069458/prevent-touchstart-when-swiping  
-    let touchmoved;
-    $('body div:not(.popover)').on('touchend', function(){
-      if(!touchmoved){
-        $('.popover').popover('hide');
-      }
-    }).on('touchmove', function(){
-          touchmoved = true;    
-    }).on('touchstart', function(){
-          touchmoved = false;
-    }); 
+//    let touchmoved;
+//    $('body div:not(.popover)').on('touchend', function(){
+//      if(!touchmoved){
+//        $('.popover').popover('hide');
+//      }
+//    }).on('touchmove', function(){
+//          touchmoved = true;    
+//    }).on('touchstart', function(){
+//          touchmoved = false;
+//    }); 
 //END SOURCE
 
 //SOURCE: https://bootsnipp.com/snippets/PEkG1

@@ -3,7 +3,8 @@
 body {
   background-color: #d9dddd;
   color: #fff;
-  font-family: "Raleway", Avenir, Verdana, sans-serif;
+  font-family: "Roboto", Avenir, Verdana, sans-serif;
+	letter-spacing: 0.25px;
 }
 
 a, a:link, a:visited, a:hover, a:active  {
@@ -45,7 +46,7 @@ nav {
   border-radius: 5px;
   margin-bottom: 40px;
   width: 800px;
-  padding: 80px 80px 60px 80px;
+  padding: 60px 40px 60px 40px;
   -webkit-box-shadow: 1px 1px 1px 1px #ccc;
 }
 
@@ -59,6 +60,7 @@ nav {
 #intro-block-body {
   margin-bottom: 20px;
   font-size: 18px;
+	font-weight: 300;
 }
 
 #circle-pic {
@@ -70,12 +72,44 @@ nav {
 
 /* second block */
 
-#portfolio-block { background-color: #f4f5f5; }
+#portfolio-block { background-color: #eceded; }
 
 #portfolio-block > h2 { color: #7f8c8d; }
 
+.card {
+	background-color: #fff;
+	color: #7f8c8d;
+	border: none;
+/* Shadow source:	https://codepen.io/sdthornton/pen/wBZdXq*/
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	border-radius: 2px;
+}
+
+.card-shadow {
+
+}
+
+.card-frame {
+	overflow: hidden;
+}
+
+.card-img-top {
+	transition: all .5s;
+	width: 100%;
+	height: auto;
+}
+
+.card-img-top:hover {
+	transform: scale(1.2);
+}
+
 /* hr */
 
+.content-block hr {
+	margin-bottom: 50px;
+}
+
+/*
 .gradient-border {
   background-image: -webkit-linear-gradient(left, transparent 0%, #7f8c8d 15%, #7f8c8d 85%, transparent 100%);
   background-image: linear-gradient(left, transparent 0%, #7f8c8d 15%, #7f8c8d 85%, transparent 100%);
@@ -83,6 +117,7 @@ nav {
   margin-top: 60px;
   margin-bottom: 80px;
 }
+*/
 
 .portfolio-pic-container { 
     /*padding-left: 0;*/
@@ -108,7 +143,7 @@ nav {
 }
 
 .pic-title {
-  color: white; /* Good thing we set a fallback color! */
+  color: white;
   font-family: sans-serif;
     text-align: center;
     margin: auto;
@@ -186,7 +221,7 @@ input[type="text"]:focus { background-color: transparent; }
   color: #fff !important;
   font-size: 22px;
   font-weight: 200;
-  font-family: "Raleway", Avenir, Verdana, sans serif;
+  font-family: "Raleway", Avenir, Verdana, sans-serif;
 }
 
 label { display: none; }
@@ -204,8 +239,17 @@ label { display: none; }
   font-weight: 200;
 }
 
+.js-name-label, 
+.js-email-label,
+.js-phone-label,
+.js-message-label {
+	font-family: "Raleway", sans-serif;
+	font-weight: 200;
+}
+
 #contact-text {
   font-size: 18px;
+	font-weight: 300;
   padding-bottom: 40px;
 }
 
