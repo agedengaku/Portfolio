@@ -76,11 +76,13 @@ $(document).ready(function(){
 //SOURCE: https://bootsnipp.com/snippets/PEkG1
 $('.navbar-toggler').click(function(){
        // alert("open");
-    if (!$('.navbar-collpase').hasClass('show')) {
-        $('#nav-icon0').addClass('open');    
+	if (!$('.navbar-collpase').hasClass('show')) {
+			$('#nav-icon0').addClass('open');
+		  $('.nav-item').addClass('active-collapsed');
     }
 	if ($('.navbar-collapse').hasClass('show')) {
-	    $('#nav-icon0').removeClass('open');    
+	    $('#nav-icon0').removeClass('open');
+			$('.nav-item').removeClass('active-collapsed');
 	}
 });
 //END SOURCE

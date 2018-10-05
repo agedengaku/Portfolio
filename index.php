@@ -76,13 +76,11 @@
           
           <div class="row">
 <!--          	<div class="card-deck">-->
-							<div class="col-md-6 d-flex align-items-stretch mb-3">    	
-  							<div class="card border-light">
-  							<div class="card-shadow">
-  							<div class="card-frame">
-									<img class="card-img-top" src="resources/img/tictactoe-web.jpg" alt="Card image cap">
-								</div>	
-								</div>
+							<div class="col-md-6 d-flex align-items-stretch mb-3">   
+ 								<div class="card"> 	
+									<div class="card-img-frame">
+										<img class="card-img-top" src="resources/img/tictactoe-web.jpg" alt="Card image cap">
+									</div>	
 									<div class="card-body p-3">
 										<h5 class="card-title">Tic Tac Toe</h5>
 										<p class="card-text">A Street Fighter 2 themed Tic Tac Toe game with variable difficulty modes and two selectable characters. Integrated minimax to create an unwinnable hard mode. Uses sprite maps and animated GIFs for animation, complete with intro video, title screen, character select, etc., to simulate the Street Fighter 2 game experience. Also uses Web Audio API to create seamless looping BGM.</p>
@@ -93,8 +91,8 @@
 															
 							<div class="col-md-6 d-flex align-items-stretch mb-3">
 								<div class="card">
-								  							<div class="card-frame">
-									<img class="card-img-top" src="resources/img/simon-web.jpg" alt="Card image cap">
+									<div class="card-img-frame">
+										<img class="card-img-top" src="resources/img/simon-web.jpg" alt="Card image cap">
 									</div>
 									<div class="card-body p-2">
 										<h5 class="card-title">Simon Game</h5>
