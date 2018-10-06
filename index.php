@@ -10,10 +10,12 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,700|Raleway:200,400" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link rel="stylesheet" href="resources/css/style.css">
+  <link rel="stylesheet" href="resources/css/queries.css">
 </head>
 
 <body>
 
+  
    <nav class="navbar sticky-top navbar-toggleable-md navbar-inverse navbar-color">
     
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,65 +50,169 @@
 
 </nav> <!-- END OF NAVBAR -->
 
+
 <!-- INTRO BLOCK STARTS HERE -->
-<!--<div class="container">-->
+<div class="container">
    
     <div class="row justify-content-md-center"> <!-- .row.justify-content-md-center 1 -->
     
         <div id="intro-block" class="content-block col-12 col-lg-auto">
+         <div class="row spacer1"></div>
           <div class="row">
             <div id="intro-block-body" class="col-md-8 text-right">Web design & development is a passion of mine. There isn't a day I'm not either working on personal projects or continuing to learn web technologies. In the future, I plan to move into mobile apps and software for smart devices.</div>
             <div class="col-md-4"><img id="circle-pic" src="https://en.gravatar.com/userimage/27569311/49b5d4c8c1114783cc08646adb285384.jpg?size=400" alt="" class="img-fluid" /></div>
+<!--            </div>-->
           </div> <!-- .row -->
+          <div class="row spacer1"></div>
         </div> <!-- #intro-block -->
     
     </div> <!-- .row.justify-content-md-center -->
-    
+  </div>    
     <!-- PORTFOLIO BLOCK STARTS HERE -->
    <div class="container"> 
     <div class="row justify-content-md-center"> <!-- .row.justify-content-md-center 2 -->
-    
         <div id="portfolio-block" class="content-block col-12 col-lg-auto">
           <h2 class="text-center">Portfolio</h2>
           
-<!--          <hr>-->
-          
-          <!-- <custom gradient hr"> -->
-<!--          <div class="gradient-border identity-border"></div>-->
-          
           <div class="row">
-<!--          	<div class="card-deck">-->
-							<div class="col-md-6 d-flex align-items-stretch mb-3">   
- 								<div class="card"> 	
- 													<h5 class="card-title p-3">Tic Tac Toe</h5>					
+            
+            <div class="card-columns">
+  
+  
+  
+   								<div class="card"> 	
+                  <h5 class="card-title p-3">Tic Tac Toe</h5>					
 									<div class="card-img-frame">
 										<img class="card-img-top" src="resources/img/tictactoe-web.jpg" alt="Card image cap">
 									</div>	
 									<div class="card-body p-3">
-
-<!--										<hr>-->
-										<p class="card-text">"Street Fighter 2" themed Tic Tac Toe game with variable difficulty modes and two selectable characters. Integrated minimax to create an unwinnable hard mode. Uses sprite maps and animated GIFs for animation, complete with intro video, title screen, character select, etc., to simulate the Street Fighter 2 game experience. Also uses Web Audio API to create seamless looping background music.</p>
+										<p class="card-text test1">"Street Fighter 2" themed Tic Tac Toe game with variable difficulty modes and two selectable characters. Integrated minimax to create an unwinnable hard mode. Uses sprite maps and animated GIFs for animation, complete with intro video, title screen, character select, etc., to simulate the Street Fighter 2 game experience. Also uses Web Audio API to create seamless looping background music.</p>
 										<p class="card-text"><small class="text-muted">Works best on Chrome and Firefox</small></p>
+										<button class="btn-test">Show</button>
+									</div>
+								</div>
+  
+  
+  
+								<div class="card">
+                  <h5 class="card-title p-3">Simon Game</h5>
+									<div class="card-img-frame">
+										<img class="card-img-top" src="resources/img/simon-web.jpg" alt="Card image cap">
+									</div>
+									<div class="card-body p-3">
+										<p class="card-text">Spiced up the original Simon game by using Street Fighter 2 themes, music, sound effects, and some animated feedback.</p>
+										<p class="card-text"><small class="text-muted">Works best on Chrome and Firefox</small></p>
+									</div>
+								</div>
+  
+  
+  
+   								<div class="card"> 	
+                  <h5 class="card-title p-3">Javascript Calculator</h5>					
+									<div class="card-img-frame">
+										<img class="card-img-top" src="resources/img/calculator-web.jpg" alt="Card image cap">
+									</div>	
+									<div class="card-body p-3">
+										<p class="card-text">Improved on the original task of creating a Javascript calcultor by increasing decimal precision, making the results always similar to what you would get from a real calculator. Precision is achieved using a Decimal type by integrating decimal.js.</p>
+									</div>
+								</div>
+  
+  
+  
+  
+  
+  								<div class="card">
+                  <h5 class="card-title p-3">Pomodoro Clock</h5>
+									<div class="card-img-frame">
+										<img class="card-img-top" src="resources/img/pomodoro-web.jpg" alt="Card image cap">
+									</div>
+									<div class="card-body p-3">
+										<p class="card-text">Goes beyond the assignment of building a productivity clock by adding animations and original recorded sound clips to guide the user on the current state of the clock.</p>
+									</div>
+								</div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+          </div>
+          
+          
+          
+          
+          
+          
+          <div class="row">
+          
+							<div class="col-md-6 d-flex align-items-stretch mb-3">   
+ 								<div class="card"> 	
+                  <h5 class="card-title p-3">Tic Tac Toe</h5>					
+									<div class="card-img-frame">
+										<img class="card-img-top" src="resources/img/tictactoe-web.jpg" alt="Card image cap">
+									</div>	
+									<div class="card-body p-3">
+										<p class="card-text test1">"Street Fighter 2" themed Tic Tac Toe game with variable difficulty modes and two selectable characters. Integrated minimax to create an unwinnable hard mode. Uses sprite maps and animated GIFs for animation, complete with intro video, title screen, character select, etc., to simulate the Street Fighter 2 game experience. Also uses Web Audio API to create seamless looping background music.</p>
+										<p class="card-text"><small class="text-muted">Works best on Chrome and Firefox</small></p>
+										<button class="btn-test">Show</button>
 									</div>
 								</div>
 							</div>
 															
 							<div class="col-md-6 d-flex align-items-stretch mb-3">
 								<div class="card">
-																		<h5 class="card-title p-3">Simon Game</h5>
+                  <h5 class="card-title p-3">Simon Game</h5>
 									<div class="card-img-frame">
 										<img class="card-img-top" src="resources/img/simon-web.jpg" alt="Card image cap">
 									</div>
 									<div class="card-body p-3">
-
 										<p class="card-text">Spiced up the original Simon game by using Street Fighter 2 themes, music, sound effects, and some animated feedback.</p>
 										<p class="card-text"><small class="text-muted">Works best on Chrome and Firefox</small></p>
 									</div>
 								</div>
 							</div>
-<!--						</div>-->
+         
           </div>
+
+          <div class="row">
           
+							<div class="col-md-6 d-flex align-items-stretch mb-3">   
+ 								<div class="card"> 	
+                  <h5 class="card-title p-3">Javascript Calculator</h5>					
+									<div class="card-img-frame">
+										<img class="card-img-top" src="resources/img/calculator-web.jpg" alt="Card image cap">
+									</div>	
+									<div class="card-body p-3">
+										<p class="card-text">Improved on the original task of creating a Javascript calcultor by increasing decimal precision, making the results always similar to what you would get from a real calculator. Precision is achieved using a Decimal type by integrating decimal.js.</p>
+									</div>
+								</div>
+							</div>
+															
+							<div class="col-md-6 d-flex align-items-stretch mb-3">
+								<div class="card">
+                  <h5 class="card-title p-3">Pomodoro Clock</h5>
+									<div class="card-img-frame">
+										<img class="card-img-top" src="resources/img/pomodoro-web.jpg" alt="Card image cap">
+									</div>
+									<div class="card-body p-3">
+										<p class="card-text">Goes beyond the assignment of building a productivity clock by adding animations and original recorded sound clips to guide the user on the current state of the clock.</p>
+									</div>
+								</div>
+							</div>
+         
+          </div>                    
            
           <div class="row">
 <!--          	<div class="card-deck">-->

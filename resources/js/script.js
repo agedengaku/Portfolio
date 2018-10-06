@@ -1,5 +1,100 @@
 $(document).ready(function(){
   
+  $(window).scroll(function(){
+    if ($(this).scrollTop() > 500) {
+      $('#portfolio-block').css('opacity','1');
+//      $('.card').css('opacity','1');
+    }
+  });
+  
+  function bodyColor() {
+    
+        if ($(window).scrollTop() > 500) {
+      $('#portfolio-block').css('opacity','1');
+//      $('.card').css('opacity','1');
+    }
+    
+    if ($(window).scrollTop() < 300) {
+      $('body').removeClass('changeColor1');
+    }   
+    if ($(window).scrollTop() > 300) {
+      $('body').addClass('changeColor1');
+    }
+    if ($(window).scrollTop() > 350) {
+      $('body').addClass('changeColor2');
+      $('body').removeClass('changeColor1');
+    }
+    if ($(window).scrollTop() > 400) {
+      $('body').addClass('changeColor3');
+      $('body').removeClass('changeColor2');
+    }
+    if ($(window).scrollTop() > 450) {
+      $('body').addClass('changeColor4');
+      $('body').removeClass('changeColor3');
+    }
+    if ($(window).scrollTop() > 500) {
+      $('body').addClass('changeColor5');
+      $('body').removeClass('changeColor4');
+    }
+    if ($(window).scrollTop() > 550) {
+      $('body').addClass('changeColor6');
+      $('body').removeClass('changeColor5');
+    }
+    if ($(window).scrollTop() > 600) {
+      $('body').addClass('changeColor7');
+      $('body').removeClass('changeColor6');
+    }
+    if ($(window).scrollTop() > 650) {
+      $('body').addClass('changeColor8');
+      $('body').removeClass('changeColor7');
+    }  
+    if ($(window).scrollTop() < 650) {
+      $('body').removeClass('changeColor8');
+    }
+    if ($(window).scrollTop() < 600) {
+      $('body').removeClass('changeColor7');
+    }
+    if ($(window).scrollTop() < 550) {
+      $('body').removeClass('changeColor6');
+    }
+    if ($(window).scrollTop() < 500) {
+      $('body').removeClass('changeColor5');
+    }
+    if ($(window).scrollTop() < 450) {
+      $('body').removeClass('changeColor4');
+    }
+    if ($(window).scrollTop() < 400) {
+      $('body').removeClass('changeColor3');
+    }
+    if ($(window).scrollTop() < 350) {
+      $('body').removeClass('changeColor2');
+    }
+  }
+  
+  bodyColor();
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  $('.test1').hide();
+$('.btn-test').click(function(){
+  $('.test1').toggle(500);
+});  
+  
+  
   //navbar link navigation
   $('.intro-link').click(function(){ 
     $('html, body').animate({scrollTop: $('#intro-block').offset().top - 120}, 1000);
@@ -40,47 +135,9 @@ $(document).ready(function(){
   }, {
     offset: '20%'
   });
-//SOURCE: https://embed.plnkr.co/plunk/HLqrJ6  
-//  $('[data-toggle="popover"]').popover({trigger: "manual", html: true, animation: false})
-//    .on("mouseenter", function (){
-//      let that = this;
-//      $(this).popover("show");
-//      $(".popover").on("mouseleave", function (){
-//        $(that).popover('hide');
-//      });
-//    }).on("mouseleave", function(){
-//      let that = this;
-//      setTimeout(function(){
-//        if (!$(".popover:hover").length) {
-//          $(that).popover("hide");
-//        }
-//    },200);
-//}); 
-//END SOURCE  
-//  $(document).on('click touchstart', '.close-popover', function() {
-//    $('.popover').popover('hide');
-//  });
-//SOURCE: https://stackoverflow.com/questions/7069458/prevent-touchstart-when-swiping  
-//    let touchmoved;
-//    $('body div:not(.popover)').on('touchend', function(){
-//      if(!touchmoved){
-//        $('.popover').popover('hide');
-//      }
-//    }).on('touchmove', function(){
-//          touchmoved = true;    
-//    }).on('touchstart', function(){
-//          touchmoved = false;
-//    }); 
-//END SOURCE
-	
+
  $(window).scroll(function () {
-	if ($(this).scrollTop() > 50) {
-		alert("hello");
-	 $(‘body’).addClass(‘changeColor’);
-	}
-	if ($(this).scrollTop() < 50) {
-	 $(‘body’).removeClass(‘changeColor’);
-	}
+   bodyColor();
  });	
 
 //SOURCE: https://bootsnipp.com/snippets/PEkG1
