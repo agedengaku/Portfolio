@@ -49,7 +49,7 @@
 </nav> <!-- END OF NAVBAR -->
 
 <!-- INTRO BLOCK STARTS HERE -->
-<div class="container">
+<!--<div class="container">-->
    
     <div class="row justify-content-md-center"> <!-- .row.justify-content-md-center 1 -->
     
@@ -63,13 +63,13 @@
     </div> <!-- .row.justify-content-md-center -->
     
     <!-- PORTFOLIO BLOCK STARTS HERE -->
-    
+   <div class="container"> 
     <div class="row justify-content-md-center"> <!-- .row.justify-content-md-center 2 -->
     
         <div id="portfolio-block" class="content-block col-12 col-lg-auto">
           <h2 class="text-center">Portfolio</h2>
           
-          <hr>
+<!--          <hr>-->
           
           <!-- <custom gradient hr"> -->
 <!--          <div class="gradient-border identity-border"></div>-->
@@ -78,12 +78,14 @@
 <!--          	<div class="card-deck">-->
 							<div class="col-md-6 d-flex align-items-stretch mb-3">   
  								<div class="card"> 	
+ 													<h5 class="card-title p-3">Tic Tac Toe</h5>					
 									<div class="card-img-frame">
 										<img class="card-img-top" src="resources/img/tictactoe-web.jpg" alt="Card image cap">
 									</div>	
 									<div class="card-body p-3">
-										<h5 class="card-title">Tic Tac Toe</h5>
-										<p class="card-text">A Street Fighter 2 themed Tic Tac Toe game with variable difficulty modes and two selectable characters. Integrated minimax to create an unwinnable hard mode. Uses sprite maps and animated GIFs for animation, complete with intro video, title screen, character select, etc., to simulate the Street Fighter 2 game experience. Also uses Web Audio API to create seamless looping BGM.</p>
+
+<!--										<hr>-->
+										<p class="card-text">"Street Fighter 2" themed Tic Tac Toe game with variable difficulty modes and two selectable characters. Integrated minimax to create an unwinnable hard mode. Uses sprite maps and animated GIFs for animation, complete with intro video, title screen, character select, etc., to simulate the Street Fighter 2 game experience. Also uses Web Audio API to create seamless looping background music.</p>
 										<p class="card-text"><small class="text-muted">Works best on Chrome and Firefox</small></p>
 									</div>
 								</div>
@@ -91,12 +93,13 @@
 															
 							<div class="col-md-6 d-flex align-items-stretch mb-3">
 								<div class="card">
+																		<h5 class="card-title p-3">Simon Game</h5>
 									<div class="card-img-frame">
 										<img class="card-img-top" src="resources/img/simon-web.jpg" alt="Card image cap">
 									</div>
-									<div class="card-body p-2">
-										<h5 class="card-title">Simon Game</h5>
-										<p class="card-text">Spiced up the original Simon game by using Street Fighter 2 themes, music, sfx, and some animated feedback.</p>
+									<div class="card-body p-3">
+
+										<p class="card-text">Spiced up the original Simon game by using Street Fighter 2 themes, music, sound effects, and some animated feedback.</p>
 										<p class="card-text"><small class="text-muted">Works best on Chrome and Firefox</small></p>
 									</div>
 								</div>

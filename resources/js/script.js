@@ -72,6 +72,16 @@ $(document).ready(function(){
 //          touchmoved = false;
 //    }); 
 //END SOURCE
+	
+ $(window).scroll(function () {
+	if ($(this).scrollTop() > 50) {
+		alert("hello");
+	 $(‘body’).addClass(‘changeColor’);
+	}
+	if ($(this).scrollTop() < 50) {
+	 $(‘body’).removeClass(‘changeColor’);
+	}
+ });	
 
 //SOURCE: https://bootsnipp.com/snippets/PEkG1
 $('.navbar-toggler').click(function(){
@@ -86,6 +96,10 @@ $('.navbar-toggler').click(function(){
 	}
 });
 //END SOURCE
+	
+
+
+
 
 
 });

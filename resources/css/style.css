@@ -1,10 +1,21 @@
 /* ------GENERAL ELEMENTS------ */
 
 body {
-  background-color: #d9dddd;
+/*  background-color: #dddddd;*/
+  background-color: #3e3e3e;
+/*  background-color: #1d1d1d;*/
+/*  background-color: #d9dddd;*/
   color: #fff;
   font-family: "Roboto", Avenir, Verdana, sans-serif;
 	letter-spacing: 0.25px;
+}
+
+body {
+  transition: 0.3s all;
+}
+
+.changeColor {
+   background-color: white;
 }
 
 a, a:link, a:visited, a:hover, a:active  {
@@ -20,15 +31,19 @@ h2 {
 /* ------NAVBAR------ */
 
 nav { 
-    -webkit-box-shadow: 1px 1px 1px 1px #aaa; 
+/*    -webkit-box-shadow: 1px 1px 1px 1px #404040; */
 }
 
-.navbar-color { background-color: #7f8c8d; }
+/*.navbar-color { background-color: #7f8c8d; }*/
+.navbar-color { background-color: #3e3e3e; }
+/*.navbar-color { background-color: #888; }*/
 
 .navbar-brand { font-size: 24px; }
 
 .active {
-  background-color: #a3acad;
+  background-color: #808080;
+/*  background-color: #acacac;*/
+/*  background-color: #a3acad;*/
   border-radius: 3px;
 
 }
@@ -49,18 +64,23 @@ nav {
 /* ------CONTENT BLOCKS------ */
 
 .content-block {
-  border-radius: 5px;
+/*  border-radius: 5px;*/
   margin-bottom: 40px;
   width: 800px;
   padding: 60px 40px 60px 40px;
-  -webkit-box-shadow: 1px 1px 1px 1px #ccc;
+/*  -webkit-box-shadow: 1px 1px 1px 1px #ccc;*/
 }
 
 /* first block */
 
 #intro-block {
+	width: 100vw;
+	height: 100vh;
   margin-top: -10px;
-  background-color: #a3acad;
+/*  background-color: #a3acad;*/
+/*  background-color: #3e3e3e;*/
+/*  background-color: #808080;*/
+/*  background-color: #acacac;*/
 }
 
 #intro-block-body {
@@ -71,24 +91,34 @@ nav {
 
 #circle-pic {
   border-radius: 50%;
-  border: 1px solid #7f8c8d;
+/*  border: 1px solid #7f8c8d;*/
+  border: 1px solid #888;
   display:block;
   margin:auto;
 }
 
 /* second block */
 
-#portfolio-block { background-color: #eceded; }
+/*#portfolio-block { background-color: #eceded; }*/
+#portfolio-block { background-color: #eaeaea; }
 
-#portfolio-block > h2 { color: #7f8c8d; }
+#portfolio-block > h2 { 
+	color: #7f8c8d;
+	font-family: "Raleway";
+}
 
 .card {
-	background-color: #fff;
+	background-color: #f5f5f5;
 	color: #7f8c8d;
 	border: none;
+	padding: 5px;
+	border-radius: 2px;
 /* Shadow source:	https://codepen.io/sdthornton/pen/wBZdXq*/
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-	border-radius: 2px;
+/*
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+*/
 }
 
 .card-img-frame {
@@ -97,18 +127,28 @@ nav {
 
 .card-title {
 	font-family: "Raleway";
-	font-weight: 200;
-	font-size: 1.5rem;
+	font-weight: 400;
+	font-size: 1.25rem;
+	margin-bottom: 0;
+/*	  background-color: #a3acad;*/
+	border-top-right-radius: 2px;
+	border-top-left-radius: 2px;
 }
 
 .card-img-top {
 	transition: all .5s;
 	width: 100%;
 	height: auto;
+	transform: scale(1.1);
 }
 
 .card-img-top:hover {
 	transform: scale(1.2);
+}
+
+.card-body {
+	font-weight: 300;
+	font-size: .95rem;
 }
 
 /* hr */
