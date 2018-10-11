@@ -78,21 +78,19 @@
             
             <div class="card-columns">
   
-  
-  
    								<div class="card"> 	
-                  <h5 class="card-title p-3">Tic Tac Toe</h5>					
+                  <h5 class="card-title p-3"><a href="https://streetfighter2ttt.com">Tic Tac Toe</a></h5>					
 									<div class="card-img-frame">
-										<img class="card-img-top" src="resources/img/tictactoe-web.jpg" alt="Card image cap">
+                    <a href="https://streetfighter2ttt.com"><img class="card-img-top" src="resources/img/tictactoe-web.jpg" alt="Card image cap"></a>
 									</div>	
 									<div class="card-body p-3">
-										<p class="card-text test1">"Street Fighter 2" themed Tic Tac Toe game with variable difficulty modes and two selectable characters. Integrated minimax to create an unwinnable hard mode. Uses sprite maps and animated GIFs for animation, complete with intro video, title screen, character select, etc., to simulate the Street Fighter 2 game experience. Also uses Web Audio API to create seamless looping background music.</p>
-										<p class="card-text"><small class="text-muted">Works best on Chrome and Firefox</small></p>
-										<button class="btn-test">Show</button>
+									  <div class="card-body-content pb-3">
+                      <p class="card-text">"Street Fighter 2" themed Tic Tac Toe game with variable difficulty modes and two selectable characters. Integrated minimax to create an unwinnable hard mode. Uses sprite maps and animated GIFs for animation, complete with intro video, title screen, character select, etc., to simulate the Street Fighter 2 game experience. Also uses Web Audio API to create seamless looping background music.</p>
+                      <p class="card-text"><small class="text-muted">Works best on Chrome and Firefox</small></p>
+										</div>
+										<button class="btn btn-show-hide"></button>
 									</div>
 								</div>
-  
-  
   
 								<div class="card">
                   <h5 class="card-title p-3">Simon Game</h5>
@@ -105,8 +103,6 @@
 									</div>
 								</div>
   
-  
-  
    								<div class="card"> 	
                   <h5 class="card-title p-3">Javascript Calculator</h5>					
 									<div class="card-img-frame">
@@ -116,11 +112,7 @@
 										<p class="card-text">Improved on the original task of creating a Javascript calcultor by increasing decimal precision, making the results always similar to what you would get from a real calculator. Precision is achieved using a Decimal type by integrating decimal.js.</p>
 									</div>
 								</div>
-  
-  
-  
-  
-  
+ 
   								<div class="card">
                   <h5 class="card-title p-3">Pomodoro Clock</h5>
 									<div class="card-img-frame">
@@ -130,11 +122,55 @@
 										<p class="card-text">Goes beyond the assignment of building a productivity clock by adding animations and original recorded sound clips to guide the user on the current state of the clock.</p>
 									</div>
 								</div>
+    
+   								<div class="card"> 	
+                  <h5 class="card-title p-3">Japanese Lessons Tokyo</h5>					
+									<div class="card-img-frame">
+										<img class="card-img-top" src="resources/img/jlt-web.jpg" alt="Card image cap">
+									</div>	
+									<div class="card-body p-3">
+										<p class="card-text">Built a website that helped a Japanese language teacher from almost going out of business, and allowed him to quit his part-time jobs to focus solely on teaching.</p>
+									</div>
+								</div>
+
+  								<div class="card">
+                  <h5 class="card-title p-3">XPS Tokyo</h5>
+									<div class="card-img-frame">
+										<img class="card-img-top" src="resources/img/xpstokyo-web.jpg" alt="Card image cap">
+									</div>
+									<div class="card-body p-3">
+										<p class="card-text">An exercises in redesigning an old and outdated website, including a new modern logo. Done on Wordpress, but the theme was coded completely from scratch using PHP. <a href='http://www.xpstokyo.com' target='_blank'>Click here to see the original website.</a></p>
+									</div>
+								</div>
   
   
   
   
   
+  
+     								<div class="card"> 	
+                  <h5 class="card-title p-3">Color Game</h5>					
+									<div class="card-img-frame">
+										<img class="card-img-top" src="resources/img/color-web.jpg" alt="Card image cap">
+									</div>	
+									<div class="card-body p-3">
+										<p class="card-text">A game for web designers testing their knowledge of RGB colors. This was an exercise from an online web development bootcamp, and was my first Javascript project.</p>
+									</div>
+								</div>
+  
+  
+  
+  
+  
+  								<div class="card">
+                  <h5 class="card-title p-3">Duterte Ipsum</h5>
+									<div class="card-img-frame">
+										<img class="card-img-top" src="resources/img/duterte-web.jpg" alt="Card image cap">
+									</div>
+									<div class="card-body p-3">
+										<p class="card-text">Inspired by <a href='https://trumpipsum.net/' target='_blank'>Trump Ipsum</a>, this Lorem Ipsum generator uses some of President Duterte's ridiculous quotes intersperesed with tech and web design related words.<br />Coded with PHP.</p>
+									</div>
+								</div>
   
   
   

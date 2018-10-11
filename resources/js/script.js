@@ -3,17 +3,14 @@ $(document).ready(function(){
   $(window).scroll(function(){
     if ($(this).scrollTop() > 500) {
       $('#portfolio-block').css('opacity','1');
-//      $('.card').css('opacity','1');
     }
   });
   
   function bodyColor() {
     
-        if ($(window).scrollTop() > 500) {
+    if ($(window).scrollTop() > 500) {
       $('#portfolio-block').css('opacity','1');
-//      $('.card').css('opacity','1');
     }
-    
     if ($(window).scrollTop() < 300) {
       $('body').removeClass('changeColor1');
     }   
@@ -73,32 +70,20 @@ $(document).ready(function(){
   
   bodyColor();
   
+  $(window).scroll(function () {
+   bodyColor();
+  });
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  $('.test1').hide();
-$('.btn-test').click(function(){
-  $('.test1').toggle(500);
-});  
-  
+  $('.card-body-content').hide();
+  $('.btn-show-hide').click(function(){
+    $('.card-body-content').toggle(500);
+    $('.btn-show-hide').toggleClass('btn-hide');
+  });  
   
   //navbar link navigation
   $('.intro-link').click(function(){ 
     $('html, body').animate({scrollTop: $('#intro-block').offset().top - 120}, 1000);
-    });
+  });
   
   $('.portfolio-link').click(function(){ 
     $('html, body').animate({scrollTop: $('#portfolio-block').offset().top - 120}, 1000);
@@ -134,11 +119,7 @@ $('.btn-test').click(function(){
     $('.submit-button').addClass('animated pulse');
   }, {
     offset: '20%'
-  });
-
- $(window).scroll(function () {
-   bodyColor();
- });	
+  });	
 
 //SOURCE: https://bootsnipp.com/snippets/PEkG1
 $('.navbar-toggler').click(function(){
@@ -154,9 +135,4 @@ $('.navbar-toggler').click(function(){
 });
 //END SOURCE
 	
-
-
-
-
-
 });

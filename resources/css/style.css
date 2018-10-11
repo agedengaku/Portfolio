@@ -1,10 +1,7 @@
 /* ------GENERAL ELEMENTS------ */
 
 body {
-/*  background-color: #dddddd;*/
-  background-color: #3e3e3e;
-/*  background-color: #1d1d1d;*/
-/*  background-color: #d9dddd;*/
+  background-color: #5378BB;
   color: #fff;
   font-family: "Roboto", Avenir, Verdana, sans-serif;
 	letter-spacing: 0.25px;
@@ -15,25 +12,25 @@ body {
 }
 
 .changeColor1 {
-   background-color: #535353;
+   background-color: #6181bb;
 }
 .changeColor2 {
-   background-color: #6f6f6f;
+   background-color: #7490c3;
 }
 .changeColor3 {
-   background-color: #8e8e8e;
+   background-color: #8aa2ce;
 }
 .changeColor4 {
-   background-color: #aaa;
+   background-color: #a2b6d9;
 }
 .changeColor5 {
-   background-color: #c1c1c1;
+   background-color: #bccbe4;
 }
 .changeColor6 {
-   background-color: #d9d9d9;
+   background-color: #d7e0ef;
 }
 .changeColor7 {
-   background-color: #ebebeb;
+   background-color: #f4f6fa;
 }
 .changeColor8 {
    background-color: #fff;
@@ -55,17 +52,18 @@ nav {
 /*    -webkit-box-shadow: 1px 1px 1px 1px #404040; */
 }
 
-/*.navbar-color { background-color: #7f8c8d; }*/
-.navbar-color { background-color: #3e3e3e; }
-/*.navbar-color { background-color: #888; }*/
+.navbar-color { background-color: #5378BB; }
+.navbar-color { background-color: rgb(83,120,187,.97); }
 
 .navbar-brand { font-size: 24px; }
 
 .nav-link.active, .nav-item.active {
-  background-color: #808080;
-/*  background-color: #acacac;*/
-/*  background-color: #a3acad;*/
-  border-radius: 3px;
+  
+  
+/*   background-color: #d35400; */
+  background-color: #e67e22;
+/*  background-color: #f39c12;*/
+  border-radius: 2px;
 
 }
 
@@ -133,6 +131,7 @@ nav {
 }
 
 #portfolio-block > h2 { 
+  font-size: 48pt;
 	color: #7f8c8d;
 	font-family: "Raleway";
 }
@@ -142,14 +141,18 @@ nav {
 }
 
 .card {
-	background-color: #f5f5f5;
+/*	background-color: #f5f5f5;*/
+  background-color: transparent;
+/*  background-color: #82a4e3;*/
 	color: #7f8c8d;
-	border: none;
+/*	border-color: rgb(83,120,187);*/
 	padding: 5px;
 	border-radius: 2px;
 /* Shadow source:	https://codepen.io/sdthornton/pen/wBZdXq*/
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+/*  box-shadow: 0 1px 3px rgba(83,120,187,0.12), 0 1px 2px rgba(83,120,187,0.24);*/
 /*
+  rgb(83,120,187)
 	border-bottom-left-radius: 2px;
 	border-bottom-right-radius: 2px;
 */
@@ -177,12 +180,32 @@ nav {
 }
 
 .card-img-top:hover {
-	transform: scale(1.2);
+	transform: scale(1.5);
 }
 
 .card-body {
 	font-weight: 300;
 	font-size: .95rem;
+}
+
+.btn-show-hide {
+  border-radius: 2px;
+  border: 2px solid #5378BB;
+  color: #5378BB;
+}
+
+.btn-show-hide:hover {
+  background-color: #5378BB;
+  border: 2px solid #5378BB;
+  color: #fff;  
+}
+
+.btn-show-hide::before {
+  content: "Show";
+}
+
+.btn-hide::before {
+  content: "Hide";
 }
 
 /* hr */
@@ -191,19 +214,7 @@ nav {
 	margin-bottom: 50px;
 }
 
-/*
-.gradient-border {
-  background-image: -webkit-linear-gradient(left, transparent 0%, #7f8c8d 15%, #7f8c8d 85%, transparent 100%);
-  background-image: linear-gradient(left, transparent 0%, #7f8c8d 15%, #7f8c8d 85%, transparent 100%);
-  height: 1px;
-  margin-top: 60px;
-  margin-bottom: 80px;
-}
-*/
-
 .portfolio-pic-container { 
-    /*padding-left: 0;*/
-    /*padding-right: 0;*/
     margin-bottom: 40px; 
     overflow: hidden;
     position: relative;
