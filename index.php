@@ -93,23 +93,29 @@
 								</div>
   
 								<div class="card">
-                  <h5 class="card-title p-3">Simon Game</h5>
+                  <h5 class="card-title p-3"><a href="https://codepen.io/agedengaku/full/gjLOra/" target="_blank">Simon Game</a></h5>
 									<div class="card-img-frame">
-										<img class="card-img-top" src="resources/img/simon-web.jpg" alt="Card image cap">
+										<a href="https://codepen.io/agedengaku/full/gjLOra/" target="_blank"><img class="card-img-top" src="resources/img/simon-web.jpg" alt="Card image cap"></a>
 									</div>
-									<div class="card-body p-3">
-										<p class="card-text">Spiced up the original Simon game by using Street Fighter 2 themes, music, sound effects, and some animated feedback.</p>
-										<p class="card-text"><small class="text-muted">Works best on Chrome and Firefox</small></p>
+									<div class="card-body p-3">	
+									  <div class="card-body-content pb-3">
+                      <p class="card-text">Spiced up the original Simon game by using Street Fighter 2 themes, music, sound effects, and some animated feedback.</p>
+                      <p class="card-text"><small class="text-muted">Works best on Chrome and Firefox</small></p>
+										</div>
+										<button class="btn btn-show-hide"></button>									
 									</div>
 								</div>
   
    								<div class="card"> 	
-                  <h5 class="card-title p-3">Javascript Calculator</h5>					
+                  <h5 class="card-title p-3"><a href="https://codepen.io/agedengaku/full/NYPyWy/" target="_blank">Javascript Calculator</a></h5>					
 									<div class="card-img-frame">
-										<img class="card-img-top" src="resources/img/calculator-web.jpg" alt="Card image cap">
+										<a href="https://codepen.io/agedengaku/full/NYPyWy/" target="_blank"><img class="card-img-top" src="resources/img/calculator-web.jpg" alt="Card image cap"></a>
 									</div>	
 									<div class="card-body p-3">
-										<p class="card-text">Improved on the original task of creating a Javascript calcultor by increasing decimal precision, making the results always similar to what you would get from a real calculator. Precision is achieved using a Decimal type by integrating decimal.js.</p>
+										<div class="card-body-content pb-3">
+                      <p class="card-text">Improved on the original task of creating a Javascript calcultor by increasing decimal precision, making the results always similar to what you would get from a real calculator. Precision is achieved using a Decimal type by integrating decimal.js.</p>
+										</div>
+										<button class="btn btn-show-hide"></button>										
 									</div>
 								</div>
  

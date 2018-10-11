@@ -76,8 +76,8 @@ $(document).ready(function(){
   
   $('.card-body-content').hide();
   $('.btn-show-hide').click(function(){
-    $('.card-body-content').toggle(500);
-    $('.btn-show-hide').toggleClass('btn-hide');
+    $(this).prev().toggle(500);
+    $(this).toggleClass('btn-hide');
   });  
   
   //navbar link navigation
