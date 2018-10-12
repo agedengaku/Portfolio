@@ -15,11 +15,9 @@
 
 <body>
 
-  
    <nav class="navbar sticky-top navbar-toggleable-md navbar-inverse navbar-color">
     
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <!--<span class="navbar-toggler-icon"></span>-->
       <div id="nav-icon0">
           <span></span>
           <span></span>
@@ -54,14 +52,13 @@
 <!-- INTRO BLOCK STARTS HERE -->
 <div class="container">
    
-    <div class="row justify-content-md-center"> <!-- .row.justify-content-md-center 1 -->
+    <div class="row justify-content-md-center">
     
         <div id="intro-block" class="content-block col-12 col-lg-auto">
          <div class="row spacer1"></div>
           <div class="row">
             <div id="intro-block-body" class="col-md-8 text-right">Web design & development is a passion of mine. There isn't a day I'm not either working on personal projects or continuing to learn web technologies. In the future, I plan to move into mobile apps and software for smart devices.</div>
             <div class="col-md-4"><img id="circle-pic" src="https://en.gravatar.com/userimage/27569311/49b5d4c8c1114783cc08646adb285384.jpg?size=400" alt="" class="img-fluid" /></div>
-<!--            </div>-->
           </div> <!-- .row -->
           <div class="row spacer1"></div>
         </div> <!-- #intro-block -->
@@ -70,307 +67,250 @@
   </div>    
     <!-- PORTFOLIO BLOCK STARTS HERE -->
    <div class="container"> 
-    <div class="row justify-content-md-center"> <!-- .row.justify-content-md-center 2 -->
+   
+    <div class="row justify-content-md-center"> <!-- .row.justify-content-md-center -->
         <div id="portfolio-block" class="content-block col-12 col-lg-auto">
+         
           <h2 class="text-center">Portfolio</h2>
           
-          <div class="row">
-            
-            <div class="card-columns">
-  
+  						<div class="row">
+  						
+  							<div class="col-md-6 mb-3"> 	
    								<div class="card"> 	
-                  <h5 class="card-title p-3"><a href="https://streetfighter2ttt.com">Tic Tac Toe</a></h5>					
+                  <h5 class="card-title p-3"><a href="https://streetfighter2ttt.com" target="_blank">Tic Tac Toe</a></h5>					
 									<div class="card-img-frame">
-                    <a href="https://streetfighter2ttt.com"><img class="card-img-top" src="resources/img/tictactoe-web.jpg" alt="Card image cap"></a>
-									</div>	
+                    <a href="https://streetfighter2ttt.com"><img class="card-img-top" src="resources/img/tictactoe-web.jpg" alt="Tic Tac Toe image" target="_blank"></a>
+									</div>
+										
 									<div class="card-body p-3">
 									  <div class="card-body-content pb-3">
                       <p class="card-text">"Street Fighter 2" themed Tic Tac Toe game with variable difficulty modes and two selectable characters. Integrated minimax to create an unwinnable hard mode. Uses sprite maps and animated GIFs for animation, complete with intro video, title screen, character select, etc., to simulate the Street Fighter 2 game experience. Also uses Web Audio API to create seamless looping background music.</p>
-                      <p class="card-text"><small class="text-muted">Works best on Chrome and Firefox</small></p>
-										</div>
+                      <p class="card-text">
+                      	<small class="text-muted">HTML - CSS - JS - Web Audio API</small>
+											</p>                    	
+                    	<p class="card-text">                      	
+                      	<small class="text-muted">Photoshop - Premiere - Audacity</small>
+											</p>
+                      <p class="card-text">                     	
+                      	<small class="text-muted"><span class="note">*</span>Works best on Chrome and Firefox</small>
+                      </p>
+										</div> <!-- .card-body-content -->
 										<button class="btn btn-show-hide"></button>
-									</div>
+									</div> <!-- .card-body -->
 								</div>
-  
+							</div> <!-- .col-md-6 mb-3 -->
+							
+  						<div class="col-md-6 mb-3"> 
 								<div class="card">
                   <h5 class="card-title p-3"><a href="https://codepen.io/agedengaku/full/gjLOra/" target="_blank">Simon Game</a></h5>
 									<div class="card-img-frame">
-										<a href="https://codepen.io/agedengaku/full/gjLOra/" target="_blank"><img class="card-img-top" src="resources/img/simon-web.jpg" alt="Card image cap"></a>
+										<a href="https://codepen.io/agedengaku/full/gjLOra/" target="_blank"><img class="card-img-top" src="resources/img/simon-web.jpg" alt="Simon game image" target="_blank"></a>
 									</div>
+									
 									<div class="card-body p-3">	
 									  <div class="card-body-content pb-3">
                       <p class="card-text">Spiced up the original Simon game by using Street Fighter 2 themes, music, sound effects, and some animated feedback.</p>
-                      <p class="card-text"><small class="text-muted">Works best on Chrome and Firefox</small></p>
-										</div>
+                      <p class="card-text">
+                      	<small class="text-muted">HTML - CSS - JS - Animate.css</small>
+											</p>                    	
+                    	<p class="card-text">                      	
+                      	<small class="text-muted">Premiere - Audacity</small>
+											</p>                      
+                      <p class="card-text">
+                      	<small class="text-muted"><span class="note">*</span>Works best on Chrome and Firefox</small>
+											</p>
+										</div> <!-- .card-body-content -->
 										<button class="btn btn-show-hide"></button>									
-									</div>
+									</div> <!-- .card-body -->
 								</div>
-  
+							</div> <!-- .col-md-6 mb-3 -->
+							
+						</div> <!-- .row -->
+ 								
+						<div class="row">
+  						
+  							<div class="col-md-6 mb-3"> 	
    								<div class="card"> 	
                   <h5 class="card-title p-3"><a href="https://codepen.io/agedengaku/full/NYPyWy/" target="_blank">Javascript Calculator</a></h5>					
 									<div class="card-img-frame">
-										<a href="https://codepen.io/agedengaku/full/NYPyWy/" target="_blank"><img class="card-img-top" src="resources/img/calculator-web.jpg" alt="Card image cap"></a>
-									</div>	
+                    <a href="https://codepen.io/agedengaku/full/NYPyWy/"><img class="card-img-top" src="resources/img/calculator-web.jpg" alt="Javascript Calculator image" target="_blank"></a>
+									</div>
+										
 									<div class="card-body p-3">
-										<div class="card-body-content pb-3">
+									  <div class="card-body-content pb-3">
                       <p class="card-text">Improved on the original task of creating a Javascript calcultor by increasing decimal precision, making the results always similar to what you would get from a real calculator. Precision is achieved using a Decimal type by integrating decimal.js.</p>
-										</div>
-										<button class="btn btn-show-hide"></button>										
-									</div>
+                      <p class="card-text">
+                      	<small class="text-muted">HTML - CSS - JS - Decimal.js</small>
+											</p>                    	                      
+										</div> <!-- .card-body-content -->
+										<button class="btn btn-show-hide"></button>
+									</div> <!-- .card-body -->
 								</div>
- 
-  								<div class="card">
-                  <h5 class="card-title p-3">Pomodoro Clock</h5>
+							</div> <!-- .col-md-6 mb-3 -->
+							
+  						<div class="col-md-6 mb-3"> 
+								<div class="card">
+                  <h5 class="card-title p-3"><a href="https://codepen.io/agedengaku/full/bvZbGx/" target="_blank">Pomodoro Clock</a></h5>
 									<div class="card-img-frame">
-										<img class="card-img-top" src="resources/img/pomodoro-web.jpg" alt="Card image cap">
+										<a href="https://codepen.io/agedengaku/full/bvZbGx/" target="_blank"><img class="card-img-top" src="resources/img/pomodoro-web.jpg" alt="Pomodoro Clock image" target="_blank"></a>
 									</div>
-									<div class="card-body p-3">
-										<p class="card-text">Goes beyond the assignment of building a productivity clock by adding animations and original recorded sound clips to guide the user on the current state of the clock.</p>
-									</div>
+									
+									<div class="card-body p-3">	
+									  <div class="card-body-content pb-3">
+                      <p class="card-text">Goes beyond the assignment of building a productivity clock by adding animations and original recorded sound clips to guide the user on the current state of the timer.</p>
+                      <p class="card-text">
+                      	<small class="text-muted">HTML - CSS - JS</small>
+											</p>                    	
+                    	<p class="card-text">                      	
+                      	<small class="text-muted">Audacity - Audio recording</small>
+											</p>                       
+										</div> <!-- .card-body-content -->
+										<button class="btn btn-show-hide"></button>									
+									</div> <!-- .card-body -->
 								</div>
-    
+							</div> <!-- .col-md-6 mb-3 -->
+							
+						</div> <!-- .row -->
+ 								
+						<div class="row">
+  						
+  							<div class="col-md-6 mb-3"> 	
    								<div class="card"> 	
-                  <h5 class="card-title p-3">Japanese Lessons Tokyo</h5>					
+                  <h5 class="card-title p-3"><a href="https://japaneselessonstokyo.com" target="_blank">Japanese Lessons Tokyo</a></h5>					
 									<div class="card-img-frame">
-										<img class="card-img-top" src="resources/img/jlt-web.jpg" alt="Card image cap">
-									</div>	
+                    <a href="https://japaneselessonstokyo.com" target="_blank"><img class="card-img-top" src="resources/img/jlt-web.jpg" alt="Japanese Lessons Tokyo website image"></a>
+									</div>
+										
 									<div class="card-body p-3">
-										<p class="card-text">Built a website that helped a Japanese language teacher from almost going out of business, and allowed him to quit his part-time jobs to focus solely on teaching.</p>
-									</div>
+									  <div class="card-body-content pb-3">
+                      <p class="card-text">Built a website that helped a Japanese language teacher avoid going out of business, allowing him to quit his part-time job to focus solely on teaching.</p>
+                      <p class="card-text">
+                      	<small class="text-muted">HTML - CSS - jQuery - Animate.css</small>
+											</p>                    	
+                    	<p class="card-text">                      	
+                      	<small class="text-muted">Photoshop - Photography</small>
+											</p>                       
+										</div> <!-- .card-body-content -->
+										<button class="btn btn-show-hide"></button>
+									</div> <!-- .card-body -->
 								</div>
-
-  								<div class="card">
-                  <h5 class="card-title p-3">XPS Tokyo</h5>
-									<div class="card-img-frame">
-										<img class="card-img-top" src="resources/img/xpstokyo-web.jpg" alt="Card image cap">
-									</div>
-									<div class="card-body p-3">
-										<p class="card-text">An exercises in redesigning an old and outdated website, including a new modern logo. Done on Wordpress, but the theme was coded completely from scratch using PHP. <a href='http://www.xpstokyo.com' target='_blank'>Click here to see the original website.</a></p>
-									</div>
-								</div>
-  
-  
-  
-  
-  
-  
-     								<div class="card"> 	
-                  <h5 class="card-title p-3">Color Game</h5>					
-									<div class="card-img-frame">
-										<img class="card-img-top" src="resources/img/color-web.jpg" alt="Card image cap">
-									</div>	
-									<div class="card-body p-3">
-										<p class="card-text">A game for web designers testing their knowledge of RGB colors. This was an exercise from an online web development bootcamp, and was my first Javascript project.</p>
-									</div>
-								</div>
-  
-  
-  
-  
-  
-  								<div class="card">
-                  <h5 class="card-title p-3">Duterte Ipsum</h5>
-									<div class="card-img-frame">
-										<img class="card-img-top" src="resources/img/duterte-web.jpg" alt="Card image cap">
-									</div>
-									<div class="card-body p-3">
-										<p class="card-text">Inspired by <a href='https://trumpipsum.net/' target='_blank'>Trump Ipsum</a>, this Lorem Ipsum generator uses some of President Duterte's ridiculous quotes intersperesed with tech and web design related words.<br />Coded with PHP.</p>
-									</div>
-								</div>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</div>
-          </div>
-          
-          
-          
-          
-          
-          
-          <div class="row">
-          
-							<div class="col-md-6 d-flex align-items-stretch mb-3">   
- 								<div class="card"> 	
-                  <h5 class="card-title p-3">Tic Tac Toe</h5>					
-									<div class="card-img-frame">
-										<img class="card-img-top" src="resources/img/tictactoe-web.jpg" alt="Card image cap">
-									</div>	
-									<div class="card-body p-3">
-										<p class="card-text test1">"Street Fighter 2" themed Tic Tac Toe game with variable difficulty modes and two selectable characters. Integrated minimax to create an unwinnable hard mode. Uses sprite maps and animated GIFs for animation, complete with intro video, title screen, character select, etc., to simulate the Street Fighter 2 game experience. Also uses Web Audio API to create seamless looping background music.</p>
-										<p class="card-text"><small class="text-muted">Works best on Chrome and Firefox</small></p>
-										<button class="btn-test">Show</button>
-									</div>
-								</div>
-							</div>
-															
-							<div class="col-md-6 d-flex align-items-stretch mb-3">
+							</div> <!-- .col-md-6 mb-3 -->
+							
+  						<div class="col-md-6 mb-3"> 
 								<div class="card">
-                  <h5 class="card-title p-3">Simon Game</h5>
+                  <h5 class="card-title p-3"><a href="http://jmotaylor.com/xps/" target="_blank">XPS Tokyo</a></h5>
 									<div class="card-img-frame">
-										<img class="card-img-top" src="resources/img/simon-web.jpg" alt="Card image cap">
+										<a href="http://jmotaylor.com/xps/" target="_blank"><img class="card-img-top" src="resources/img/xpstokyo-web.jpg" alt="XPS Tokyo website image"></a>
 									</div>
-									<div class="card-body p-3">
-										<p class="card-text">Spiced up the original Simon game by using Street Fighter 2 themes, music, sound effects, and some animated feedback.</p>
-										<p class="card-text"><small class="text-muted">Works best on Chrome and Firefox</small></p>
-									</div>
+									
+									<div class="card-body p-3">	
+									  <div class="card-body-content pb-3">
+                      <p class="card-text">An exercise in redesigning an old and outdated website, which includes designing a new logo. Done on Wordpress, but the theme was coded completely from scratch using PHP.</p><p><a href='http://www.xpstokyo.com' target='_blank'>Click here to see the original website</a></p>
+                      <p class="card-text">
+                      	<small class="text-muted">HTML - CSS - JS - PHP - Wordpress</small>
+											</p>                    	
+                    	<p class="card-text">                      	
+                      	<small class="text-muted">Photoshop - Photography</small>
+											</p>                       
+										</div> <!-- .card-body-content -->
+										<button class="btn btn-show-hide"></button>									
+									</div> <!-- .card-body -->
 								</div>
-							</div>
+							</div> <!-- .col-md-6 mb-3 -->
+							
+						</div> <!-- .row -->		
+	
+						<div class="row">
+ 						
+							<div class="col-md-6 mb-3"> 	
+   								<div class="card"> 	
+                  <h5 class="card-title p-3"><a href="/designquotes" target="_blank">Design Quotes</a></h5>					
+									<div class="card-img-frame">
+                    <a href="/designquotes" target="_blank"><img class="card-img-top" src="resources/img/quotes-web.jpg" alt="Design Quotes website image"></a>
+									</div>
+										
+									<div class="card-body p-3">
+									  <div class="card-body-content pb-3">
+                      <p class="card-text">A certification project wherein a quote-generating API and Twitter API are integrated to build a random quote machine with Twitter functionality.</p>
+                      <p class="card-text">
+                      	<small class="text-muted">HTML - CSS - jQuery - Twitter API</small>
+											</p>                    	                      
+										</div> <!-- .card-body-content -->
+										<button class="btn btn-show-hide"></button>
+									</div> <!-- .card-body -->
+								</div>
+							</div> <!-- .col-md-6 mb-3 --> 						
+  						
+  							<div class="col-md-6 mb-3"> 	
+   								<div class="card"> 	
+                  <h5 class="card-title p-3"><a href="https://duterteipsum.com" target="_blank">Duterte Ipsum</a></h5>					
+									<div class="card-img-frame">
+                    <a href="https://duterteipsum.com" target="_blank"><img class="card-img-top" src="resources/img/duterte-web.jpg" alt="Duterte Ipsum website image"></a>
+									</div>
+										
+									<div class="card-body p-3">
+									  <div class="card-body-content pb-3">
+                      <p class="card-text">Inspired by <a href='https://trumpipsum.net/' target='_blank'>Trump Ipsum</a>, this Lorem Ipsum generator uses some of Philippine President Duterte's ridiculous quotes intersperesed with tech and web design related words.</p>
+                      <p class="card-text">
+                      	<small class="text-muted">HTML - CSS - JS - PHP</small>
+											</p>                    	
+                    	<p class="card-text">                      	
+                      	<small class="text-muted">Photoshop</small>
+											</p>                       
+										</div> <!-- .card-body-content -->
+										<button class="btn btn-show-hide"></button>
+									</div> <!-- .card-body -->
+								</div>
+							</div> <!-- .col-md-6 mb-3 -->
+							
+					</div> <!-- .row -->
          
-          </div>
-
-          <div class="row">
-          
-							<div class="col-md-6 d-flex align-items-stretch mb-3">   
- 								<div class="card"> 	
-                  <h5 class="card-title p-3">Javascript Calculator</h5>					
-									<div class="card-img-frame">
-										<img class="card-img-top" src="resources/img/calculator-web.jpg" alt="Card image cap">
-									</div>	
-									<div class="card-body p-3">
-										<p class="card-text">Improved on the original task of creating a Javascript calcultor by increasing decimal precision, making the results always similar to what you would get from a real calculator. Precision is achieved using a Decimal type by integrating decimal.js.</p>
-									</div>
-								</div>
-							</div>
-															
-							<div class="col-md-6 d-flex align-items-stretch mb-3">
+						<div class="row">
+  						
+							<div class="col-md-6 mb-3"> 
 								<div class="card">
-                  <h5 class="card-title p-3">Pomodoro Clock</h5>
+                  <h5 class="card-title p-3"><a href="/wikiviewer" target="_blank">Wikipedia Viewer</a></h5>
 									<div class="card-img-frame">
-										<img class="card-img-top" src="resources/img/pomodoro-web.jpg" alt="Card image cap">
+										<a href="/wikiviewer" target="_blank"><img class="card-img-top" src="resources/img/wiki-web.jpg" alt="Wikipedia Viewer image"></a>
 									</div>
-									<div class="card-body p-3">
-										<p class="card-text">Goes beyond the assignment of building a productivity clock by adding animations and original recorded sound clips to guide the user on the current state of the clock.</p>
-									</div>
+									
+									<div class="card-body p-3">	
+									  <div class="card-body-content pb-3">
+                      <p class="card-text">A certification project using the MediaWiki action API to load the introduction text of search entry results.</p>
+                      <p class="card-text">
+                      	<small class="text-muted">HTML - CSS - jQuery - MediaWiki action API</small>
+											</p>                    	                     
+										</div> <!-- .card-body-content -->
+										<button class="btn btn-show-hide"></button>									
+									</div> <!-- .card-body -->
 								</div>
-							</div>
-         
-          </div>                    
-           
-          <div class="row">
-<!--          	<div class="card-deck">-->
-							<div class="col-md-6 d-flex align-items-stretch">    	
-  							<div class="card">
-									<img class="card-img-top" src=".../100px200/" alt="Card image cap">
-									<div class="card-body">
-										<h5 class="card-title">Card title</h5>
-										<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-										<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-									</div>
-								</div>
-							</div>
-															
-							<div class="col-md-6 d-flex align-items-stretch">
+							</div> <!-- .col-md-6 mb-3 -->  							
+							
+  						<div class="col-md-6 mb-3"> 
 								<div class="card">
-									<img class="card-img-top" src=".../100px200/" alt="Card image cap">
-									<div class="card-body">
-										<h5 class="card-title">Card title</h5>
-										<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-										<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  <h5 class="card-title p-3"><a href="/hello/colorgame" target="_blank">Color Game</a></h5>
+									<div class="card-img-frame">
+										<a href="/hello/colorgame" target="_blank"><img class="card-img-top" src="resources/img/color-web.jpg" alt="Color Game image"></a>
 									</div>
+									
+									<div class="card-body p-3">	
+									  <div class="card-body-content pb-3">
+                      <p class="card-text">A game for web designers testing their knowledge of RGB colors. This was an exercise from an online web development bootcamp, and was my first Javascript project.</p>
+                      <p class="card-text">
+                      	<small class="text-muted">HTML - CSS - JS</small>
+											</p>                    	                     
+										</div> <!-- .card-body-content -->
+										<button class="btn btn-show-hide"></button>									
+									</div> <!-- .card-body -->
 								</div>
-							</div>
-<!--						</div>-->
-          </div>        
-          
-          <div class="row">
-            
-            <div class="col-md-6 portfolio-pic-container" data-toggle="popover" data-placement="bottom" title="Tic Tac Toe - Street Fighter 2 version<span class='close-popover'><i class='fal fa-times fa-lg'></i></span>" data-content="Integrated minimax to create an unwinnable difficulty mode (Hard mode). Animations created using a combination of sprite maps and animated GIFs, complete with intro video, title screen, character select, etc. to simulate the Street Fighter 2 game experience. Also uses Web Audio API to create seamless looping BGM.<br /><br />Works best on Chrome and Firefox">
-                <div class="portfolio-pic">
-                <span class="pic-title">Tic Tac Toe</span>
-              <a href="http://streetfighter2ttt.com" target="_blank">
-                <img src="resources/img/tictactoe-web.jpg" class="img-fluid" alt="Street Fighter 2 - Tic Tac Toe">
-              </a>
-              </div>
-            </div>
-            
-            <div class="col-md-6 portfolio-pic-container" data-toggle="popover" data-placement="bottom" title="Simon Game - Street Fighter 2 version<span class='close-popover'><i class='fal fa-times fa-lg'></i></span>" data-content="Spiced up the original Simon game by using Street Fighter 2 themes, music, sfx, and some animated feedback.<br /><br />Works best on Chrome and Firefox">  
-              <a href="https://codepen.io/agedengaku/full/gjLOra/" target="_blank">
-              <img src="resources/img/simon-web.jpg" class="img-fluid portfolio-pic effectfront" alt="Street Fighter 2 - Simon Game">
-              </a>
-            </div>
-            
-          </div> <!-- .row -->        
-          
-          <div class="row">
-            
-            <div class="col-md-6 portfolio-pic-container" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-html="true" title="Javascript Calculator<span class='close-popover'><i class='fal fa-times fa-lg'></i></span>" data-content="Improved on the original task of creating a Javascript calcultor by increasing decimal precision, making the results always similar to what you would get from a real calculator. Precision is achieved using a Decimal type by integrating decimal.js.">
-              <a href="https://codepen.io/agedengaku/full/NYPyWy/" target="_blank">
-                <img src="resources/img/calculator-web.jpg" class="img-fluid portfolio-pic effectfront" alt="Javascript Calcultar">
-              </a>
-            </div>
-            
-            <div class="col-md-6 portfolio-pic-container" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-html="true" title="Pomodoro Clock<span class='close-popover'><i class='fal fa-times fa-lg'></i></span>" data-content="Goes beyond the assignment of building a productivity clock by adding animations and original recorded sound clips to guide the user on the current state of the clock.">  
-              <a href="https://codepen.io/agedengaku/full/bvZbGx/" target="_blank">
-              <img src="resources/img/pomodoro-web.jpg" class="img-fluid portfolio-pic effectfront" alt="Pomodoro Clock">
-              </a>
-            </div>
-            
-          </div> <!-- .row -->      
-          
-          <div class="row">
-            
-            <div class="col-md-6 portfolio-pic-container" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-html="true" title="Japanese Lessons Tokyo<span class='close-popover'><i class='fal fa-times fa-lg'></i></span>" data-content="Built a website that helped a Japanese language teacher from almost going out of business, and allowed him to quit his part-time jobs to focus solely on teaching.">
-              <a href="https://japaneselessonstokyo.com" target="_blank">
-                <img src="resources/img/jlt-web.jpg" class="img-fluid portfolio-pic effectfront" alt="Japanese Lessons Tokyo website picture">
-              </a>
-            </div>
-            
-            <div class="col-md-6 portfolio-pic-container" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-html="true" title="Redesign of outdated website<span class='close-popover'><i class='fal fa-times fa-lg'></i></span>" data-content="An exercises in redesigning an old and outdated website, including a new modern logo. Done on Wordpress, but the theme was coded completely from scratch using PHP. <a href='http://www.xpstokyo.com' target='_blank'>Click here to see the original website.</a>">  
-              <a href="/xps" target="_blank">
-              <img src="resources/img/xpstokyo-web.jpg" class="img-fluid portfolio-pic effectfront" alt="XPS Tokyo website picture">
-              </a>
-            </div>
-            
-          </div> <!-- .row -->
-          
-          <div class="row">
-            
-            <div class="col-md-6 portfolio-pic-container" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-html="true" title="Color Game<span class='close-popover'><i class='fal fa-times fa-lg'></i></span>" data-content="A game for web designers testing their knowledge of RGB colors. This was an exercise from an online web development bootcamp, and was my first Javascript project.">  
-              <a href="/hello/colorgame" target="_blank">
-              <img src="resources/img/color-web.jpg" class="img-fluid portfolio-pic effectfront" alt="Color Game web app picture">
-              </a>
-            </div>
-            
-            <div class="col-md-6 portfolio-pic-container" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-html="true" title="Duterte Ipsum<span class='close-popover'><i class='fal fa-times fa-lg'></i></span>" data-content="Inspired by <a href='https://trumpipsum.net/' target='_blank'>Trump Ipsum</a>, this Lorem Ipsum generator uses some of President Duterte's ridiculous quotes intersperesed with tech and web design related words.<br />Coded with PHP.">  
-              <a href="http://www.duterteipsum.com" target="_blank">
-              <img src="resources/img/duterte-web.jpg" class="img-fluid portfolio-pic effectfront" alt="Duterte Ipsum website picture">
-              </a>
-            </div>
-            
-          </div> <!-- .row -->
-          
-        <div class="row">
-            
-            <div class="col-md-6 portfolio-pic-container" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-html="true" title="Design Quotes<span class='close-popover'><i class='fal fa-times fa-lg'></i></span>" data-content="A certification project wherein a quotes-generating API and Twitter API are integrated to build a random quote machine with Twitter functionality.">  
-              <a href="/designquotes" target="_blank">
-              <img src="resources/img/quotes-web.jpg" class="img-fluid portfolio-pic effectfront" alt="Design Quotes website picture">
-              </a>
-            </div>
-            
-            <div class="col-md-6 portfolio-pic-container">  
-              <a href="/wikiviewer" target="_blank">
-              <img src="resources/img/wiki-web.jpg" class="img-fluid portfolio-pic effectfront" alt="Wikiviewer website picture">
-              </a>
-            </div>
-            
-          </div> <!-- .row -->
+							</div> <!-- .col-md-6 mb-3 -->  
+							
+					</div> <!-- .row -->          
           
         </div> <!-- portfolio-block -->
-    
-    </div> <!-- .row.justify-content-md-center 2 -->
+    </div> <!-- .row.justify-content-md-center -->
     
     <!-- CONTACT FORM STARTS HERE -->
-    
     <div class="row justify-content-md-center"> <!-- .row.justify-content-md-center 3 -->
     
       <div id="contact-block" class="content-block col-12 col-lg-auto">
@@ -426,7 +366,9 @@
       </div> <!-- #contactBlock -->
     
     </div> <!-- .row.justify-content-md-center 3 -->
+    
 </div> <!-- .container -->
+
 <footer id="footer-1" class="footer">
   <div class="container">
     

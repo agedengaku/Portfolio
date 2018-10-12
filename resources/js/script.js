@@ -1,19 +1,18 @@
-$(document).ready(function(){
-  
-  $(window).scroll(function(){
-    if ($(this).scrollTop() > 500) {
-      $('#portfolio-block').css('opacity','1');
-    }
-  });
-  
+/*jslint browser: true*/
+/*global $, jQuery*/
+
+$(document).ready(function () {
+
+  'use strict';
+
   function bodyColor() {
-    
+
     if ($(window).scrollTop() > 500) {
-      $('#portfolio-block').css('opacity','1');
+      $('#portfolio-block').css('opacity', '1');
     }
     if ($(window).scrollTop() < 300) {
       $('body').removeClass('changeColor1');
-    }   
+    }
     if ($(window).scrollTop() > 300) {
       $('body').addClass('changeColor1');
     }
@@ -44,7 +43,7 @@ $(document).ready(function(){
     if ($(window).scrollTop() > 650) {
       $('body').addClass('changeColor8');
       $('body').removeClass('changeColor7');
-    }  
+    }
     if ($(window).scrollTop() < 650) {
       $('body').removeClass('changeColor8');
     }
@@ -67,72 +66,71 @@ $(document).ready(function(){
       $('body').removeClass('changeColor2');
     }
   }
-  
+
   bodyColor();
-  
+
   $(window).scroll(function () {
-   bodyColor();
+    bodyColor();
   });
-  
+
   $('.card-body-content').hide();
-  $('.btn-show-hide').click(function(){
-    $(this).prev().toggle(500);
+  $('.btn-show-hide').click(function () {
+    $(this).prev().slideToggle(500);
     $(this).toggleClass('btn-hide');
-  });  
-  
+  });
+
   //navbar link navigation
-  $('.intro-link').click(function(){ 
+  $('.intro-link').click(function () {
     $('html, body').animate({scrollTop: $('#intro-block').offset().top - 120}, 1000);
   });
-  
-  $('.portfolio-link').click(function(){ 
+
+  $('.portfolio-link').click(function () {
     $('html, body').animate({scrollTop: $('#portfolio-block').offset().top - 120}, 1000);
   });
-  
-  $('.contact-link').click(function(){ 
+
+  $('.contact-link').click(function () {
     $('html, body').animate({scrollTop: $('#contact-block').offset().top - 120}, 1000);
   });
 
   //label animation
-  $('.js-name-input').keypress(function(direction){
-    $('.js-name-label').css('display', 'block')
+  $('.js-name-input').keypress(function (direction) {
+    $('.js-name-label').css('display', 'block');
     $('.js-name-label').addClass('animated fadeInUp');
-  }); 
+  });
 
-  $('.js-email-input').keypress(function(direction){
-    $('.js-email-label').css('display', 'block')
+  $('.js-email-input').keypress(function (direction) {
+    $('.js-email-label').css('display', 'block');
     $('.js-email-label').addClass('animated fadeInUp');
   });
-  
-  $('.js-phone-input').keypress(function(direction){
-    $('.js-phone-label').css('display', 'block')
+
+  $('.js-phone-input').keypress(function (direction) {
+    $('.js-phone-label').css('display', 'block');
     $('.js-phone-label').addClass('animated fadeInUp');
   });
-  
-  $('.js-message-input').keypress(function(direction){
-    $('.js-message-label').css('display', 'block')
+
+  $('.js-message-input').keypress(function (direction) {
+    $('.js-message-label').css('display', 'block');
     $('.js-message-label').addClass('animated fadeInUp');
-  });  
+  });
 
   //Submit button animation
-  $('#contact-block').waypoint(function(direction){
+  $('#contact-block').waypoint(function (direction) {
     $('.submit-button').addClass('animated pulse');
   }, {
     offset: '20%'
-  });	
+  });
 
 //SOURCE: https://bootsnipp.com/snippets/PEkG1
-$('.navbar-toggler').click(function(){
-       // alert("open");
-	if (!$('.navbar-collpase').hasClass('show')) {
-			$('#nav-icon0').addClass('open');
-		  $('.nav-item').addClass('active-collapsed');
+  $('.navbar-toggler').click(function () {
+    if (!$('.navbar-collpase').hasClass('show')) {
+      $('#nav-icon0').addClass('open');
+//		  $('.nav-item').addClass('active-collapsed');
     }
-	if ($('.navbar-collapse').hasClass('show')) {
-	    $('#nav-icon0').removeClass('open');
-			$('.nav-item').removeClass('active-collapsed');
-	}
-});
+    if ($('.navbar-collapse').hasClass('show')) {
+      $('#nav-icon0').removeClass('open');
+//			$('.nav-item').removeClass('active-collapsed');
+    }
+  });
 //END SOURCE
-	
+
 });

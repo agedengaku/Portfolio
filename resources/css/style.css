@@ -74,9 +74,11 @@ nav {
 		text-align: center;
 }
 
+/*
 .active-collapsed {
 	width: 100px;
 }
+*/
 
 .sticky-top { z-index: 9999; }
 
@@ -136,9 +138,11 @@ nav {
 	font-family: "Raleway";
 }
 
+/*
 .test {
   height: 1000px;
 }
+*/
 
 .card {
 /*	background-color: #f5f5f5;*/
@@ -159,7 +163,15 @@ nav {
 }
 
 .card-img-frame {
+	border-radius: 2px;
+	border: 4px solid transparent;	
 	overflow: hidden;
+	position: relative;
+	z-index: 9000;
+}
+
+.card-img-frame:hover {
+	border: 4px solid #5378BB;
 }
 
 .card-title {
@@ -167,9 +179,18 @@ nav {
 	font-weight: 400;
 	font-size: 1.25rem;
 	margin-bottom: 0;
-/*	  background-color: #a3acad;*/
 	border-top-right-radius: 2px;
 	border-top-left-radius: 2px;
+}
+
+/*
+h5.card-title.p-3 {
+	padding-left: 5px !important;
+}
+*/
+
+.card-title > a:hover {
+	color: #5378BB;
 }
 
 .card-img-top {
@@ -177,6 +198,8 @@ nav {
 	width: 100%;
 	height: auto;
 	transform: scale(1.1);
+	position: relative;
+	z-index: 8000;
 }
 
 .card-img-top:hover {
@@ -188,21 +211,40 @@ nav {
 	font-size: .95rem;
 }
 
+.card-body-content > p > a {
+	color: #5378BB;
+	border-bottom: 1px solid #5378BB;
+}
+
+.card-body-content > p > a:hover {
+	color: cornflowerblue;
+	border-bottom: 1px solid cornflowerblue;	
+}
+
+.note {
+	color: #e67e22;
+}
+
 .btn-show-hide {
-	background-color: #fff;
+  background-color: #5378BB;
   border-radius: 2px;
   border: 2px solid #5378BB;
-  color: #5378BB;
+  color: #fff;  
+	width: 100%;
+	height: 30px;
+	font-size: 80%;
+	line-height: .9;
 }
 
 .btn-show-hide:hover {
-  background-color: #5378BB;
+	background-color: #fff;
+  color: #5378BB;
   border: 2px solid #5378BB;
-  color: #fff;  
+
 }
 
 .btn-show-hide::before {
-  content: "Show";
+  content: "Info";
 }
 
 .btn-hide::before {
@@ -385,6 +427,7 @@ label { display: none; }
 
 button.navbar-toggler { border:none; }
 button.navbar-toggler:focus { outline:0; }
+
 /*SOURCE: https://bootsnipp.com/snippets/PEkG1*/
  #nav-icon0 {
   width: 30px;
@@ -407,7 +450,8 @@ button.navbar-toggler:focus { outline:0; }
   position: absolute;
   height: 2px;
   width: 50%;
-  background: #a3acad;
+/*  background: #a3acad;*/
+  background: #fff;
   opacity: 1;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
