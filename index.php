@@ -310,6 +310,40 @@
         </div> <!-- portfolio-block -->
     </div> <!-- .row.justify-content-md-center -->
     
+    <!-- EDUCATION STARTS HERE -->
+    <div class="row justify-content-md-center">
+     
+     
+     
+      <div id="education-block" class="content-block col-12 col-lg-auto">
+        <h2 class="text-center">IT-Related Education</h2>     
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Bachelor of Science - Management Information Systems - Ateneo de Manila University</li>
+          <li class="list-group-item">Front End Projects Certificate - FreeCodeCamp</li>
+          <li class="list-group-item">Javascript Algorithms and Data Structres Certificate - FreeCodeCamp</li>
+          <li class="list-group-item">Web Developer Bootcamp - Udemy</li>
+          <li class="list-group-item">Javascript Essentials - Udemy</li>
+          <li class="list-group-item">PHP Course - Udemy</li>
+          <li class="list-group-item">PHP with Laravel - Udemy</li>
+          <li class="list-group-item">Object Orientation in PHP - Udemy</li>
+          <li class="list-group-item">Responsive Websites with HTML5 and CSS3 - Udemy</li>
+          <li class="list-group-item">MySQL Developer Course - Udemy</li>
+          <li class="list-group-item">Wordpress Themes - Udemy</li>
+        </ul>
+        <br>
+        <br>
+        <h2 class="text-center">Currently Learning</h2>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Javascript Algorithms and Data Structures Masterclass - Udemy</li>
+          <li class="list-group-item">Responsive Web Design Projects Certificate - FreeCodeCamp</li>
+          <li class="list-group-item">AWS Certified - Solutions Architect Associates (CSA) - Udemy</li>
+          <li class="list-group-item">Advanced Web Developer Bootcamp (React) - Udemy</li>
+        </ul>
+        
+      </div>
+    </div>
+    <!-- EDUCATION ENDS HERE -->
+    
     <!-- CONTACT FORM STARTS HERE -->
     <div class="row justify-content-md-center"> <!-- .row.justify-content-md-center 3 -->
     
