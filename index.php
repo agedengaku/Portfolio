@@ -60,7 +60,7 @@
         <div id="intro-block" class="content-block col-12 col-lg-auto">
          <div class="row spacer1"></div>
           <div class="row">
-            <div id="intro-block-body" class="col-md-8 text-right">Web design & development is a passion of mine. There isn't a day I'm not either working on personal projects or continuing to learn web technologies. In the future, I plan to move into mobile apps and software for smart devices.</div>
+            <div id="intro-block-body" class="col-md-8 text-right">Web design & development is a passion of mine. There isn't a day I'm not either working on personal projects or continuing to learn web technologies. I'm use HTML5, CSS3, Javascript, jQuery, PHP and Laravel. In the future, I plan to move into mobile apps and software for smart devices.</div>
             <div class="col-md-4"><img id="circle-pic" src="https://en.gravatar.com/userimage/27569311/49b5d4c8c1114783cc08646adb285384.jpg?size=400" alt="" class="img-fluid" /></div>
           </div> <!-- .row -->
           <div class="row spacer1"></div>
@@ -82,7 +82,7 @@
    								<div class="card"> 	
                   <h5 class="card-title p-3"><a href="https://streetfighter2ttt.com" target="_blank">Tic Tac Toe</a></h5>					
 									<div class="card-img-frame">
-                    <a href="https://streetfighter2ttt.com"><img class="card-img-top" src="resources/img/tictactoe-web.jpg" alt="Tic Tac Toe image" target="_blank"></a>
+                    <a href="https://streetfighter2ttt.com" target="_blank"><img class="card-img-top" src="resources/img/tictactoe-web.jpg" alt="Tic Tac Toe image" target="_blank"></a>
 									</div>
 										
 									<div class="card-body p-3">
@@ -315,14 +315,16 @@
     
     <!-- EDUCATION STARTS HERE -->
     <div class="row justify-content-md-center">
+    
+        
      
       <div id="education-block" class="content-block col-12 col-lg-auto">
         <h2 class="text-center">IT-Related Education</h2>     
         <ul class="list-group list-group-flush">
-          <li class="list-group-item">Bachelor of Science - Management Information Systems - Ateneo de Manila University</li>
-          <li class="list-group-item">Front End Projects Certificate - FreeCodeCamp</li>
-          <li class="list-group-item">Javascript Algorithms and Data Structures Certificate - FreeCodeCamp</li>
-          <li class="list-group-item">Web Developer Bootcamp - Udemy</li>
+					<li class="list-group-item"><a href="http://www.ateneo.edu/ls/sose/iscs/bachelor-science-management-information-systems" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="The BS in Management Information Systems (BS MIS) program is an interdisciplinary offering of the Department of Information Systems and Computer Science and the School of Management. Students in this program enroll in computer science courses, management engineering courses, and core MIS courses.">Bachelor of Science - Management Information Systems - Ateneo de Manila University</a></li>
+          <li class="list-group-item"><a href="https://www.freecodecamp.org/certification/agedengaku/legacy-front-end" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="Front End Development Certification representing approximately 400 hours of coursework">Front End Development Certificate - FreeCodeCamp</a></li>
+			<li class="list-group-item"><a href="https://www.freecodecamp.org/certification/agedengaku/javascript-algorithms-and-data-structures" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="JavaScript Algorithms and Data Structures Developer Certification, representing approximately 300 hours of coursework">Javascript Algorithms and Data Structures Certificate - FreeCodeCamp</a></li>
+          <li class="list-group-item"><a href="https://www.udemy.com/certificate/UC-QJ3DBNMS/" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="The course covers tools and technologies including HTML5, CSS3, JavaScript, Bootstrap, SemanticUI, DOM Manipulation, jQuery, Unix(Command Line) Commands, NodeJS, NPM, ExpressJS, REST, and MongoDB.">Web Developer Bootcamp - Udemy</a></li>
           <li class="list-group-item">Javascript Essentials - Udemy</li>
           <li class="list-group-item">PHP for Beginners - Udemy</li>
           <li class="list-group-item">PHP with Laravel - Udemy</li>

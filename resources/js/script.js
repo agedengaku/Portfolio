@@ -142,6 +142,10 @@ $(document).ready(function () {
     offset: '20%'
   });
 
+	//Popover initialization
+	$('[data-toggle="popover"]').popover(); 
+
+	
 //SOURCE: https://bootsnipp.com/snippets/PEkG1
   $('.navbar-toggler').click(function () {
     if (!$('.navbar-collpase').hasClass('show')) {
