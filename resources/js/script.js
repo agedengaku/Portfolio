@@ -9,75 +9,80 @@ $(document).ready(function () {
 
     if ($(window).scrollTop() > 500) {
       $('#portfolio-block').css('opacity', '1');
-    }
-    if ($(window).scrollTop() < 300) {
-      $('body').removeClass('changeColor1');
-    }
-    if ($(window).scrollTop() > 300) {
-      $('body').addClass('changeColor1');
-    }
-    if ($(window).scrollTop() > 350) {
-      $('body').addClass('changeColor2');
-      $('body').removeClass('changeColor1');
-    }
-    if ($(window).scrollTop() > 400) {
-      $('body').addClass('changeColor3');
-      $('body').removeClass('changeColor2');
-    }
-    if ($(window).scrollTop() > 450) {
-      $('body').addClass('changeColor4');
-      $('body').removeClass('changeColor3');
-    }
-    if ($(window).scrollTop() > 500) {
-      $('body').addClass('changeColor5');
-      $('body').removeClass('changeColor4');
-    }
-    if ($(window).scrollTop() > 550) {
-      $('body').addClass('changeColor6');
-      $('body').removeClass('changeColor5');
-    }
-    if ($(window).scrollTop() > 600) {
-      $('body').addClass('changeColor7');
-      $('body').removeClass('changeColor6');
-    }
-    if ($(window).scrollTop() > 650) {
       $('body').addClass('changeColor8');
-      $('body').removeClass('changeColor7');
-    }
-    if ($(window).scrollTop() < 650) {
-      $('body').removeClass('changeColor8');
-    }
-    if ($(window).scrollTop() < 600) {
-      $('body').removeClass('changeColor7');
-    }
-    if ($(window).scrollTop() < 550) {
-      $('body').removeClass('changeColor6');
     }
     if ($(window).scrollTop() < 500) {
-      $('body').removeClass('changeColor5');
-    }
-    if ($(window).scrollTop() < 450) {
-      $('body').removeClass('changeColor4');
-    }
-    if ($(window).scrollTop() < 400) {
-      $('body').removeClass('changeColor3');
-    }
-    if ($(window).scrollTop() < 350) {
-      $('body').removeClass('changeColor2');
-    }
-		if ($(window).scrollTop() > 3500) {
+      $('#portfolio-block').css('opacity', '0');
       $('body').removeClass('changeColor8');
     }
-		if ($(window).scrollTop() < 3500 && $(window).scrollTop() > 650) {
+//    if ($(window).scrollTop() < 300) {
+//      $('body').removeClass('changeColor1');
+//    }
+//    if ($(window).scrollTop() > 300) {
+//      $('body').addClass('changeColor1');
+//    }
+//    if ($(window).scrollTop() > 350) {
+//      $('body').addClass('changeColor2');
+//      $('body').removeClass('changeColor1');
+//    }
+//    if ($(window).scrollTop() > 400) {
+//      $('body').addClass('changeColor3');
+//      $('body').removeClass('changeColor2');
+//    }
+//    if ($(window).scrollTop() > 450) {
+//      $('body').addClass('changeColor4');
+//      $('body').removeClass('changeColor3');
+//    }
+//    if ($(window).scrollTop() > 500) {
+//      $('body').addClass('changeColor5');
+//      $('body').removeClass('changeColor4');
+//    }
+//    if ($(window).scrollTop() > 550) {
+//      $('body').addClass('changeColor6');
+//      $('body').removeClass('changeColor5');
+//    }
+//    if ($(window).scrollTop() > 600) {
+//      $('body').addClass('changeColor7');
+//      $('body').removeClass('changeColor6');
+//    }
+//    if ($(window).scrollTop() > 650) {
+//      $('body').addClass('changeColor8');
+//      $('body').removeClass('changeColor7');
+//    }
+//    if ($(window).scrollTop() < 650) {
+//      $('body').removeClass('changeColor8');
+//    }
+//    if ($(window).scrollTop() < 600) {
+//      $('body').removeClass('changeColor7');
+//    }
+//    if ($(window).scrollTop() < 550) {
+//      $('body').removeClass('changeColor6');
+//    }
+//    if ($(window).scrollTop() < 500) {
+//      $('body').removeClass('changeColor5');
+//    }
+//    if ($(window).scrollTop() < 450) {
+//      $('body').removeClass('changeColor4');
+//    }
+//    if ($(window).scrollTop() < 400) {
+//      $('body').removeClass('changeColor3');
+//    }
+//    if ($(window).scrollTop() < 350) {
+//      $('body').removeClass('changeColor2');
+//    }
+    if ($(window).scrollTop() > 3500) {
+      $('body').removeClass('changeColor8');
+    }
+    if ($(window).scrollTop() < 3500 && $(window).scrollTop() > 650) {
       $('body').addClass('changeColor8');
     }
-		if ($(window).scrollTop() > 3700) {
-			$('#education-block').css('opacity', '0');
-			$('#contact-block').css('opacity', '1');
-    }		
-		if ($(window).scrollTop() < 3700) {
-			$('#education-block').css('opacity', '1');
-    }				
+    if ($(window).scrollTop() > 3700) {
+      $('#education-block').css('opacity', '0');
+      $('#contact-block').css('opacity', '1');
+    }
+    if ($(window).scrollTop() < 3700) {
+      $('#education-block').css('opacity', '1');
+    }
   }
 
   bodyColor();
