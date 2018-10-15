@@ -320,7 +320,7 @@
         <ul class="list-group list-group-flush">
           <li class="list-group-item">Bachelor of Science - Management Information Systems - Ateneo de Manila University</li>
           <li class="list-group-item">Front End Projects Certificate - FreeCodeCamp</li>
-          <li class="list-group-item">Javascript Algorithms and Data Structres Certificate - FreeCodeCamp</li>
+          <li class="list-group-item">Javascript Algorithms and Data Structures Certificate - FreeCodeCamp</li>
           <li class="list-group-item">Web Developer Bootcamp - Udemy</li>
           <li class="list-group-item">Javascript Essentials - Udemy</li>
           <li class="list-group-item">PHP Course - Udemy</li>
