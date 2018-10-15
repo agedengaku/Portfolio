@@ -48,48 +48,37 @@ h2 {
 
 /* ------NAVBAR------ */
 
-nav { 
-/*    -webkit-box-shadow: 1px 1px 1px 1px #404040; */
-}
-
 .navbar-color { background-color: #5378BB; }
 .navbar-color { background-color: rgb(83,120,187,.97); }
 
-.navbar-brand { font-size: 24px; }
-
-.nav-link.active, .nav-item.active {
-  
-  
-/*   background-color: #d35400; */
-  background-color: #e67e22;
-/*  background-color: #f39c12;*/
-/*  border-radius: 2px;*/
-
+.navbar-brand { 
+	font-size: 36px; 
+	font-family: 'Raleway';
+	font-weight: 200;
 }
+
+.myname { 
+	display: inline-block;
+	animation-delay: 1s;
+}
+
+.nav-link.active, .nav-item.active { background-color: #e67e22; }
 
 .nav-link > p {
   padding-left: 8px;
   padding-right: 8px;
   margin-bottom: 0px;
-		text-align: center;
+	text-align: center;
 }
-
-/*
-.active-collapsed {
-	width: 100px;
-}
-*/
 
 .sticky-top { z-index: 9999; }
 
 /* ------CONTENT BLOCKS------ */
 
 .content-block {
-/*  border-radius: 5px;*/
   margin-bottom: 40px;
   width: 800px;
   padding: 60px 40px 60px 40px;
-/*  -webkit-box-shadow: 1px 1px 1px 1px #ccc;*/
 }
 
 /* first block */
@@ -98,10 +87,6 @@ nav {
 	width: 100vw;
 	height: 100vh;
   margin-top: -10px;
-/*  background-color: #a3acad;*/
-/*  background-color: #3e3e3e;*/
-/*  background-color: #808080;*/
-/*  background-color: #acacac;*/
 }
 
 .spacer1 {
@@ -116,7 +101,6 @@ nav {
 
 #circle-pic {
   border-radius: 50%;
-/*  border: 1px solid #7f8c8d;*/
   border: 1px solid #888;
   display:block;
   margin:auto;
@@ -124,11 +108,8 @@ nav {
 
 /* second block */
 
-/*#portfolio-block { background-color: #eceded; }*/
-/*#portfolio-block { background-color: #eaeaea; }*/
-
 #portfolio-block {
-    opacity: 0;
+  opacity: 0;
   transition: 2s;
 }
 
@@ -137,12 +118,6 @@ nav {
 	color: #7f8c8d;
 	font-family: "Raleway";
 }
-
-/*
-.test {
-  height: 1000px;
-}
-*/
 
 .card {
 /*	background-color: #f5f5f5;*/
@@ -188,6 +163,10 @@ h5.card-title.p-3 {
 	padding-left: 5px !important;
 }
 */
+
+.card-title > a {
+	transition: 1s;
+}
 
 .card-title > a:hover {
 	color: #5378BB;
@@ -323,6 +302,7 @@ h5.card-title.p-3 {
 
 #education-block {
   background-color: #5378BB;
+  transition: 2s;
 }
 #education-block > h2 {
   font-size: 36pt;
@@ -331,25 +311,19 @@ h5.card-title.p-3 {
   color: black;
 }
 
-
 /* third block */
 
 #contact-block {
-  background-color: #a3acad;
-  margin-bottom: -20px;
+	opacity: 0;
+	transition: 2s;
+	margin-top: 200px;
+  margin-bottom: 20px;
   padding-bottom: 20px;
 }
 
-#contact-block > h2 { color: #fff; }
-
-/* hr */
-
-.gradient-border-white {
-  background-image: -webkit-linear-gradient(left, transparent 0%, #fff 15%, #fff 85%, transparent 100%);
-  background-image: linear-gradient(left, transparent 0%, #fff 15%, #fff 85%, transparent 100%);
-  height: 1px;
-  margin-top: 60px;
-  margin-bottom: 80px;
+#contact-block > h2 { 
+	color: #fff;
+	font-size: 36pt;
 }
 
 /* form */
@@ -363,9 +337,13 @@ input[type="text"], #contact-textarea {
   padding-left: 0;
   font-size: 24px;
   font-weight: 200;
+	color: white;
 }
 
-input[type="text"]:focus { background-color: transparent; }
+input[type="text"]:focus { 
+	background-color: transparent; 
+	color: #e67e22;
+}
 
 #contact-textarea { resize: none; }
 
@@ -380,15 +358,27 @@ label { display: none; }
 
 .label-div { height: 20px; }
 
+#contact-text > p > a {
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	transition: 1s;
+}
+
+#contact-text > p > a:hover {
+	color: #e67e22;
+	border-bottom: 1px solid #e67e22;
+}
+
 .submit-button {
   -webkit-animation-iteration-count: 3;
   animation-iteration-count: 3;
   margin-top: 30px;
   margin-bottom: 30px;
   color: #fff;
-  background-color: #34495e;
+  background-color: #e67e22;
   font-size: 22px;
   font-weight: 200;
+	border-radius: 0;
 }
 
 .js-name-label, 
@@ -407,12 +397,13 @@ label { display: none; }
 
 /* ------FOOTERS------ */
 
+/*
 .footer-h2 { 
   margin-bottom: 20px; 
   margin-top: 40px;
 }
 
-/* footer-1 */
+ footer-1 
 
 #footer-1 {
   background: #f4f5f5;
@@ -426,19 +417,22 @@ label { display: none; }
 #footer-1 p { padding-bottom: 20px; }
 
 #footer-1 img { width: 30px; }
+*/
 
 /* footer-2 */
 
-#footer-2 {
-  background: #7f8c8d;
+.footer {
+  background: #5378BB;
   height: 60px;
   line-height: 60px;
 }
 
+/*
 .fa-font-awesome {
   font-size: 1.6em;
   color: #1e9f75;
 }
+*/
 
 
 button.navbar-toggler { border:none; }

@@ -65,6 +65,19 @@ $(document).ready(function () {
     if ($(window).scrollTop() < 350) {
       $('body').removeClass('changeColor2');
     }
+		if ($(window).scrollTop() > 3500) {
+      $('body').removeClass('changeColor8');
+    }
+		if ($(window).scrollTop() < 3500 && $(window).scrollTop() > 650) {
+      $('body').addClass('changeColor8');
+    }
+		if ($(window).scrollTop() > 3700) {
+			$('#education-block').css('opacity', '0');
+			$('#contact-block').css('opacity', '1');
+    }		
+		if ($(window).scrollTop() < 3700) {
+			$('#education-block').css('opacity', '1');
+    }				
   }
 
   bodyColor();
@@ -87,6 +100,10 @@ $(document).ready(function () {
   $('.portfolio-link').click(function () {
     $('html, body').animate({scrollTop: $('#portfolio-block').offset().top - 120}, 1000);
   });
+	
+  $('.education-link').click(function () {
+    $('html, body').animate({scrollTop: $('#education-block').offset().top - 120}, 1000);
+  });	
 
   $('.contact-link').click(function () {
     $('html, body').animate({scrollTop: $('#contact-block').offset().top - 120}, 1000);

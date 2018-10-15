@@ -29,7 +29,7 @@
     </button>
 
     <a class="navbar-brand" href="#">
-      jmtaylor<span class="animated infinite flash">_</span> 
+      <span class="myname animated zoomIn">JM Taylor</span> 
     </a>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="nav navbar-nav mr-auto"></ul>
@@ -39,6 +39,9 @@
         </li>
         <li class="nav-item">
           <a class="nav-link portfolio-link" data-toggle="pill" href="#portfolio-block"><p>Portfolio</p></a>
+        </li>        
+        <li class="nav-item">
+          <a class="nav-link education-link" data-toggle="pill" href="#education-block"><p>Education</p></a>
         </li>
         <li class="nav-item">
           <a class="nav-link contact-link" data-toggle="pill" href="#contact-block"><p>Contact</p></a>
@@ -114,7 +117,7 @@
                       	<small class="text-muted">HTML - CSS - JS - Animate.css</small>
 											</p>                    	
                     	<p class="card-text">                      	
-                      	<small class="text-muted">Premiere - Audacity</small>
+                      	<small class="text-muted">Photoshop - Audacity</small>
 											</p>                      
                       <p class="card-text">
                       	<small class="text-muted"><span class="note">*</span>Works best on Chrome and Firefox</small>
@@ -313,8 +316,6 @@
     <!-- EDUCATION STARTS HERE -->
     <div class="row justify-content-md-center">
      
-     
-     
       <div id="education-block" class="content-block col-12 col-lg-auto">
         <h2 class="text-center">IT-Related Education</h2>     
         <ul class="list-group list-group-flush">
@@ -323,7 +324,7 @@
           <li class="list-group-item">Javascript Algorithms and Data Structures Certificate - FreeCodeCamp</li>
           <li class="list-group-item">Web Developer Bootcamp - Udemy</li>
           <li class="list-group-item">Javascript Essentials - Udemy</li>
-          <li class="list-group-item">PHP Course - Udemy</li>
+          <li class="list-group-item">PHP for Beginners - Udemy</li>
           <li class="list-group-item">PHP with Laravel - Udemy</li>
           <li class="list-group-item">Object Orientation in PHP - Udemy</li>
           <li class="list-group-item">Responsive Websites with HTML5 and CSS3 - Udemy</li>
@@ -348,10 +349,7 @@
     <div class="row justify-content-md-center"> <!-- .row.justify-content-md-center 3 -->
     
       <div id="contact-block" class="content-block col-12 col-lg-auto">
-        <h2 class="text-center">Contact Me</h2>
-    
-        <!-- <custom gradient hr --> 
-        <div class="gradient-border-white identity-border"></div>
+        <h2 class="text-center">Contact Me!</h2>
         
         <div class="row">
           <div class="col-md-6">
@@ -392,7 +390,8 @@
             
           </div> <!-- .col-md-6 -->
           <div class="col-md-6" id="contact-text">
-            If you'd like to get in touch to talk about web design and development, or perhaps you need advice for your lovelife, feel free to contact me using the form. I'll get back to you within 24 hours!
+            <p>I'm available for work! You can get in touch with me using the form, or you can email me through <a href="mailto:jm@jmotaylor.com">jm@jmotaylor.com</a>.</p>
+            <p>You can also send me a message through my LinkedIn account here.</p>
           </div>
           
         </div> <!-- .row -->
@@ -403,6 +402,7 @@
     
 </div> <!-- .container -->
 
+<!--
 <footer id="footer-1" class="footer">
   <div class="container">
     
@@ -427,7 +427,7 @@
             <i class="fa fa-font-awesome" aria-hidden="true"></i>
           </a></p>
         
-      </div> <!-- .col-sm-6 -->
+      </div>
       
       <div class="col-sm-6">
         
@@ -460,18 +460,19 @@
               <i class="fal fa-facebook fa-stack-1x" aria-hidden="true"></i>
             </span>
           </a>  
-        </div> <!-- .text-center -->
+        </div> 
         
-      </div> <!-- .col-sm-6 -->
+      </div> 
       
-    </div> <!-- .row -->
+    </div>
     
-  </div> <!-- .container -->
+  </div> 
 </footer>
+-->
 
-<footer id="footer-2" class="footer">
+<footer class="footer">
   <div class="container">
-    <div class="text-center">JM Taylor &#169; <?php echo date('Y'); ?> - All Rights Reserved</div>
+<!--    <div class="text-center">JM Taylor <?php echo date('Y'); ?></div>-->
   </div>
 </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
