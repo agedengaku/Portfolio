@@ -315,8 +315,6 @@
     
     <!-- EDUCATION STARTS HERE -->
     <div class="row justify-content-md-center">
-    
-        
      
       <div id="education-block" class="content-block col-12 col-lg-auto">
         <h2 class="text-center">IT-Related Education</h2>     
@@ -325,13 +323,13 @@
           <li class="list-group-item"><a href="https://www.freecodecamp.org/certification/agedengaku/legacy-front-end" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="Front End Development Certification representing approximately 400 hours of coursework">Front End Development Certificate - FreeCodeCamp</a></li>
 			<li class="list-group-item"><a href="https://www.freecodecamp.org/certification/agedengaku/javascript-algorithms-and-data-structures" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="JavaScript Algorithms and Data Structures Developer Certification, representing approximately 300 hours of coursework">Javascript Algorithms and Data Structures Certificate - FreeCodeCamp</a></li>
           <li class="list-group-item"><a href="https://www.udemy.com/certificate/UC-QJ3DBNMS/" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="The course covers tools and technologies including HTML5, CSS3, JavaScript, Bootstrap, SemanticUI, DOM Manipulation, jQuery, Unix(Command Line) Commands, NodeJS, NPM, ExpressJS, REST, and MongoDB.">Web Developer Bootcamp - Udemy</a></li>
-          <li class="list-group-item">Javascript Essentials - Udemy</li>
-          <li class="list-group-item">PHP for Beginners - Udemy</li>
-          <li class="list-group-item">PHP with Laravel - Udemy</li>
-          <li class="list-group-item">Object Orientation in PHP - Udemy</li>
-          <li class="list-group-item">Responsive Websites with HTML5 and CSS3 - Udemy</li>
-          <li class="list-group-item">MySQL Developer Course - Udemy</li>
-          <li class="list-group-item">Wordpress Themes - Udemy</li>
+					<li class="list-group-item"><a href="https://www.udemy.com/certificate/UC-EIQ3O54Y/" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="The basics of Javascript including primitive types, arrays, objects, functions, assignment operators, the window object, constructors, prototype inheritance, scope, execution context and more.">Javascript Essentials - Udemy</a></li>
+					<li class="list-group-item"><a href="https://www.udemy.com/certificate/UC-OR6PJ9R7/" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="The fundamentals of procedural PHP, object oriented PHP, MYSQLi and building a CMS.">PHP for Beginners - Udemy</a></li>
+					<li class="list-group-item"><a href="https://www.udemy.com/certificate/UC-LIB5PN33/" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="Building applications using Laravel, and learning about Laravel ORM, Tinker, Eloquent, middleware and security.">PHP with Laravel - Udemy</a></li>
+					<li class="list-group-item"><a href="https://laracasts.com/series/laravel-from-scratch-2017" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="A series taking learners from installing Laravel, all the way up to mastering the essentials of the framework.">Laravel 5.4 From Scratch - Laracasts</a></li>
+					<li class="list-group-item"><a href="https://www.udemy.com/certificate/UC-1LUEW2YJ/" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="Learn modern web design, HTML5 and CSS3 step-by-step from scratch. ">Responsive Websites with HTML5 and CSS3 - Udemy</a></li>
+					<li class="list-group-item"><a href="https://www.udemy.com/certificate/UC-HBR1Y0XX/" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="Setting up MySQL, creating databases and queries, using logical operators, manipulating tables/rows/data, joins, building web applications with PHP, HTML and CSS along with MySQL as the database layer, and performing CRUD and authentication from web applications.">MySQL Developer Course - Udemy</a></li>
+					<li class="list-group-item"><a href="https://www.udemy.com/learn-to-create-wordpress-themes-by-building-10-projects/learn/v4/overview" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="The course combines knowledge of HTML 5, CSS and PHP and shows how to use the different APIs and widgets from WordPress to create new themes. Also covers functions such as PostLoop, Hook/Actions, Widgets, WP_Query, Theme Customizer API, and WordPress Frameworks such as Bootstrap, Foundation, Ink, Gridism and W3.">Wordpress Themes - Udemy</a></li>
         </ul>
         <br>
         <br>
