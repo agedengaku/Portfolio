@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="resources/css/queries.css">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="100">
 
    <nav class="navbar sticky-top navbar-toggleable-md navbar-inverse navbar-color">
     
@@ -35,7 +35,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="nav navbar-nav mr-auto"></ul>
       <ul class="nav navbar-nav">
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link intro-link" data-toggle="pill" href="#intro-block"><p>About</p></a>
         </li>
         <li class="nav-item">
