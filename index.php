@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>JM Taylor</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-9ralMzdK1QYsk4yBY680hmsb4/hJ98xK3w0TIaJ3ll4POWpWUYaA2bRjGGujGT8w" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">  
+<!--  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-9ralMzdK1QYsk4yBY680hmsb4/hJ98xK3w0TIaJ3ll4POWpWUYaA2bRjGGujGT8w" crossorigin="anonymous">-->
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,700|Raleway:200,400" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link rel="stylesheet" href="resources/css/style.css">
@@ -54,20 +55,52 @@
 
 <!-- INTRO BLOCK STARTS HERE -->
 <div class="container">
-   
-    <div class="row justify-content-md-center">
-    
-        <div id="intro-block" class="content-block col-12 col-lg-auto">
-         <div class="row spacer1"></div>
-          <div class="row">
-            <div id="intro-block-body" class="col-md-8 text-right">Web design & development is a passion of mine. There isn't a day I'm not either working on personal projects or continuing to learn web technologies. I'm use HTML5, CSS3, Javascript, jQuery, PHP and Laravel. In the future, I plan to move into mobile apps and software for smart devices.</div>
-            <div class="col-md-4"><img id="circle-pic" src="https://en.gravatar.com/userimage/27569311/49b5d4c8c1114783cc08646adb285384.jpg?size=400" alt="" class="img-fluid" /></div>
-          </div> <!-- .row -->
-          <div class="row spacer1"></div>
-        </div> <!-- #intro-block -->
-    
-    </div> <!-- .row.justify-content-md-center -->
-  </div>    
+  <div class="row justify-content-md-center">
+
+      <div id="intro-block" class="content-block col-12 col-lg-auto">
+       <div class="row spacer1"></div>
+        <div class="row">
+          <div id="intro-block-body" class="col-md-8 text-right"><p>Web design & development is a passion of mine. There isn't a day I'm not either working on personal projects or continuing to learn web technologies.</p><p>In the future, I plan to move into mobile apps and software for smart devices.</p></div>
+          <div class="col-md-4"><img id="circle-pic" src="https://en.gravatar.com/userimage/27569311/49b5d4c8c1114783cc08646adb285384.jpg?size=400" alt="" class="img-fluid" /></div>
+        </div> <!-- .row -->
+        <div class="row spacer1"></div>
+      </div> <!-- #intro-block -->
+
+  </div> <!-- .row.justify-content-md-center -->
+</div>    
+<!-- SKILL BLOCK STARTS HERE -->   
+<div class="container">
+  <div class="row justify-content-md-center">
+
+      <div id="skill-block" class="content-block col-12 col-lg-auto">
+        <h1>I use...</h1>
+        <br>
+        <div class="row">
+          <div class="col-md-6">
+           <ul class="skill-ul">
+             <li><span class="skill-span">HTML5</span></li>
+             <li><span class="skill-span">CSS3</span></li>
+             <li><span class="skill-span">Javascript</span></li>
+             <li><span class="skill-span">jQuery</span></li>
+           </ul>
+            
+          </div>
+          <div class="col-md-6">
+            <ul class="skill-ul">
+              <li><span class="skill-span">PHP</span></li>
+              <li><span class="skill-span">Laravel</span></li>
+              <li><span class="skill-span">Photoshop</span></li>
+             </ul>
+          </div>
+        </div> <!-- .row -->
+        <br>
+        I'd like to learn React next
+
+      </div> <!-- #intro-block -->
+
+  </div> <!-- .row.justify-content-md-center -->
+</div>     
+<!-- SKILL BLOCK ENDS HERE -->      
     <!-- PORTFOLIO BLOCK STARTS HERE -->
    <div class="container"> 
    
@@ -315,6 +348,8 @@
     
     <!-- EDUCATION STARTS HERE -->
     <div class="row justify-content-md-center">
+    
+    
      
       <div id="education-block" class="content-block col-12 col-lg-auto">
         <h2 class="text-center">IT-Related Education</h2>     
@@ -335,7 +370,7 @@
         <br>
         <h2 class="text-center">Currently Learning</h2>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item">Javascript Algorithms and Data Structures Masterclass - Udemy</li>
+          <li class="list-group-item"><a href="https://www.udemy.com/js-algorithms-and-data-structures-masterclass/" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="This course crams months of computer science and interview prep material into 20 hours of video. The content is based directly on coding bootcamps. Includes Big O notation, recursion, sorting algorithms, and data structures.">Javascript Algorithms and Data Structures Masterclass - Udemy</a></li>
           <li class="list-group-item">Responsive Web Design Projects Certificate - FreeCodeCamp</li>
           <li class="list-group-item">AWS Certified - Solutions Architect Associates (CSA) - Udemy</li>
           <li class="list-group-item">Advanced Web Developer Bootcamp (React) - Udemy</li>
