@@ -1,3 +1,37 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?k3qefu');
+  src:  url('../fonts/icomoon.eot?k3qefu#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?k3qefu') format('truetype'),
+    url('../fonts/icomoon.woff?k3qefu') format('woff'),
+    url('../fonts/icomoon.svg?k3qefu#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-jquery:before {
+  content: "\e900";
+}
+.icon-photoshop:before {
+  content: "\e901";
+}
+
+
 /* ------GENERAL ELEMENTS------ */
 
 body {
@@ -108,42 +142,82 @@ h2 {
   margin:auto;
 }
 
-
-
 #skill-block {
   margin-top: 120px;
   margin-bottom: 120px;
-  border: 2px solid #e67e22;
-  font-size: 28pt;
+/*  border: 1px solid transparent;*/
+/*  border: 1px solid #e67e22;*/
+  font-size: 20pt;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-weight: 300;
+  transition: color .5s;
 }
 
-.skill-ul {
-  color: #e67e22;
-}
-.skill-span {
-  color: #fff;
-}
-/*
-.skill-ul {
-    list-style: none;
-    padding:0;
-    margin:0;
+#skill-block::before,
+#skill-block::after {
+    border: 2px solid transparent;
+    width: 0;
+    height: 0;
+  }
+
+#skill-block::before {
+    top: 0;
+    left: 0;
+  }
+
+#skill-block::after {
+      bottom: 0;
+    right: 0;
 }
 
-.skill-li { 
-    padding-left: 1em; 
-    text-indent: -.7em;
-}
-
-.skill-li:before {
-    content: "• ";
+#skill-block:hover {
     color: #e67e22;
-  font-size:60px;
+  }
+
+#skill-block:hover::before,
+#skill-block:hover::after {
+    width: 100%;
+    height: 100%;
+  }
+
+
+#skill-block:hover::before {
+    border-top-color: #e67e22;
+    border-right-color: #e67e22;
+    transition:
+      width 0.25s ease-out, 
+      height 0.25s ease-out 0.25s; 
+  }
+
+#skill-block:hover::after {
+    border-bottom-color: #e67e22;
+    border-left-color: #e67e22;
+    transition:
+      border-color 0s ease-out 0.5s,
+      width 0.25s ease-out 0.5s, 
+      height 0.25s ease-out 0.75s;
+  }
 }
-*/
 
 
 
+#skill-block h1 {
+  margin-bottom: 20px;
+}
+
+#skill-block p {
+  font-family: "Raleway";
+  margin-bottom: 0;
+}
+
+#skill-block hr {
+  border-color: #e67e22;
+}
+
+.skill-ul {
+  margin-bottom: 0;
+}
 
 /* second block */
 

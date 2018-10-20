@@ -72,29 +72,32 @@
 <div class="container">
   <div class="row justify-content-md-center">
 
-      <div id="skill-block" class="content-block col-12 col-lg-auto">
+      <div id="skill-block" class="content-block">
+   
         <h1>I use...</h1>
-        <br>
+<!--        <br>-->
         <div class="row">
           <div class="col-md-6">
-           <ul class="skill-ul">
-             <li><span class="skill-span">HTML5</span></li>
-             <li><span class="skill-span">CSS3</span></li>
-             <li><span class="skill-span">Javascript</span></li>
-             <li><span class="skill-span">jQuery</span></li>
-           </ul>
-            
+            <p><i class="fab fa-html5"></i>&nbsp;HTML</p>
+            <p><i class="fab fa-css3"></i>&nbsp;CSS</p>          
+            <p><i class="fab fa-js"></i>&nbsp;Javascript</p>          
+            <p><span class="icon-jquery"></span>&nbsp;jQuery</p>       
           </div>
           <div class="col-md-6">
-            <ul class="skill-ul">
-              <li><span class="skill-span">PHP</span></li>
-              <li><span class="skill-span">Laravel</span></li>
-              <li><span class="skill-span">Photoshop</span></li>
-             </ul>
+            <p><i class="fab fa-php"></i>&nbsp;PHP</p>
+            <p><i class="fab fa-laravel"></i>&nbsp;Laravel</p>
+            <p><span class="icon-photoshop"></span>&nbsp;Photoshop</p>
           </div>
         </div> <!-- .row -->
         <br>
-        I'd like to learn React next
+        <hr>
+        <h1>Next thing I want to learn...</h1>
+<!--        <br>-->
+        <div class="row">
+          <div class="col-md-12">
+            <p><i class="fab fa-react"></i>React/Redux</p>
+          </div>
+        </div>
 
       </div> <!-- #intro-block -->
 
@@ -368,7 +371,7 @@
         </ul>
         <br>
         <br>
-        <h2 class="text-center">Currently Learning</h2>
+        <h2 class="text-center">Courses Currently Taking</h2>
         <ul class="list-group list-group-flush">
           <li class="list-group-item"><a href="https://www.udemy.com/js-algorithms-and-data-structures-masterclass/" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="This course crams months of computer science and interview prep material into 20 hours of video. The content is based directly on coding bootcamps. Includes Big O notation, recursion, sorting algorithms, and data structures.">Javascript Algorithms and Data Structures Masterclass - Udemy</a></li>
           <li class="list-group-item">Responsive Web Design Projects Certificate - FreeCodeCamp</li>
