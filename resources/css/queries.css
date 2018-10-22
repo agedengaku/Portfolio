@@ -15,4 +15,13 @@
   #intro-block {
     margin-top: 0;
   }
+  #contact-text {
+    margin-top: 20px;
+  }
+  ::-webkit-input-placeholder {
+    font-size: 1.2em;
+  }
+  input[type="text"], #contact-textarea {
+    font-size: 1.2em;
+  }
 }
