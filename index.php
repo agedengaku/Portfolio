@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="resources/css/queries.css">
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="100">
+<body>
 
    <nav class="navbar sticky-top navbar-toggleable-md navbar-inverse navbar-color">
     
@@ -30,7 +30,8 @@
     </button>
 
     <a class="navbar-brand" href="#">
-      <span class="myname animated zoomIn">JM Taylor</span> 
+<!--      <span class="myname animated zoomIn">JM Taylor</span> -->
+      <span class="myname">JM Taylor</span> 
     </a>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="nav navbar-nav mr-auto"></ul>
@@ -55,51 +56,39 @@
 
 <!-- INTRO BLOCK STARTS HERE -->
 <div class="container">
-  <div class="row justify-content-md-center">
-
-      <div id="intro-block" class="content-block col-12 col-lg-auto">
-       <div class="row spacer1"></div>
+  <div class="row ">
+      <div id="intro-block" class="content-block">
         <div class="row">
-          <div id="intro-block-body" class="col-md-8 text-right"><p>Web design & development is a passion of mine. There isn't a day I'm not either working on personal projects or continuing to learn web technologies.</p><p>In the future, I plan to move into mobile apps and software for smart devices.</p></div>
-          <div class="col-md-4"><img id="circle-pic" src="https://en.gravatar.com/userimage/27569311/49b5d4c8c1114783cc08646adb285384.jpg?size=400" alt="" class="img-fluid" /></div>
+          <div class="col-md-4 mb-3"><img id="circle-pic" src="https://en.gravatar.com/userimage/27569311/49b5d4c8c1114783cc08646adb285384.jpg?size=400" alt="" class="img-fluid" /></div> 
+          <div id="intro-block-body" class="col-md-8 text-left">
+          <h1>JM Taylor</h1>
+          <p>Web design & development is a passion of mine. There isn't a day I'm not either working on personal projects or continuing to learn web technologies.</p>  
+           <div id="skill-box">
+            <div class="row">
+              <div class="col-md-4">
+                <p><i class="fab fa-html5"></i>&nbsp;HTML</p>
+                <p><i class="fab fa-css3"></i>&nbsp;CSS</p>
+              </div>
+              <div class="col-md-4">
+                <p><i class="fab fa-js"></i>&nbsp;Javascript</p>
+                <p><span class="icon-jquery"></span>&nbsp;jQuery</p>
+              </div>   
+              <div class="col-md-4">
+                <p><i class="fab fa-php"></i>&nbsp;PHP</p>
+                <p><i class="fab fa-laravel"></i>&nbsp;Laravel</p>
+              </div>                               
+            </div>  
+          </div>
+          </div>
         </div> <!-- .row -->
-        <div class="row spacer1"></div>
       </div> <!-- #intro-block -->
-
   </div> <!-- .row.justify-content-md-center -->
 </div>    
 <!-- SKILL BLOCK STARTS HERE -->   
 <div class="container">
   <div class="row justify-content-md-center">
 
-      <div id="skill-block" class="content-block">
-   
-        <h1>I use...</h1>
-<!--        <br>-->
-        <div class="row">
-          <div class="col-md-6">
-            <p><i class="fab fa-html5"></i>&nbsp;HTML</p>
-            <p><i class="fab fa-css3"></i>&nbsp;CSS</p>          
-            <p><i class="fab fa-js"></i>&nbsp;Javascript</p>          
-            <p><span class="icon-jquery"></span>&nbsp;jQuery</p>       
-          </div>
-          <div class="col-md-6">
-            <p><i class="fab fa-php"></i>&nbsp;PHP</p>
-            <p><i class="fab fa-laravel"></i>&nbsp;Laravel</p>
-            <p><span class="icon-photoshop"></span>&nbsp;Photoshop</p>
-          </div>
-        </div> <!-- .row -->
-        <br>
-        <hr>
-        <h1>Next thing I want to learn...</h1>
-<!--        <br>-->
-        <div class="row">
-          <div class="col-md-12">
-            <p><i class="fab fa-react"></i>React/Redux</p>
-          </div>
-        </div>
 
-      </div> <!-- #intro-block -->
 
   </div> <!-- .row.justify-content-md-center -->
 </div>     

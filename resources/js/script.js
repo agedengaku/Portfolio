@@ -4,6 +4,9 @@
 $(document).ready(function () {
 
   'use strict';
+  
+  // variable prevents scroll event from removing and adding active class repeatedly when animate scrollTop is triggered
+  var clicked = false;
 
   function inViewport(element){
     var bb = element.getBoundingClientRect();
@@ -13,159 +16,69 @@ $(document).ready(function () {
   var intro = document.querySelector('#intro-block');
   var portfolio = document.querySelector('#portfolio-block');
   var education = document.querySelector('#education-block');
+  var contact = document.querySelector('#contact-block');
   
-  $(window).scroll(function(){
+  $(window).on('scroll', function(){
+    pageState();
+  });  
+  
+  function pageState() {
+    
     if(inViewport(intro)){
+      if (!clicked) {
+        $('.nav-link').removeClass('active');
+        $('.intro-link').addClass('active');
+      }  
       $('#intro-block').css('opacity','1');
       $('#portfolio-block').css('opacity', '0');
       $('#education-block').css('opacity', '0');      
-      $('body').removeClass('changeColor8');    
+      $('#contact-block').css('opacity', '0');      
+      $('body').removeClass('changeColor8');
+      $('.myname').css('opacity', '0');      
     }     
     if(inViewport(portfolio)){
+      if (!clicked) {
+        $('.nav-link').removeClass('active');      
+        $('.portfolio-link').addClass('active');  
+      }
       $('#intro-block').css('opacity','0');      
       $('#portfolio-block').css('opacity', '1');
-      $('#education-block').css('opacity', '0');       
-      $('body').addClass('changeColor8');    
+      $('#education-block').css('opacity', '0');  
+      $('#contact-block').css('opacity', '0');          
+      $('body').addClass('changeColor8');  
+      $('.myname').css('opacity', '1');
+      $('.myname').addClass('animated zoomIn');
     } 
     if(inViewport(education)){
+      if (!clicked) {
+        $('.nav-link').removeClass('active');      
+        $('.education-link').addClass('active');  
+      }
       $('#intro-block').css('opacity','0');       
       $('#portfolio-block').css('opacity','0');
-      $('#education-block').css('opacity', '1');      
-      $('body').removeClass('changeColor8');    
+      $('#education-block').css('opacity', '1'); 
+      $('#contact-block').css('opacity', '0');          
+      $('body').removeClass('changeColor8'); 
+      $('.myname').css('opacity', '1');
+      $('.myname').addClass('animated zoomIn');      
     } 
-
-       
-  });
-//  document.addEventListener('scroll', event => {
-//
-//  });
-  
-//function isScrolledIntoView(elem){
-//  var $elem = $(elem);
-//  var $window = $(window);
-//
-//  var docViewTop = $window.scrollTop();
-//  var docViewBottom = docViewTop + $window.height();
-//
-//  var elemTop = $elem.offset().top;
-//  var elemBottom = elemTop + $elem.height();
-//
-//  return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
-//}
-//
-//$(window).scroll(function(){
-//    if(isScrolledIntoView($('#portfolio-block'))){
-//      $('#portfolio-block').css('opacity', '1');
-//      $('body').addClass('changeColor8');
-//    } else {
-
-//    }
-//});
-  
-  
-  
-  function bodyColor() {
-
-//    if ($(window).scrollTop() > 500) {
-//      $('#portfolio-block').css('opacity', '1');
-//      $('body').addClass('changeColor8');
-//    }
-//    if ($(window).scrollTop() < 500) {
-//      $('#portfolio-block').css('opacity', '0');
-//      $('body').removeClass('changeColor8');
-//    }
-//    
-    
-    
-    
-    
-    
-    
-//    if ($(window).scrollTop() < 300) {
-//      $('body').removeClass('changeColor1');
-//    }
-//    if ($(window).scrollTop() > 300) {
-//      $('body').addClass('changeColor1');
-//    }
-//    if ($(window).scrollTop() > 350) {
-//      $('body').addClass('changeColor2');
-//      $('body').removeClass('changeColor1');
-//    }
-//    if ($(window).scrollTop() > 400) {
-//      $('body').addClass('changeColor3');
-//      $('body').removeClass('changeColor2');
-//    }
-//    if ($(window).scrollTop() > 450) {
-//      $('body').addClass('changeColor4');
-//      $('body').removeClass('changeColor3');
-//    }
-//    if ($(window).scrollTop() > 500) {
-//      $('body').addClass('changeColor5');
-//      $('body').removeClass('changeColor4');
-//    }
-//    if ($(window).scrollTop() > 550) {
-//      $('body').addClass('changeColor6');
-//      $('body').removeClass('changeColor5');
-//    }
-//    if ($(window).scrollTop() > 600) {
-//      $('body').addClass('changeColor7');
-//      $('body').removeClass('changeColor6');
-//    }
-//    if ($(window).scrollTop() > 650) {
-//      $('body').addClass('changeColor8');
-//      $('body').removeClass('changeColor7');
-//    }
-//    if ($(window).scrollTop() < 650) {
-//      $('body').removeClass('changeColor8');
-//    }
-//    if ($(window).scrollTop() < 600) {
-//      $('body').removeClass('changeColor7');
-//    }
-//    if ($(window).scrollTop() < 550) {
-//      $('body').removeClass('changeColor6');
-//    }
-//    if ($(window).scrollTop() < 500) {
-//      $('body').removeClass('changeColor5');
-//    }
-//    if ($(window).scrollTop() < 450) {
-//      $('body').removeClass('changeColor4');
-//    }
-//    if ($(window).scrollTop() < 400) {
-//      $('body').removeClass('changeColor3');
-//    }
-//    if ($(window).scrollTop() < 350) {
-//      $('body').removeClass('changeColor2');
-//    }
-    
-    
-    
-    
-    
-//    if ($(window).scrollTop() > 3500) {
-//      $('body').removeClass('changeColor8');
-//    }
-//    if ($(window).scrollTop() < 3500 && $(window).scrollTop() > 650) {
-//      $('body').addClass('changeColor8');
-//    }
-//    if ($(window).scrollTop() > 3700) {
-//      $('#education-block').css('opacity', '0');
-//      $('#contact-block').css('opacity', '1');
-//    }
-//    if ($(window).scrollTop() < 3700) {
-//      $('#education-block').css('opacity', '1');
-//    }
-    
-    
-    
-    
+    if(inViewport(contact)){
+      if (!clicked) {
+        $('.nav-link').removeClass('active');      
+        $('.contact-link').addClass('active');  
+      }
+      $('#intro-block').css('opacity','0');       
+      $('#portfolio-block').css('opacity','0');
+      $('#education-block').css('opacity', '0'); 
+      $('#contact-block').css('opacity', '1');          
+      $('body').removeClass('changeColor8'); 
+      $('.myname').css('opacity', '1');
+      $('.myname').addClass('animated zoomIn');      
+    }     
     
   }
 
-  bodyColor();
-
-//  $(window).scroll(function () {
-//    bodyColor();
-//  });
+  pageState();
 
   $('.card-body-content').hide();
   $('.btn-show-hide').click(function () {
@@ -175,19 +88,39 @@ $(document).ready(function () {
 
   //navbar link navigation
   $('.intro-link').click(function () {
-    $('html, body').animate({scrollTop: $('#intro-block').offset().top - 120}, 1000);
+    clicked = true;
+    $('.nav-link').removeClass('active');
+    $('.intro-link').addClass('active');
+    $('html, body').animate({scrollTop: $('#intro-block').offset().top - 240}, 1000, function(){
+      clicked = false;
+    });
   });
 
-  $('.portfolio-link').click(function () {
-    $('html, body').animate({scrollTop: $('#portfolio-block').offset().top - 120}, 1000);
+  $('.portfolio-link').click(function () { 
+    clicked = true;
+    $('.nav-link').removeClass('active');
+    $('.intro-link').addClass('active');    
+    $('html, body').animate({scrollTop: $('#portfolio-block').offset().top - 120}, 1000, function(){
+      clicked = false;
+    });
   });
 	
   $('.education-link').click(function () {
-    $('html, body').animate({scrollTop: $('#education-block').offset().top - 120}, 1000);
+    clicked = true;
+    $('.nav-link').removeClass('active');
+    $('.intro-link').addClass('active');       
+    $('html, body').animate({scrollTop: $('#education-block').offset().top - 120}, 1000, function(){
+      clicked = false;
+    });
   });	
 
   $('.contact-link').click(function () {
-    $('html, body').animate({scrollTop: $('#contact-block').offset().top - 120}, 1000);
+    clicked = true;
+    $('.nav-link').removeClass('active');
+    $('.contact-link').addClass('active');     
+    $('html, body').animate({scrollTop: $('#contact-block').offset().top - 120}, 1000, function(){
+      clicked = false;
+    });
   });
 
   //label animation

@@ -1,8 +1,18 @@
 @media (max-width: 991px)
 {
-    .card-columns {
-        -webkit-column-count: 2;
-        -moz-column-count: 2;
-        column-count: 2;
-    }
+  #skill-box {
+    font-size: .9em;
+  }
+  .card-columns {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+}
+
+@media (max-width: 767px)
+{
+  #intro-block {
+    margin-top: 0;
+  }
 }

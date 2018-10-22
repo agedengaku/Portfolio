@@ -31,7 +31,6 @@
   content: "\e901";
 }
 
-
 /* ------GENERAL ELEMENTS------ */
 
 body {
@@ -45,27 +44,6 @@ body {
   transition: 0.1s all;
 }
 
-.changeColor1 {
-   background-color: #6181bb;
-}
-.changeColor2 {
-   background-color: #7490c3;
-}
-.changeColor3 {
-   background-color: #8aa2ce;
-}
-.changeColor4 {
-   background-color: #a2b6d9;
-}
-.changeColor5 {
-   background-color: #bccbe4;
-}
-.changeColor6 {
-   background-color: #d7e0ef;
-}
-.changeColor7 {
-   background-color: #f4f6fa;
-}
 .changeColor8 {
    background-color: #fff;
 }
@@ -74,6 +52,10 @@ a, a:link, a:visited, a:hover, a:active  {
 	color: #808080;	
   text-decoration: none;
 } 
+
+h1 {
+  font-family: "Raleway"
+}
 
 h2 {
   margin-bottom: 40px;
@@ -93,7 +75,9 @@ h2 {
 
 .myname { 
 	display: inline-block;
-	animation-delay: 1s;
+/*	animation-delay: 1s;*/
+  transition: all .25s;
+  opacity: 0;
 }
 
 .nav-link.active, .nav-item.active { background-color: #e67e22; }
@@ -120,7 +104,7 @@ h2 {
 #intro-block {
 	width: 100vw;
 	height: 100vh;
-  margin-top: -10px;
+  margin-top: 15%;
   opacity: 1;
   transition: 1s;
 }
@@ -131,8 +115,19 @@ h2 {
 
 #intro-block-body {
   margin-bottom: 20px;
-  font-size: 28pt;
+  font-size: 1.25em;
 	font-weight: 300;
+}
+
+#skill-box {
+/*  width: auto;*/
+  padding: 10px;
+  border: 2px solid #e67e22;  
+  text-align: center;
+}
+
+#skill-box p {
+  margin: 0;
 }
 
 #circle-pic {
@@ -146,14 +141,15 @@ h2 {
   margin-top: 120px;
   margin-bottom: 120px;
 /*  border: 1px solid transparent;*/
-/*  border: 1px solid #e67e22;*/
+  border: 1px solid #e67e22;
   font-size: 20pt;
   padding-left: 10%;
   padding-right: 10%;
   font-weight: 300;
-  transition: color .5s;
+/*  transition: color .5s;*/
 }
 
+/*
 #skill-block::before,
 #skill-block::after {
     border: 2px solid transparent;
@@ -199,6 +195,7 @@ h2 {
       height 0.25s ease-out 0.75s;
   }
 }
+*/
 
 
 
