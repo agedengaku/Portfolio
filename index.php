@@ -65,18 +65,35 @@
           <p>Web design & development is a passion of mine. There isn't a day I'm not either working on personal projects or continuing to learn web technologies.</p>  
            <div id="skill-box">
             <div class="row">
-              <div class="col-md-4">
+              <div class="col-md-4 col-sm-6 col-6">
                 <p><i class="fab fa-html5"></i>&nbsp;HTML</p>
+              </div>              
+               <div class="col-md-4 col-sm-6 col-6">
                 <p><i class="fab fa-css3"></i>&nbsp;CSS</p>
               </div>
-              <div class="col-md-4">
+               <div class="col-md-4 col-sm-6 col-6">
                 <p><i class="fab fa-js"></i>&nbsp;Javascript</p>
+              </div>
+               <div class="col-md-4 col-sm-6 col-6">
                 <p><span class="icon-jquery"></span>&nbsp;jQuery</p>
+              </div>
+               <div class="col-md-4 col-sm-6 col-6">
+                <p><i class="fab fa-php"></i>&nbsp;PHP</p>
+              </div>
+               <div class="col-md-4 col-sm-6 col-6">
+                <p><i class="fab fa-laravel"></i>&nbsp;Laravel</p>
+              </div>                                                        
+
+<!--
+              <div class="col-md-4">
+
+
               </div>   
               <div class="col-md-4">
-                <p><i class="fab fa-php"></i>&nbsp;PHP</p>
-                <p><i class="fab fa-laravel"></i>&nbsp;Laravel</p>
+
+
               </div>                               
+-->
             </div>  
           </div>
           </div>
