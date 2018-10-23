@@ -28,6 +28,12 @@
 
 @media (max-width: 575px)
 {
+  #intro-block h1 {
+    margin-bottom: 20px;
+  } 
+  #skill-box {
+    margin-top: 20px;
+  }
   #education-block h2 {
     font-size: 30px;
   }

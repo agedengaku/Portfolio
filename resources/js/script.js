@@ -30,6 +30,7 @@ $(document).ready(function () {
         $('.intro-link').addClass('active');
       }  
       $('#intro-block').css('opacity','1');
+      $('#skill-box').css('opacity','1');        
       $('#portfolio-block').css('opacity', '0');
       $('#education-block').css('opacity', '0');      
       $('#contact-block').css('opacity', '0');      
@@ -42,6 +43,7 @@ $(document).ready(function () {
         $('.portfolio-link').addClass('active');  
       }
       $('#intro-block').css('opacity','0');      
+      $('#skill-box').css('opacity','0');      
       $('#portfolio-block').css('opacity', '1');
       $('#education-block').css('opacity', '0');  
       $('#contact-block').css('opacity', '0');          
@@ -54,7 +56,8 @@ $(document).ready(function () {
         $('.nav-link').removeClass('active');      
         $('.education-link').addClass('active');  
       }
-      $('#intro-block').css('opacity','0');       
+      $('#intro-block').css('opacity','0');    
+      $('#skill-box').css('opacity','0');         
       $('#portfolio-block').css('opacity','0');
       $('#education-block').css('opacity', '1'); 
       $('#contact-block').css('opacity', '0');          
@@ -67,7 +70,8 @@ $(document).ready(function () {
         $('.nav-link').removeClass('active');      
         $('.contact-link').addClass('active');  
       }
-      $('#intro-block').css('opacity','0');       
+      $('#intro-block').css('opacity','0'); 
+      $('#skill-box').css('opacity','0');         
       $('#portfolio-block').css('opacity','0');
       $('#education-block').css('opacity', '0'); 
       $('#contact-block').css('opacity', '1');          
