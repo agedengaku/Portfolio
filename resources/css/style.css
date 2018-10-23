@@ -54,10 +54,11 @@ a, a:link, a:visited, a:hover, a:active  {
 } 
 
 h1 {
-  font-family: "Raleway"
+  font-family: "Raleway";
 }
 
 h2 {
+  font-family: "Raleway";
   margin-bottom: 40px;
   font-weight: 200;
 }
@@ -149,56 +150,6 @@ h2 {
 /*  transition: color .5s;*/
 }
 
-/*
-#skill-block::before,
-#skill-block::after {
-    border: 2px solid transparent;
-    width: 0;
-    height: 0;
-  }
-
-#skill-block::before {
-    top: 0;
-    left: 0;
-  }
-
-#skill-block::after {
-      bottom: 0;
-    right: 0;
-}
-
-#skill-block:hover {
-    color: #e67e22;
-  }
-
-#skill-block:hover::before,
-#skill-block:hover::after {
-    width: 100%;
-    height: 100%;
-  }
-
-
-#skill-block:hover::before {
-    border-top-color: #e67e22;
-    border-right-color: #e67e22;
-    transition:
-      width 0.25s ease-out, 
-      height 0.25s ease-out 0.25s; 
-  }
-
-#skill-block:hover::after {
-    border-bottom-color: #e67e22;
-    border-left-color: #e67e22;
-    transition:
-      border-color 0s ease-out 0.5s,
-      width 0.25s ease-out 0.5s, 
-      height 0.25s ease-out 0.75s;
-  }
-}
-*/
-
-
-
 #skill-block h1 {
   margin-bottom: 20px;
 }
@@ -226,7 +177,6 @@ h2 {
 
 #portfolio-block > h2 { 
   font-size: 48pt;
-	font-family: "Raleway";
 }
 
 .card {
@@ -368,34 +318,6 @@ h5.card-title.p-3 {
     right: 0;
   display: none;
 }
-
-/*
-.popover {
-    border-color: #7f8c8d;  
-}
-
-.popover-title { 
-    background-color: #7f8c8d;
-    color: #fff;
-    position: relative;
-    padding-right: 40px;
-}
-
-.popover-content { 
-    color: #464a4c; 
-    background-color: #fff;
-}
-
-.close-popover {
-    color: #ccc;
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: 9px;    
-}
-*/
-
 
 /*EDUCATION*/
 

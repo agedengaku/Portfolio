@@ -25,3 +25,13 @@
     font-size: 1.2em;
   }
 }
+
+@media (max-width: 575px)
+{
+  #education-block h2 {
+    font-size: 30px;
+  }
+  .list-group-item a {
+    font-size: .9em;
+  }  
+}

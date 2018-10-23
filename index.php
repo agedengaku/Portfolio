@@ -31,7 +31,6 @@
     </button>
 
     <a class="navbar-brand" href="#">
-    <!--      <span class="myname animated zoomIn">JM Taylor</span> -->
       <span class="myname">JM Taylor</span> 
     </a>
     <div class="collapse navbar-collapse" id="navbarNav">
@@ -60,7 +59,9 @@
       <div class="row ">
           <div id="intro-block" class="content-block">
             <div class="row">
-              <div class="col-md-4 mb-3"><img id="circle-pic" src="https://en.gravatar.com/userimage/27569311/49b5d4c8c1114783cc08646adb285384.jpg?size=400" alt="" class="img-fluid" /></div> 
+              <div class="col-md-4 mb-3">
+                <img id="circle-pic" src="https://en.gravatar.com/userimage/27569311/49b5d4c8c1114783cc08646adb285384.jpg?size=400" alt="" class="img-fluid" />
+              </div> 
               <div id="intro-block-body" class="col-md-8 text-left">
               <h1>JM Taylor</h1>
               <p>Web design & development is a passion of mine. There isn't a day I'm not either working on personal projects or continuing to learn web technologies.</p>  
@@ -354,7 +355,7 @@
           </ul>
           <br>
           <br>
-          <h2 class="text-center">Courses Currently Taking</h2>
+          <h2 class="text-center">Currently Learning</h2>
           <ul class="list-group list-group-flush">
             <li class="list-group-item"><a href="https://www.udemy.com/js-algorithms-and-data-structures-masterclass/" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="This course crams months of computer science and interview prep material into 20 hours of video. The content is based directly on coding bootcamps. Includes Big O notation, recursion, sorting algorithms, and data structures.">Javascript Algorithms and Data Structures Masterclass - Udemy</a></li>
             <li class="list-group-item">Responsive Web Design Projects Certificate - FreeCodeCamp</li>
