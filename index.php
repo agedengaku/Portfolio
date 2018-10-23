@@ -415,6 +415,17 @@
             <div class="col-md-6" id="contact-text">
               <p>I'm available for work! You can get in touch with me using the form, or email me at <a href="mailto:jm@jmotaylor.com">jm@jmotaylor.com</a>.</p>
               <p>You can also send me a message through my LinkedIn account here.</p>
+              <div id="links-section" class="row">
+                <div class="col-4">
+                  <p><a href="https://www.linkedin.com/in/jose-miguel-taylor-19349217/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></p>
+                </div>              
+                <div class="col-4">
+                  <p><a href="https://github.com/agedengaku" target="_blank"><i class="fab fa-github fa-2x"></i></a></p>
+                </div>
+                <div class="col-4">
+                  <p><a href="https://codepen.io/agedengaku/" target="_blank"><i class="fab fa-codepen fa-2x"></i></a></p>
+                </div>
+              </div>
             </div>
 
           </div> <!-- .row -->

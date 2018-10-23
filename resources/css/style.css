@@ -426,6 +426,18 @@ label { display: none; }
   padding-bottom: 40px;
 }
 
+#links-section { 
+  margin-top: 40px;
+  text-align: center;
+}
+
+#links-section a {
+  color: #fff;
+	transition: 1s;  
+}
+
+#links-section a:hover { color: #e67e22; }
+
 /* ------FOOTERS------ */
 
 /*
