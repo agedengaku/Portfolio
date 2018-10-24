@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="resources/css/queries.css">
     <script src='https://www.google.com/recaptcha/api.js'></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.28.8/dist/sweetalert2.all.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>    
+<!--    <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>    -->
   </head>
 
   <body>
