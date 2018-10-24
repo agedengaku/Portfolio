@@ -25,8 +25,6 @@
 
 
 
-
-
           $name = strip_tags(trim($_POST["name"]));
           $name = str_replace(array("\r","\n"),array(" "," "),$name);
           if(isset($_POST['phone'])) {
@@ -35,18 +33,14 @@
           $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
           $message = trim($_POST["message"]);
 
-          
+          if (empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+              header("Location: https://jmotaylor.com/index.php?error=2#contact-block");
+              exit;
+          }
+
           header("Location: http://localhost/jmotaylor/Portfolio/index.php?name=".$name."#contact-block");  
 
 
-
-
-
-
-//          if (empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
-//              header("Location: https://jmotaylor.com/index.php?success=-1#contact-block");
-//              exit;
-//          }
 //          $recipient = "jm@jmotaylor.com";
 //          $subject = "JMT-Portfolio - New contact from $name";
 //          $email_content = "Name: $name\n";

@@ -559,3 +559,7 @@ button.navbar-toggler:focus { outline:0; }
   top: 19px;
 }
 /*END SOURCE*/
+
+.swal2-container {
+  z-index: 9500 !important;
+}

@@ -374,28 +374,47 @@
         
         <?php
         
-          if(isset($_GET['name'])){
-          
-            echo "<script>  
-              swal({
-                title: 'Error!',
-                text: '".$_GET['name']."',
-                type: 'error',
-                confirmButtonText: 'Cool'
-              });  
-            </script>";  
+          if (isset($_GET['status'])) {
+            
+            $status = $_GET['status'];
 
-          } else {
+            
+            if ($status === "0") {
+              
+              $title = 'Email sent!';
+              $text = "I\'ll get back to you in 47.6 hours.";
+              $type = 'success';
+              $button = 'Cool!';
+              
+            }
+          
+            if ($status === "1") {
+              
+              $title = 'Whoops!';
+              $text = '\"Name\", \"Email\", and \"Message\" fields are all required.';
+              $type = 'error';
+              $button = 'Alrighty then!';                        
+              
+            } 
+            
+            if ($status === "2") {
+              
+              $title = 'Are you human?';
+              $text = 'Make sure to tick the \"I\"m not a robot\" checkbox.';
+              $type = 'error';
+              $button = 'Alrighty then!';                 
+              
+            }
             
             echo "<script>  
               swal({
-                title: 'Not set!',
-                text: 'Name not set',
-                type: 'error',
-                confirmButtonText: 'Cool'
+                title: '$title',
+                text: '$text',
+                type: '$type',
+                confirmButtonText: '$button'
               });  
-            </script>";  
-            
+            </script>";              
+  
           }
         
         ?>
