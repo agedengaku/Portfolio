@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<?php
+  session_start();
+  $token = $_SESSION['token'] = md5(uniqid(mt_rand(), true));
+?>
 <html lang="en">
 
   <head>
@@ -32,7 +36,7 @@
        </div>
     </button>
 
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="/">
       <span class="myname">JM Taylor</span> 
     </a>
     <div class="collapse navbar-collapse" id="navbarNav">
@@ -374,11 +378,14 @@
         
         <?php
         
-          if (isset($_GET['status'])) {
+          // Session variable mailer prevents swal when adding status variables to url without redirect from mailer 
+        
+          if (isset($_GET['status']) && isset($_SESSION['mailer'])) {
+            
+            unset($_SESSION['mailer']);
             
             $status = $_GET['status'];
 
-            
             if ($status === "0") {
               
               $title = 'Email sent!';
@@ -403,6 +410,15 @@
               $text = 'Make sure to tick the \"I\"m not a robot\" checkbox.';
               $type = 'error';
               $button = 'Alrighty then!';                 
+              
+            }
+            
+            if ($status === "3") {
+              
+              $title = 'Error';
+              $text = 'You are a bad boy. Or girl.';
+              $type = 'error';
+              $button = '...';                 
               
             }
             
@@ -447,6 +463,8 @@
                   </div>
                   <input type="tel" class="form-control  js-phone-input" id="phone" name="phone" placeholder="Phone">
                 </div>
+                
+                <input type="hidden" name="token" value="<?php echo $token ?>">
 
                 <div class="form-group">
                   <div class="label-div">
