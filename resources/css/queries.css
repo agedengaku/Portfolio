@@ -21,7 +21,10 @@
   ::-webkit-input-placeholder {
     font-size: 1.2em;
   }
-  input[type="text"], #contact-textarea {
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  #contact-textarea {
     font-size: 1.2em;
   }
 }

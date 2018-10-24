@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">  
   <!--  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-9ralMzdK1QYsk4yBY680hmsb4/hJ98xK3w0TIaJ3ll4POWpWUYaA2bRjGGujGT8w" crossorigin="anonymous">-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,700|Raleway:200,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400|Raleway:200,400" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="resources/css/queries.css">
@@ -117,7 +117,7 @@
                           <small class="text-muted">Photoshop - Premiere - Audacity</small>
                         </p>
                         <p class="card-text">                     	
-                          <small class="text-muted"><span class="note">*</span>Works best on Chrome and Firefox</small>
+                          <small class="text-muted"><span class="note">*</span>Works best on Chrome desktop</small>
                         </p>
                       </div> <!-- .card-body-content -->
                       <button class="btn btn-show-hide"></button>
@@ -142,7 +142,7 @@
                           <small class="text-muted">Photoshop - Audacity</small>
                         </p>                      
                         <p class="card-text">
-                          <small class="text-muted"><span class="note">*</span>Works best on Chrome and Firefox</small>
+                          <small class="text-muted"><span class="note">*</span>Works best on Chrome desktop</small>
                         </p>
                       </div> <!-- .card-body-content -->
                       <button class="btn btn-show-hide"></button>									
@@ -382,28 +382,28 @@
                   <div class="label-div">
                     <label class="js-name-label" for="name">Name</label>
                   </div>  
-                  <input type="text" class="form-control js-name-input" id="name" placeholder="Name">
+                  <input type="text" class="form-control js-name-input" id="name" placeholder="Name" required>
                 </div>
 
                 <div class="form-group">
                   <div class="label-div">
                     <label class="js-email-label" for="email">Email</label>
                   </div>
-                  <input type="text" class="form-control js-email-input" id="email" placeholder="Email">
+                  <input type="email" class="form-control js-email-input" id="email" placeholder="Email" required>
                 </div>
 
                 <div class="form-group">
                   <div class="label-div">
                     <label class="js-phone-label" for="phone">Phone</label>
                   </div>
-                  <input type="text" class="form-control  js-phone-input" id="phone" placeholder="Phone">
+                  <input type="tel" class="form-control  js-phone-input" id="phone" placeholder="Phone">
                 </div>
 
                 <div class="form-group">
                   <div class="label-div">
                     <label class="js-message-label" for="message">Message</label>
                   </div>
-                  <textarea id="contact-textarea" class="form-control js-message-input" id="message" rows="5" placeholder="Message"></textarea>
+                  <textarea id="contact-textarea" class="form-control js-message-input" id="message" rows="5" placeholder="Message" required></textarea>
                 </div>
 
                 <button type="submit" class="btn submit-button">Submit</button>
@@ -414,7 +414,7 @@
             </div> <!-- .col-md-6 -->
             <div class="col-md-6" id="contact-text">
               <p>I'm available for work! You can get in touch with me using the form, or email me at <a href="mailto:jm@jmotaylor.com">jm@jmotaylor.com</a>.</p>
-              <p>You can also send me a message through my LinkedIn account here.</p>
+              <p>You can also send me a message through my <a href="https://www.linkedin.com/in/jose-miguel-taylor-19349217/">LinkedIn account here</a>.</p>
               <div id="links-section" class="row">
                 <div class="col-4">
                   <p><a href="https://www.linkedin.com/in/jose-miguel-taylor-19349217/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></p>
