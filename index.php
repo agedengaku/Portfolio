@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="resources/css/queries.css">
     <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.28.8/dist/sweetalert2.all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>    
   </head>
 
   <body>
@@ -369,6 +371,34 @@
     
       <!-- CONTACT FORM STARTS HERE -->
       <div class="row justify-content-md-center"> <!-- .row.justify-content-md-center 3 -->
+        
+        <?php
+        
+          if(isset($_GET['name'])){
+          
+            echo "<script>  
+              swal({
+                title: 'Error!',
+                text: '".$_GET['name']."',
+                type: 'error',
+                confirmButtonText: 'Cool'
+              });  
+            </script>";  
+
+          } else {
+            
+            echo "<script>  
+              swal({
+                title: 'Not set!',
+                text: 'Name not set',
+                type: 'error',
+                confirmButtonText: 'Cool'
+              });  
+            </script>";  
+            
+          }
+        
+        ?>
 
         <div id="contact-block" class="content-block col-12 col-lg-auto">
           <h2 class="text-center">Contact Me!</h2>
@@ -376,38 +406,38 @@
           <div class="row">
             <div class="col-md-6">
 
-              <form method="get" action="/thisdoesntworkyet.html">
+              <form method="POST" action="mailer.php">
 
                 <div class="form-group">
                   <div class="label-div">
                     <label class="js-name-label" for="name">Name</label>
                   </div>  
-                  <input type="text" class="form-control js-name-input" id="name" placeholder="Name" required>
+                  <input type="text" class="form-control js-name-input" id="name" name="name" placeholder="Name" required>
                 </div>
 
                 <div class="form-group">
                   <div class="label-div">
                     <label class="js-email-label" for="email">Email</label>
                   </div>
-                  <input type="email" class="form-control js-email-input" id="email" placeholder="Email" required>
+                  <input type="email" class="form-control js-email-input" id="email" name="email" placeholder="Email" required>
                 </div>
 
                 <div class="form-group">
                   <div class="label-div">
                     <label class="js-phone-label" for="phone">Phone</label>
                   </div>
-                  <input type="tel" class="form-control  js-phone-input" id="phone" placeholder="Phone">
+                  <input type="tel" class="form-control  js-phone-input" id="phone" name="phone" placeholder="Phone">
                 </div>
 
                 <div class="form-group">
                   <div class="label-div">
                     <label class="js-message-label" for="message">Message</label>
                   </div>
-                  <textarea id="contact-textarea" class="form-control js-message-input" id="message" rows="5" placeholder="Message" required></textarea>
+                  <textarea id="contact-textarea" class="form-control js-message-input" id="message" name="message" rows="5" placeholder="Message" required></textarea>
                 </div>
 
                 <button type="submit" class="btn submit-button">Submit</button>
-                <div class="g-recaptcha" data-sitekey="6LdBMSITAAAAAK4q1wXuP6kSr-OFI-1Pxnp0FOWM"></div>
+<!--                <div class="g-recaptcha" data-sitekey="6LdBMSITAAAAAK4q1wXuP6kSr-OFI-1Pxnp0FOWM"></div>-->
 
               </form>
 
