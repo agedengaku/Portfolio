@@ -14,16 +14,16 @@
     
     <title>JM Taylor</title>
     
-<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-<link rel="manifest" href="site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#2b5797">
-<meta name="theme-color" content="#ffffff">  
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">  
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">  
   <!--  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-9ralMzdK1QYsk4yBY680hmsb4/hJ98xK3w0TIaJ3ll4POWpWUYaA2bRjGGujGT8w" crossorigin="anonymous">-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400|Raleway:200,400" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -40,12 +40,12 @@
 
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <div id="nav-icon0">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
        </div>
     </button>
 
@@ -70,530 +70,458 @@
       </ul>
     </div> <!-- #navbarNav -->
 
-    </nav> <!-- END OF NAVBAR -->
+  </nav> <!-- END OF NAVBAR -->
 
-    <div class="container">
-     
-      <!-- INTRO BLOCK STARTS HERE -->
-      <div class="row ">
-          <div id="intro-block" class="content-block">
+  <div class="container">
+
+    <!-- INTRO BLOCK STARTS HERE -->
+    <div class="row">
+      <section id="intro-block" class="content-block">
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <img id="circle-pic" src="https://en.gravatar.com/userimage/27569311/49b5d4c8c1114783cc08646adb285384.jpg?size=400" alt="" class="img-fluid" />
+          </div> 
+          <div id="intro-block-body" class="col-md-8 text-left">
+          <h1>JM Taylor</h1>
+          <p>Web design &amp; development is a passion of mine. There isn't a day I'm not either working on personal projects or continuing to learn web technologies.</p>  
+           <div id="skill-box">
             <div class="row">
-              <div class="col-md-4 mb-3">
-                <img id="circle-pic" src="https://en.gravatar.com/userimage/27569311/49b5d4c8c1114783cc08646adb285384.jpg?size=400" alt="" class="img-fluid" />
-              </div> 
-              <div id="intro-block-body" class="col-md-8 text-left">
-              <h1>JM Taylor</h1>
-              <p>Web design & development is a passion of mine. There isn't a day I'm not either working on personal projects or continuing to learn web technologies.</p>  
-               <div id="skill-box">
-                <div class="row">
-                  <div class="col-md-4 col-sm-6 col-6">
-                    <p><i class="fab fa-html5"></i>&nbsp;HTML</p>
-                  </div>              
-                   <div class="col-md-4 col-sm-6 col-6">
-                    <p><i class="fab fa-css3"></i>&nbsp;CSS</p>
-                  </div>
-                   <div class="col-md-4 col-sm-6 col-6">
-                    <p><i class="fab fa-js"></i>&nbsp;Javascript</p>
-                  </div>
-                   <div class="col-md-4 col-sm-6 col-6">
-                    <p><span class="icon-jquery"></span>&nbsp;jQuery</p>
-                  </div>
-                   <div class="col-md-4 col-sm-6 col-6">
-                    <p><i class="fab fa-php"></i>&nbsp;PHP</p>
-                  </div>
-                   <div class="col-md-4 col-sm-6 col-6">
-                    <p><i class="fab fa-laravel"></i>&nbsp;Laravel</p>
-                  </div>                                                        
-                </div>  
+              <div class="col-md-4 col-sm-6 col-6">
+                <p><i class="fab fa-html5"></i>&nbsp;HTML</p>
+              </div>              
+               <div class="col-md-4 col-sm-6 col-6">
+                <p><i class="fab fa-css3"></i>&nbsp;CSS</p>
               </div>
+               <div class="col-md-4 col-sm-6 col-6">
+                <p><i class="fab fa-js"></i>&nbsp;Javascript</p>
               </div>
+               <div class="col-md-4 col-sm-6 col-6">
+                <p><span class="icon-jquery"></span>&nbsp;jQuery</p>
+              </div>
+               <div class="col-md-4 col-sm-6 col-6">
+                <p><i class="fab fa-php"></i>&nbsp;PHP</p>
+              </div>
+               <div class="col-md-4 col-sm-6 col-6">
+                <p><i class="fab fa-laravel"></i>&nbsp;Laravel</p>
+              </div>                                                        
+            </div>  
+          </div>
+          </div>
+        </div> <!-- .row -->
+      </section> <!-- #intro-block -->
+    </div> <!-- .row.justify-content-md-center -->
+
+    <!-- PORTFOLIO BLOCK STARTS HERE -->
+    <div class="row justify-content-md-center"> <!-- .row.justify-content-md-center -->
+      <section id="portfolio-block" class="content-block col-12 col-lg-auto">
+
+        <h2 class="text-center">Portfolio</h2>
+
+            <div class="row">
+
+              <div class="col-md-6 mb-3"> 	
+                <div class="card"> 	
+                <h5 class="card-title p-3"><a href="https://streetfighter2ttt.com" target="_blank">Tic Tac Toe</a></h5>					
+                <div class="card-img-frame">
+                  <a href="https://streetfighter2ttt.com" target="_blank"><img class="card-img-top" src="resources/img/tictactoe-web-min.jpg" alt="Tic Tac Toe image" target="_blank"></a>
+                </div>
+
+                <div class="card-body p-3">
+                  <div class="card-body-content pb-3">
+                    <p class="card-text">"Street Fighter 2" themed Tic Tac Toe game with variable difficulty modes and two selectable characters. Integrated minimax to create an unwinnable hard mode. Uses sprite maps and animated GIFs for animation, complete with intro video, title screen, character select, etc., to simulate the Street Fighter 2 game experience. Also uses Web Audio API to create seamless looping background music.</p>
+                    <p class="card-text">
+                      <small class="text-muted">HTML - CSS - JS - Web Audio API</small>
+                    </p>                    	
+                    <p class="card-text">                      	
+                      <small class="text-muted">Photoshop - Premiere - Audacity</small>
+                    </p>
+                    <p class="card-text">                     	
+                      <small class="text-muted"><span class="note">*</span>Works best on Chrome desktop</small>
+                    </p>
+                  </div> <!-- .card-body-content -->
+                  <button class="btn btn-show-hide"></button>
+                </div> <!-- .card-body -->
+              </div>
+            </div> <!-- .col-md-6 mb-3 -->
+
+            <div class="col-md-6 mb-3"> 
+              <div class="card">
+                <h5 class="card-title p-3"><a href="https://codepen.io/agedengaku/full/gjLOra/" target="_blank">Simon Game</a></h5>
+                <div class="card-img-frame">
+                  <a href="https://codepen.io/agedengaku/full/gjLOra/" target="_blank"><img class="card-img-top" src="resources/img/simon-web-min.jpg" alt="Simon game image" target="_blank"></a>
+                </div>
+
+                <div class="card-body p-3">	
+                  <div class="card-body-content pb-3">
+                    <p class="card-text">Spiced up the original Simon game by using Street Fighter 2 themes, music, sound effects, and some animated feedback.</p>
+                    <p class="card-text">
+                      <small class="text-muted">HTML - CSS - JS - Animate.css</small>
+                    </p>                    	
+                    <p class="card-text">                      	
+                      <small class="text-muted">Photoshop - Audacity</small>
+                    </p>                      
+                    <p class="card-text">
+                      <small class="text-muted"><span class="note">*</span>Works best on Chrome desktop</small>
+                    </p>
+                  </div> <!-- .card-body-content -->
+                  <button class="btn btn-show-hide"></button>									
+                </div> <!-- .card-body -->
+              </div>
+            </div> <!-- .col-md-6 mb-3 -->
+
             </div> <!-- .row -->
-          </div> <!-- #intro-block -->
-      </div> <!-- .row.justify-content-md-center -->
 
-      <!-- PORTFOLIO BLOCK STARTS HERE -->
-      <div class="row justify-content-md-center"> <!-- .row.justify-content-md-center -->
-          <div id="portfolio-block" class="content-block col-12 col-lg-auto">
-
-            <h2 class="text-center">Portfolio</h2>
-
-                <div class="row">
-
-                  <div class="col-md-6 mb-3"> 	
-                    <div class="card"> 	
-                    <h5 class="card-title p-3"><a href="https://streetfighter2ttt.com" target="_blank">Tic Tac Toe</a></h5>					
-                    <div class="card-img-frame">
-                      <a href="https://streetfighter2ttt.com" target="_blank"><img class="card-img-top" src="resources/img/tictactoe-web-min.jpg" alt="Tic Tac Toe image" target="_blank"></a>
-                    </div>
-
-                    <div class="card-body p-3">
-                      <div class="card-body-content pb-3">
-                        <p class="card-text">"Street Fighter 2" themed Tic Tac Toe game with variable difficulty modes and two selectable characters. Integrated minimax to create an unwinnable hard mode. Uses sprite maps and animated GIFs for animation, complete with intro video, title screen, character select, etc., to simulate the Street Fighter 2 game experience. Also uses Web Audio API to create seamless looping background music.</p>
-                        <p class="card-text">
-                          <small class="text-muted">HTML - CSS - JS - Web Audio API</small>
-                        </p>                    	
-                        <p class="card-text">                      	
-                          <small class="text-muted">Photoshop - Premiere - Audacity</small>
-                        </p>
-                        <p class="card-text">                     	
-                          <small class="text-muted"><span class="note">*</span>Works best on Chrome desktop</small>
-                        </p>
-                      </div> <!-- .card-body-content -->
-                      <button class="btn btn-show-hide"></button>
-                    </div> <!-- .card-body -->
-                  </div>
-                </div> <!-- .col-md-6 mb-3 -->
-
-                <div class="col-md-6 mb-3"> 
-                  <div class="card">
-                    <h5 class="card-title p-3"><a href="https://codepen.io/agedengaku/full/gjLOra/" target="_blank">Simon Game</a></h5>
-                    <div class="card-img-frame">
-                      <a href="https://codepen.io/agedengaku/full/gjLOra/" target="_blank"><img class="card-img-top" src="resources/img/simon-web-min.jpg" alt="Simon game image" target="_blank"></a>
-                    </div>
-
-                    <div class="card-body p-3">	
-                      <div class="card-body-content pb-3">
-                        <p class="card-text">Spiced up the original Simon game by using Street Fighter 2 themes, music, sound effects, and some animated feedback.</p>
-                        <p class="card-text">
-                          <small class="text-muted">HTML - CSS - JS - Animate.css</small>
-                        </p>                    	
-                        <p class="card-text">                      	
-                          <small class="text-muted">Photoshop - Audacity</small>
-                        </p>                      
-                        <p class="card-text">
-                          <small class="text-muted"><span class="note">*</span>Works best on Chrome desktop</small>
-                        </p>
-                      </div> <!-- .card-body-content -->
-                      <button class="btn btn-show-hide"></button>									
-                    </div> <!-- .card-body -->
-                  </div>
-                </div> <!-- .col-md-6 mb-3 -->
-
-              </div> <!-- .row -->
-
-              <div class="row">
-
-                  <div class="col-md-6 mb-3"> 	
-                    <div class="card"> 	
-                    <h5 class="card-title p-3"><a href="https://codepen.io/agedengaku/full/NYPyWy/" target="_blank">Javascript Calculator</a></h5>					
-                    <div class="card-img-frame">
-                      <a href="https://codepen.io/agedengaku/full/NYPyWy/"><img class="card-img-top" src="resources/img/calculator-web-min.jpg" alt="Javascript Calculator image" target="_blank"></a>
-                    </div>
-
-                    <div class="card-body p-3">
-                      <div class="card-body-content pb-3">
-                        <p class="card-text">Improved on the original task of creating a Javascript calcultor by increasing decimal precision, making the results always similar to what you would get from a real calculator. Precision is achieved using a Decimal type by integrating decimal.js.</p>
-                        <p class="card-text">
-                          <small class="text-muted">HTML - CSS - JS - Decimal.js</small>
-                        </p>                    	                      
-                      </div> <!-- .card-body-content -->
-                      <button class="btn btn-show-hide"></button>
-                    </div> <!-- .card-body -->
-                  </div>
-                </div> <!-- .col-md-6 mb-3 -->
-
-                <div class="col-md-6 mb-3"> 
-                  <div class="card">
-                    <h5 class="card-title p-3"><a href="https://codepen.io/agedengaku/full/bvZbGx/" target="_blank">Pomodoro Clock</a></h5>
-                    <div class="card-img-frame">
-                      <a href="https://codepen.io/agedengaku/full/bvZbGx/" target="_blank"><img class="card-img-top" src="resources/img/pomodoro-web-min.jpg" alt="Pomodoro Clock image" target="_blank"></a>
-                    </div>
-
-                    <div class="card-body p-3">	
-                      <div class="card-body-content pb-3">
-                        <p class="card-text">Goes beyond the assignment of building a productivity clock by adding animations and original recorded sound clips to guide the user on the current state of the timer.</p>
-                        <p class="card-text">
-                          <small class="text-muted">HTML - CSS - JS</small>
-                        </p>                    	
-                        <p class="card-text">                      	
-                          <small class="text-muted">Audacity - Audio recording</small>
-                        </p>                       
-                      </div> <!-- .card-body-content -->
-                      <button class="btn btn-show-hide"></button>									
-                    </div> <!-- .card-body -->
-                  </div>
-                </div> <!-- .col-md-6 mb-3 -->
-
-              </div> <!-- .row -->
-
-              <div class="row">
-
-                  <div class="col-md-6 mb-3"> 	
-                    <div class="card"> 	
-                    <h5 class="card-title p-3"><a href="https://japaneselessonstokyo.com" target="_blank">Japanese Lessons Tokyo</a></h5>					
-                    <div class="card-img-frame">
-                      <a href="https://japaneselessonstokyo.com" target="_blank"><img class="card-img-top" src="resources/img/jlt-web-min.jpg" alt="Japanese Lessons Tokyo website image"></a>
-                    </div>
-
-                    <div class="card-body p-3">
-                      <div class="card-body-content pb-3">
-                        <p class="card-text">Built a website that helped a Japanese language teacher avoid going out of business, allowing him to quit his part-time job to focus solely on teaching.</p>
-                        <p class="card-text">
-                          <small class="text-muted">HTML - CSS - jQuery - Animate.css</small>
-                        </p>                    	
-                        <p class="card-text">                      	
-                          <small class="text-muted">Photoshop - Photography</small>
-                        </p>                       
-                      </div> <!-- .card-body-content -->
-                      <button class="btn btn-show-hide"></button>
-                    </div> <!-- .card-body -->
-                  </div>
-                </div> <!-- .col-md-6 mb-3 -->
-
-                <div class="col-md-6 mb-3"> 
-                  <div class="card">
-                    <h5 class="card-title p-3"><a href="http://jmotaylor.com/xps/" target="_blank">XPS Tokyo</a></h5>
-                    <div class="card-img-frame">
-                      <a href="http://jmotaylor.com/xps/" target="_blank"><img class="card-img-top" src="resources/img/xpstokyo-web-min.jpg" alt="XPS Tokyo website image"></a>
-                    </div>
-
-                    <div class="card-body p-3">	
-                      <div class="card-body-content pb-3">
-                        <p class="card-text">An exercise in redesigning an old and outdated website, which includes designing a new logo. Done on Wordpress, but the theme was coded completely from scratch using PHP.</p><p><a href='http://www.xpstokyo.com' target='_blank'>Click here to see the original website</a></p>
-                        <p class="card-text">
-                          <small class="text-muted">HTML - CSS - JS - PHP - Wordpress</small>
-                        </p>                    	
-                        <p class="card-text">                      	
-                          <small class="text-muted">Photoshop - Photography</small>
-                        </p>                       
-                      </div> <!-- .card-body-content -->
-                      <button class="btn btn-show-hide"></button>									
-                    </div> <!-- .card-body -->
-                  </div>
-                </div> <!-- .col-md-6 mb-3 -->
-
-              </div> <!-- .row -->		
-
-              <div class="row">
+            <div class="row">
 
                 <div class="col-md-6 mb-3"> 	
-                    <div class="card"> 	
-                    <h5 class="card-title p-3"><a href="/designquotes" target="_blank">Design Quotes</a></h5>					
-                    <div class="card-img-frame">
-                      <a href="/designquotes" target="_blank"><img class="card-img-top" src="resources/img/quotes-web-min.jpg" alt="Design Quotes website image"></a>
-                    </div>
-
-                    <div class="card-body p-3">
-                      <div class="card-body-content pb-3">
-                        <p class="card-text">A certification project wherein a quote-generating API and Twitter API are integrated to build a random quote machine with Twitter functionality.</p>
-                        <p class="card-text">
-                          <small class="text-muted">HTML - CSS - jQuery - Twitter API</small>
-                        </p>                    	                      
-                      </div> <!-- .card-body-content -->
-                      <button class="btn btn-show-hide"></button>
-                    </div> <!-- .card-body -->
+                  <div class="card"> 	
+                  <h5 class="card-title p-3"><a href="https://codepen.io/agedengaku/full/NYPyWy/" target="_blank">Javascript Calculator</a></h5>					
+                  <div class="card-img-frame">
+                    <a href="https://codepen.io/agedengaku/full/NYPyWy/"><img class="card-img-top" src="resources/img/calculator-web-min.jpg" alt="Javascript Calculator image" target="_blank"></a>
                   </div>
-                </div> <!-- .col-md-6 mb-3 --> 						
 
-                  <div class="col-md-6 mb-3"> 	
-                    <div class="card"> 	
-                    <h5 class="card-title p-3"><a href="https://duterteipsum.com" target="_blank">Duterte Ipsum</a></h5>					
-                    <div class="card-img-frame">
-                      <a href="https://duterteipsum.com" target="_blank"><img class="card-img-top" src="resources/img/duterte-web-min.jpg" alt="Duterte Ipsum website image"></a>
-                    </div>
+                  <div class="card-body p-3">
+                    <div class="card-body-content pb-3">
+                      <p class="card-text">Improved on the original task of creating a Javascript calcultor by increasing decimal precision, making the results always similar to what you would get from a real calculator. Precision is achieved using a Decimal type by integrating decimal.js.</p>
+                      <p class="card-text">
+                        <small class="text-muted">HTML - CSS - JS - Decimal.js</small>
+                      </p>                    	                      
+                    </div> <!-- .card-body-content -->
+                    <button class="btn btn-show-hide"></button>
+                  </div> <!-- .card-body -->
+                </div>
+              </div> <!-- .col-md-6 mb-3 -->
 
-                    <div class="card-body p-3">
-                      <div class="card-body-content pb-3">
-                        <p class="card-text">Inspired by <a href='https://trumpipsum.net/' target='_blank'>Trump Ipsum</a>, this Lorem Ipsum generator uses some of Philippine President Duterte's ridiculous quotes intersperesed with tech and web design related words.</p>
-                        <p class="card-text">
-                          <small class="text-muted">HTML - CSS - JS - PHP</small>
-                        </p>                    	
-                        <p class="card-text">                      	
-                          <small class="text-muted">Photoshop</small>
-                        </p>                       
-                      </div> <!-- .card-body-content -->
-                      <button class="btn btn-show-hide"></button>
-                    </div> <!-- .card-body -->
+              <div class="col-md-6 mb-3"> 
+                <div class="card">
+                  <h5 class="card-title p-3"><a href="https://codepen.io/agedengaku/full/bvZbGx/" target="_blank">Pomodoro Clock</a></h5>
+                  <div class="card-img-frame">
+                    <a href="https://codepen.io/agedengaku/full/bvZbGx/" target="_blank"><img class="card-img-top" src="resources/img/pomodoro-web-min.jpg" alt="Pomodoro Clock image" target="_blank"></a>
                   </div>
-                </div> <!-- .col-md-6 mb-3 -->
+
+                  <div class="card-body p-3">	
+                    <div class="card-body-content pb-3">
+                      <p class="card-text">Goes beyond the assignment of building a productivity clock by adding animations and original recorded sound clips to guide the user on the current state of the timer.</p>
+                      <p class="card-text">
+                        <small class="text-muted">HTML - CSS - JS</small>
+                      </p>                    	
+                      <p class="card-text">                      	
+                        <small class="text-muted">Audacity - Audio recording</small>
+                      </p>                       
+                    </div> <!-- .card-body-content -->
+                    <button class="btn btn-show-hide"></button>									
+                  </div> <!-- .card-body -->
+                </div>
+              </div> <!-- .col-md-6 mb-3 -->
 
             </div> <!-- .row -->
 
-              <div class="row">
+            <div class="row">
 
-                <div class="col-md-6 mb-3"> 
-                  <div class="card">
-                    <h5 class="card-title p-3"><a href="/wikiviewer" target="_blank">Wikipedia Viewer</a></h5>
-                    <div class="card-img-frame">
-                      <a href="/wikiviewer" target="_blank"><img class="card-img-top" src="resources/img/wiki-web-min.jpg" alt="Wikipedia Viewer image"></a>
-                    </div>
-
-                    <div class="card-body p-3">	
-                      <div class="card-body-content pb-3">
-                        <p class="card-text">A certification project using the MediaWiki action API to load the introduction text of search entry results.</p>
-                        <p class="card-text">
-                          <small class="text-muted">HTML - CSS - jQuery - MediaWiki action API</small>
-                        </p>                    	                     
-                      </div> <!-- .card-body-content -->
-                      <button class="btn btn-show-hide"></button>									
-                    </div> <!-- .card-body -->
+                <div class="col-md-6 mb-3"> 	
+                  <div class="card"> 	
+                  <h5 class="card-title p-3"><a href="https://japaneselessonstokyo.com" target="_blank">Japanese Lessons Tokyo</a></h5>					
+                  <div class="card-img-frame">
+                    <a href="https://japaneselessonstokyo.com" target="_blank"><img class="card-img-top" src="resources/img/jlt-web-min.jpg" alt="Japanese Lessons Tokyo website image"></a>
                   </div>
-                </div> <!-- .col-md-6 mb-3 -->  							
 
-                <div class="col-md-6 mb-3"> 
-                  <div class="card">
-                    <h5 class="card-title p-3"><a href="/hello/colorgame" target="_blank">Color Game</a></h5>
-                    <div class="card-img-frame">
-                      <a href="/hello/colorgame" target="_blank"><img class="card-img-top" src="resources/img/color-web-min.jpg" alt="Color Game image"></a>
-                    </div>
+                  <div class="card-body p-3">
+                    <div class="card-body-content pb-3">
+                      <p class="card-text">Built a website that helped a Japanese language teacher avoid going out of business, allowing him to quit his part-time job to focus solely on teaching.</p>
+                      <p class="card-text">
+                        <small class="text-muted">HTML - CSS - jQuery - Animate.css</small>
+                      </p>                    	
+                      <p class="card-text">                      	
+                        <small class="text-muted">Photoshop - Photography</small>
+                      </p>                       
+                    </div> <!-- .card-body-content -->
+                    <button class="btn btn-show-hide"></button>
+                  </div> <!-- .card-body -->
+                </div>
+              </div> <!-- .col-md-6 mb-3 -->
 
-                    <div class="card-body p-3">	
-                      <div class="card-body-content pb-3">
-                        <p class="card-text">A game for web designers testing their knowledge of RGB colors. This was an exercise from an online web development bootcamp, and was my first Javascript project.</p>
-                        <p class="card-text">
-                          <small class="text-muted">HTML - CSS - JS</small>
-                        </p>                    	                     
-                      </div> <!-- .card-body-content -->
-                      <button class="btn btn-show-hide"></button>									
-                    </div> <!-- .card-body -->
+              <div class="col-md-6 mb-3"> 
+                <div class="card">
+                  <h5 class="card-title p-3"><a href="http://jmotaylor.com/xps/" target="_blank">XPS Tokyo</a></h5>
+                  <div class="card-img-frame">
+                    <a href="http://jmotaylor.com/xps/" target="_blank"><img class="card-img-top" src="resources/img/xpstokyo-web-min.jpg" alt="XPS Tokyo website image"></a>
                   </div>
-                </div> <!-- .col-md-6 mb-3 -->  
 
-            </div> <!-- .row -->          
-
-          </div> <!-- portfolio-block -->
-      </div> <!-- .row.justify-content-md-center -->
-    
-      <!-- EDUCATION STARTS HERE -->
-      <div class="row justify-content-md-center">
-
-        <div id="education-block" class="content-block col-12 col-lg-auto">
-          <h2 class="text-center">IT-Related Education</h2>     
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item"><a href="http://www.ateneo.edu/ls/sose/iscs/bachelor-science-management-information-systems" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="The BS in Management Information Systems (BS MIS) program is an interdisciplinary offering of the Department of Information Systems and Computer Science and the School of Management. Students in this program enroll in computer science courses, management engineering courses, and core MIS courses.">Bachelor of Science - Management Information Systems - Ateneo de Manila University</a></li>
-            <li class="list-group-item"><a href="https://www.freecodecamp.org/certification/agedengaku/legacy-front-end" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="Front End Development Certification representing approximately 400 hours of coursework">Front End Development Certificate - FreeCodeCamp</a></li>
-            <li class="list-group-item"><a href="https://www.freecodecamp.org/certification/agedengaku/javascript-algorithms-and-data-structures" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="JavaScript Algorithms and Data Structures Developer Certification, representing approximately 300 hours of coursework">Javascript Algorithms and Data Structures Certificate - FreeCodeCamp</a></li>
-            <li class="list-group-item"><a href="https://www.udemy.com/certificate/UC-QJ3DBNMS/" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="The course covers tools and technologies including HTML5, CSS3, JavaScript, Bootstrap, SemanticUI, DOM Manipulation, jQuery, Unix(Command Line) Commands, NodeJS, NPM, ExpressJS, REST, and MongoDB.">Web Developer Bootcamp - Udemy</a></li>
-            <li class="list-group-item"><a href="https://www.udemy.com/certificate/UC-EIQ3O54Y/" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="The basics of Javascript including primitive types, arrays, objects, functions, assignment operators, the window object, constructors, prototype inheritance, scope, execution context and more.">Javascript Essentials - Udemy</a></li>
-            <li class="list-group-item"><a href="https://www.udemy.com/certificate/UC-OR6PJ9R7/" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="The fundamentals of procedural PHP, object oriented PHP, MYSQLi and building a CMS.">PHP for Beginners - Udemy</a></li>
-            <li class="list-group-item"><a href="https://www.udemy.com/certificate/UC-LIB5PN33/" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="Building applications using Laravel, and learning about Laravel ORM, Tinker, Eloquent, middleware and security.">PHP with Laravel - Udemy</a></li>
-            <li class="list-group-item"><a href="https://laracasts.com/series/laravel-from-scratch-2017" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="A series taking learners from installing Laravel, all the way up to mastering the essentials of the framework.">Laravel 5.4 From Scratch - Laracasts</a></li>
-            <li class="list-group-item"><a href="https://www.udemy.com/certificate/UC-1LUEW2YJ/" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="Learn modern web design, HTML5 and CSS3 step-by-step from scratch. ">Responsive Websites with HTML5 and CSS3 - Udemy</a></li>
-            <li class="list-group-item"><a href="https://www.udemy.com/certificate/UC-HBR1Y0XX/" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="Setting up MySQL, creating databases and queries, using logical operators, manipulating tables/rows/data, joins, building web applications with PHP, HTML and CSS along with MySQL as the database layer, and performing CRUD and authentication from web applications.">MySQL Developer Course - Udemy</a></li>
-            <li class="list-group-item"><a href="https://www.udemy.com/learn-to-create-wordpress-themes-by-building-10-projects/learn/v4/overview" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="The course combines knowledge of HTML 5, CSS and PHP and shows how to use the different APIs and widgets from WordPress to create new themes. Also covers functions such as PostLoop, Hook/Actions, Widgets, WP_Query, Theme Customizer API, and WordPress Frameworks such as Bootstrap, Foundation, Ink, Gridism and W3.">Wordpress Themes - Udemy</a></li>
-          </ul>
-          <br>
-          <br>
-          <h2 class="text-center">Currently Learning</h2>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item"><a href="https://www.udemy.com/js-algorithms-and-data-structures-masterclass/" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="This course crams months of computer science and interview prep material into 20 hours of video. The content is based directly on coding bootcamps. Includes Big O notation, recursion, sorting algorithms, and data structures.">Javascript Algorithms and Data Structures Masterclass - Udemy</a></li>
-            <li class="list-group-item">Responsive Web Design Projects Certificate - FreeCodeCamp</li>
-            <li class="list-group-item">AWS Certified - Solutions Architect Associates (CSA) - Udemy</li>
-            <li class="list-group-item">Advanced Web Developer Bootcamp (React) - Udemy</li>
-          </ul>
-
-        </div>
-      </div>
-      <!-- EDUCATION ENDS HERE -->
-    
-      <!-- CONTACT FORM STARTS HERE -->
-      <div class="row justify-content-md-center"> <!-- .row.justify-content-md-center 3 -->
-        
-        <?php
-        
-          // Session variable mailer prevents swal when adding status variables to url without redirect from mailer 
-        
-          if (isset($_GET['status']) && isset($_SESSION['mailer'])) {
-            
-            unset($_SESSION['mailer']);
-            
-            $status = $_GET['status'];
-
-            if ($status === "0") {
-              
-              $title = 'Email sent!';
-              $text = "I\'ll get back to you in 47.6 hours.";
-              $type = 'success';
-              $button = 'Cool!';
-              
-            }
-          
-            if ($status === "1") {
-              
-              $title = 'Whoops!';
-              $text = '\"Name\", \"Email\", and \"Message\" fields are all required.';
-              $type = 'error';
-              $button = 'Alrighty then!';                        
-              
-            } 
-            
-            if ($status === "2") {
-              
-              $title = 'Are you human?';
-              $text = 'Make sure to tick the \"I\"m not a robot\" checkbox.';
-              $type = 'error';
-              $button = 'Alrighty then!';                 
-              
-            }
-            
-            if ($status === "3") {
-              
-              $title = 'Error';
-              $text = 'You are a bad boy. Or girl.';
-              $type = 'error';
-              $button = '...';                 
-              
-            }
-            
-            echo "<script>  
-              swal({
-                title: '$title',
-                text: '$text',
-                type: '$type',
-                confirmButtonText: '$button'
-              });  
-            </script>";              
-  
-          }
-        
-        ?>
-
-        <div id="contact-block" class="content-block col-12 col-lg-auto">
-          <h2 class="text-center">Contact Me!</h2>
-
-          <div class="row">
-            <div class="col-md-6">
-
-              <form method="POST" action="mailer.php">
-
-                <div class="form-group">
-                  <div class="label-div">
-                    <label class="js-name-label" for="name">Name</label>
-                  </div>  
-                  <input type="text" class="form-control js-name-input" id="name" name="name" placeholder="Name" required>
+                  <div class="card-body p-3">	
+                    <div class="card-body-content pb-3">
+                      <p class="card-text">An exercise in redesigning an old and outdated website, which includes designing a new logo. Done on Wordpress, but the theme was coded completely from scratch using PHP.</p><p><a href='http://www.xpstokyo.com' target='_blank'>Click here to see the original website</a></p>
+                      <p class="card-text">
+                        <small class="text-muted">HTML - CSS - JS - PHP - Wordpress</small>
+                      </p>                    	
+                      <p class="card-text">                      	
+                        <small class="text-muted">Photoshop - Photography</small>
+                      </p>                       
+                    </div> <!-- .card-body-content -->
+                    <button class="btn btn-show-hide"></button>									
+                  </div> <!-- .card-body -->
                 </div>
+              </div> <!-- .col-md-6 mb-3 -->
 
-                <div class="form-group">
-                  <div class="label-div">
-                    <label class="js-email-label" for="email">Email</label>
+            </div> <!-- .row -->		
+
+            <div class="row">
+
+              <div class="col-md-6 mb-3"> 	
+                  <div class="card"> 	
+                  <h5 class="card-title p-3"><a href="/designquotes" target="_blank">Design Quotes</a></h5>					
+                  <div class="card-img-frame">
+                    <a href="/designquotes" target="_blank"><img class="card-img-top" src="resources/img/quotes-web-min.jpg" alt="Design Quotes website image"></a>
                   </div>
-                  <input type="email" class="form-control js-email-input" id="email" name="email" placeholder="Email" required>
-                </div>
 
-                <div class="form-group">
-                  <div class="label-div">
-                    <label class="js-phone-label" for="phone">Phone</label>
+                  <div class="card-body p-3">
+                    <div class="card-body-content pb-3">
+                      <p class="card-text">A certification project wherein a quote-generating API and Twitter API are integrated to build a random quote machine with Twitter functionality.</p>
+                      <p class="card-text">
+                        <small class="text-muted">HTML - CSS - jQuery - Twitter API</small>
+                      </p>                    	                      
+                    </div> <!-- .card-body-content -->
+                    <button class="btn btn-show-hide"></button>
+                  </div> <!-- .card-body -->
+                </div>
+              </div> <!-- .col-md-6 mb-3 --> 						
+
+                <div class="col-md-6 mb-3"> 	
+                  <div class="card"> 	
+                  <h5 class="card-title p-3"><a href="https://duterteipsum.com" target="_blank">Duterte Ipsum</a></h5>					
+                  <div class="card-img-frame">
+                    <a href="https://duterteipsum.com" target="_blank"><img class="card-img-top" src="resources/img/duterte-web-min.jpg" alt="Duterte Ipsum website image"></a>
                   </div>
-                  <input type="tel" class="form-control  js-phone-input" id="phone" name="phone" placeholder="Phone">
-                </div>
-                
-                <input type="hidden" name="token" value="<?php echo $token ?>">
 
-                <div class="form-group">
-                  <div class="label-div">
-                    <label class="js-message-label" for="message">Message</label>
-                  </div>
-                  <textarea id="contact-textarea" class="form-control js-message-input" id="message" name="message" rows="5" placeholder="Message" required></textarea>
+                  <div class="card-body p-3">
+                    <div class="card-body-content pb-3">
+                      <p class="card-text">Inspired by <a href='https://trumpipsum.net/' target='_blank'>Trump Ipsum</a>, this Lorem Ipsum generator uses some of Philippine President Duterte's ridiculous quotes intersperesed with tech and web design related words.</p>
+                      <p class="card-text">
+                        <small class="text-muted">HTML - CSS - JS - PHP</small>
+                      </p>                    	
+                      <p class="card-text">                      	
+                        <small class="text-muted">Photoshop</small>
+                      </p>                       
+                    </div> <!-- .card-body-content -->
+                    <button class="btn btn-show-hide"></button>
+                  </div> <!-- .card-body -->
                 </div>
-
-                <button type="submit" class="btn submit-button">Submit</button>
-<!--                <div class="g-recaptcha" data-sitekey="6LdBMSITAAAAAK4q1wXuP6kSr-OFI-1Pxnp0FOWM"></div>-->
-
-              </form>
-
-            </div> <!-- .col-md-6 -->
-            <div class="col-md-6" id="contact-text">
-              <p>I'm available for work! You can get in touch with me using the form, or email me at <a href="mailto:jm@jmotaylor.com">jm@jmotaylor.com</a>.</p>
-              <p>You can also send me a message through my <a href="https://www.linkedin.com/in/jose-miguel-taylor-19349217/">LinkedIn account here</a>.</p>
-              <div id="links-section" class="row">
-                <div class="col-4">
-                  <p><a href="https://www.linkedin.com/in/jose-miguel-taylor-19349217/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></p>
-                </div>              
-                <div class="col-4">
-                  <p><a href="https://github.com/agedengaku" target="_blank"><i class="fab fa-github fa-2x"></i></a></p>
-                </div>
-                <div class="col-4">
-                  <p><a href="https://codepen.io/agedengaku/" target="_blank"><i class="fab fa-codepen fa-2x"></i></a></p>
-                </div>
-              </div>
-            </div>
+              </div> <!-- .col-md-6 mb-3 -->
 
           </div> <!-- .row -->
 
-        </div> <!-- #contactBlock -->
+            <div class="row">
 
-      </div> <!-- .row.justify-content-md-center 3 -->
+              <div class="col-md-6 mb-3"> 
+                <div class="card">
+                  <h5 class="card-title p-3"><a href="/wikiviewer" target="_blank">Wikipedia Viewer</a></h5>
+                  <div class="card-img-frame">
+                    <a href="/wikiviewer" target="_blank"><img class="card-img-top" src="resources/img/wiki-web-min.jpg" alt="Wikipedia Viewer image"></a>
+                  </div>
+
+                  <div class="card-body p-3">	
+                    <div class="card-body-content pb-3">
+                      <p class="card-text">A certification project using the MediaWiki action API to load the introduction text of search entry results.</p>
+                      <p class="card-text">
+                        <small class="text-muted">HTML - CSS - jQuery - MediaWiki action API</small>
+                      </p>                    	                     
+                    </div> <!-- .card-body-content -->
+                    <button class="btn btn-show-hide"></button>									
+                  </div> <!-- .card-body -->
+                </div>
+              </div> <!-- .col-md-6 mb-3 -->  							
+
+              <div class="col-md-6 mb-3"> 
+                <div class="card">
+                  <h5 class="card-title p-3"><a href="/hello/colorgame" target="_blank">Color Game</a></h5>
+                  <div class="card-img-frame">
+                    <a href="/hello/colorgame" target="_blank"><img class="card-img-top" src="resources/img/color-web-min.jpg" alt="Color Game image"></a>
+                  </div>
+
+                  <div class="card-body p-3">	
+                    <div class="card-body-content pb-3">
+                      <p class="card-text">A game for web designers testing their knowledge of RGB colors. This was an exercise from an online web development bootcamp, and was my first Javascript project.</p>
+                      <p class="card-text">
+                        <small class="text-muted">HTML - CSS - JS</small>
+                      </p>                    	                     
+                    </div> <!-- .card-body-content -->
+                    <button class="btn btn-show-hide"></button>									
+                  </div> <!-- .card-body -->
+                </div>
+              </div> <!-- .col-md-6 mb-3 -->  
+
+          </div> <!-- .row -->          
+
+        </section> <!-- portfolio-block -->
+    </div> <!-- .row.justify-content-md-center -->
+
+    <!-- EDUCATION STARTS HERE -->
+    <div class="row justify-content-md-center">
+
+      <section id="education-block" class="content-block col-12 col-lg-auto">
+        <h2 class="text-center">IT-Related Education</h2>     
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><a href="http://www.ateneo.edu/ls/sose/iscs/bachelor-science-management-information-systems" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="The BS in Management Information Systems (BS MIS) program is an interdisciplinary offering of the Department of Information Systems and Computer Science and the School of Management. Students in this program enroll in computer science courses, management engineering courses, and core MIS courses.">Bachelor of Science - Management Information Systems - Ateneo de Manila University</a></li>
+          <li class="list-group-item"><a href="https://www.freecodecamp.org/certification/agedengaku/legacy-front-end" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="Front End Development Certification representing approximately 400 hours of coursework">Front End Development Certificate - FreeCodeCamp</a></li>
+          <li class="list-group-item"><a href="https://www.freecodecamp.org/certification/agedengaku/javascript-algorithms-and-data-structures" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="JavaScript Algorithms and Data Structures Developer Certification, representing approximately 300 hours of coursework">Javascript Algorithms and Data Structures Certificate - FreeCodeCamp</a></li>
+          <li class="list-group-item"><a href="https://www.udemy.com/certificate/UC-QJ3DBNMS/" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="The course covers tools and technologies including HTML5, CSS3, JavaScript, Bootstrap, SemanticUI, DOM Manipulation, jQuery, Unix(Command Line) Commands, NodeJS, NPM, ExpressJS, REST, and MongoDB.">Web Developer Bootcamp - Udemy</a></li>
+          <li class="list-group-item"><a href="https://www.udemy.com/certificate/UC-EIQ3O54Y/" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="The basics of Javascript including primitive types, arrays, objects, functions, assignment operators, the window object, constructors, prototype inheritance, scope, execution context and more.">Javascript Essentials - Udemy</a></li>
+          <li class="list-group-item"><a href="https://www.udemy.com/certificate/UC-OR6PJ9R7/" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="The fundamentals of procedural PHP, object oriented PHP, MYSQLi and building a CMS.">PHP for Beginners - Udemy</a></li>
+          <li class="list-group-item"><a href="https://www.udemy.com/certificate/UC-LIB5PN33/" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="Building applications using Laravel, and learning about Laravel ORM, Tinker, Eloquent, middleware and security.">PHP with Laravel - Udemy</a></li>
+          <li class="list-group-item"><a href="https://laracasts.com/series/laravel-from-scratch-2017" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="A series taking learners from installing Laravel, all the way up to mastering the essentials of the framework.">Laravel 5.4 From Scratch - Laracasts</a></li>
+          <li class="list-group-item"><a href="https://www.udemy.com/certificate/UC-1LUEW2YJ/" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="Learn modern web design, HTML5 and CSS3 step-by-step from scratch. ">Responsive Websites with HTML5 and CSS3 - Udemy</a></li>
+          <li class="list-group-item"><a href="https://www.udemy.com/certificate/UC-HBR1Y0XX/" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="Setting up MySQL, creating databases and queries, using logical operators, manipulating tables/rows/data, joins, building web applications with PHP, HTML and CSS along with MySQL as the database layer, and performing CRUD and authentication from web applications.">MySQL Developer Course - Udemy</a></li>
+          <li class="list-group-item"><a href="https://www.udemy.com/learn-to-create-wordpress-themes-by-building-10-projects/learn/v4/overview" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="The course combines knowledge of HTML 5, CSS and PHP and shows how to use the different APIs and widgets from WordPress to create new themes. Also covers functions such as PostLoop, Hook/Actions, Widgets, WP_Query, Theme Customizer API, and WordPress Frameworks such as Bootstrap, Foundation, Ink, Gridism and W3.">Wordpress Themes - Udemy</a></li>
+        </ul>
+        <br>
+        <br>
+        <h2 class="text-center">Currently Learning</h2>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><a href="https://www.udemy.com/js-algorithms-and-data-structures-masterclass/" target="_blank" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="This course crams months of computer science and interview prep material into 20 hours of video. The content is based directly on coding bootcamps. Includes Big O notation, recursion, sorting algorithms, and data structures.">Javascript Algorithms and Data Structures Masterclass - Udemy</a></li>
+          <li class="list-group-item">Responsive Web Design Projects Certificate - FreeCodeCamp</li>
+          <li class="list-group-item">AWS Certified - Solutions Architect Associates (CSA) - Udemy</li>
+          <li class="list-group-item">Advanced Web Developer Bootcamp (React) - Udemy</li>
+        </ul>
+
+      </section> <!-- #education-block -->
+    </div>
+    <!-- EDUCATION ENDS HERE -->
+
+    <!-- CONTACT FORM STARTS HERE -->
+    <div class="row justify-content-md-center"> <!-- .row.justify-content-md-center 3 -->
+
+      <?php
+
+        // Session variable mailer prevents swal when adding status variables to url without redirect from mailer 
+        if (isset($_GET['status']) && isset($_SESSION['mailer'])) {
+
+          unset($_SESSION['mailer']);
+
+          $status = $_GET['status'];
+
+          if ($status === "0") {
+
+            $title = 'Email sent!';
+            $text = "I\'ll get back to you in 47.6 hours.";
+            $type = 'success';
+            $button = 'Cool!';
+
+          }
+
+          if ($status === "1") {
+
+            $title = 'Whoops!';
+            $text = '\"Name\", \"Email\", and \"Message\" fields are all required.';
+            $type = 'error';
+            $button = 'Alrighty then!';                        
+
+          } 
+
+          if ($status === "2") {
+
+            $title = 'Are you human?';
+            $text = 'Make sure to tick the \"I\"m not a robot\" checkbox.';
+            $type = 'error';
+            $button = 'Alrighty then!';                 
+
+          }
+
+          if ($status === "3") {
+
+            $title = 'Error';
+            $text = 'You are a bad boy. Or girl.';
+            $type = 'error';
+            $button = '...';                 
+
+          }
+
+          echo "<script>  
+            swal({
+              title: '$title',
+              text: '$text',
+              type: '$type',
+              confirmButtonText: '$button'
+            });  
+          </script>";              
+
+        }
+
+      ?>
+
+      <section id="contact-block" class="content-block col-12 col-lg-auto">
+        <h2 class="text-center">Contact Me!</h2>
+
+        <div class="row">
+          <div class="col-md-6">
+
+            <form method="POST" action="mailer.php">
+
+              <div class="form-group">
+                <div class="label-div">
+                  <label class="js-name-label" for="name">Name</label>
+                </div>  
+                <input type="text" class="form-control js-name-input" id="name" name="name" placeholder="Name" required>
+              </div>
+
+              <div class="form-group">
+                <div class="label-div">
+                  <label class="js-email-label" for="email">Email</label>
+                </div>
+                <input type="email" class="form-control js-email-input" id="email" name="email" placeholder="Email" required>
+              </div>
+
+              <div class="form-group">
+                <div class="label-div">
+                  <label class="js-phone-label" for="phone">Phone</label>
+                </div>
+                <input type="tel" class="form-control  js-phone-input" id="phone" name="phone" placeholder="Phone">
+              </div>
+
+              <input type="hidden" name="token" value="<?php echo $token ?>">
+
+              <div class="form-group">
+                <div class="label-div">
+                  <label class="js-message-label" for="message">Message</label>
+                </div>
+                <textarea id="contact-textarea" class="form-control js-message-input" id="message" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+
+              <button type="submit" class="btn submit-button">Submit</button>
+<!--                <div class="g-recaptcha" data-sitekey="6LdBMSITAAAAAK4q1wXuP6kSr-OFI-1Pxnp0FOWM"></div>-->
+
+            </form>
+
+          </div> <!-- .col-md-6 -->
+
+          <div class="col-md-6" id="contact-text">
+            <p>I'm available for work! You can get in touch with me using the form, or email me at <a href="mailto:jm@jmotaylor.com">jm@jmotaylor.com</a>.</p>
+            <p>You can also send me a message through my <a href="https://www.linkedin.com/in/jose-miguel-taylor-19349217/">LinkedIn account here</a>.</p>
+            <div id="links-section" class="row">
+              <div class="col-4">
+                <p><a href="https://www.linkedin.com/in/jose-miguel-taylor-19349217/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></p>
+              </div>              
+              <div class="col-4">
+                <p><a href="https://github.com/agedengaku" target="_blank"><i class="fab fa-github fa-2x"></i></a></p>
+              </div>
+              <div class="col-4">
+                <p><a href="https://codepen.io/agedengaku/" target="_blank"><i class="fab fa-codepen fa-2x"></i></a></p>
+              </div>
+            </div>
+          </div>
+
+        </div> <!-- .row -->
+
+      </section> <!-- #contactBlock -->
+
+    </div> <!-- .row.justify-content-md-center 3 -->
     
   </div> <!-- .container -->
 
-<!--
-<footer id="footer-1" class="footer">
-  <div class="container">
-    
-    <div class="row">
-      
-      <div class="col-sm-6">
-        
-        <div class="footer-h2">
-          <h2 class="text-center">ABOUT THIS PAGE</h2>
-        </div>
-        
-        <p class="text-center">Made with &nbsp;
-          <a href="https://codepen.io" target="_blank">
-            <img src="http://cdn.onlinewebfonts.com/svg/img_336066.svg" alt="CodePen logo" /></a>&nbsp;&nbsp;
-          <a href="http://v4-alpha.getbootstrap.com/" target="_blank">
-            <img src="https://v4-alpha.getbootstrap.com/apple-touch-icon.png" alt="Bootstrap-4 logo" />
-          </a>&nbsp;
-          <a href="http://jquery.com/" target="_blank">
-            <img src="https://uploads.toptal.io/blog/category/logo/40/jquery.png" alt="jQuery logo" />
-          </a>&nbsp;
-          <a href="http://fontawesome.io/" target="_blank">
-            <i class="fa fa-font-awesome" aria-hidden="true"></i>
-          </a></p>
-        
-      </div>
-      
-      <div class="col-sm-6">
-        
-        <div class="footer-h2">
-          <h2 class="text-center">AROUND THE WEB</h2>
-        </div>
-        
-        <div class="text-center">
-          <a href="https://twitter.com/jmotaylor" target="_blank">
-            <span class="fal-stack fa-lg">
-              <i class="fal fa-circle-o fa-stack-2x" aria-hidden="true"></i>
-              <i class="fal fa-twitter fa-stack-1x" aria-hidden="true"></i>
-            </span>
-          </a>
-          <a href="https://github.com/agedengaku" target="_blank">
-            <span class="fal-stack fa-lg">
-              <i class="fal fa-circle-o fa-stack-2x" aria-hidden="true"></i>
-              <i class="fal fa-github fa-stack-1x" aria-hidden="true"></i>
-            </span>
-          </a>
-          <a href="https://www.instagram.com/taylor.jm/" target="=blank">
-            <span class="fal-stack fa-lg">
-              <i class="fal fa-circle-o fa-stack-2x" aria-hidden="true"></i>
-              <i class="fal fa-instagram fa-stack-1x" aria-hidden="true"></i>
-            </span>
-          </a>
-          <a href="https://www.facebook.com/therealjmtaylor" target="_blank">
-            <span class="fal-stack fa-lg">
-              <i class="fal fa-circle-o fa-stack-2x" aria-hidden="true"></i>
-              <i class="fal fa-facebook fa-stack-1x" aria-hidden="true"></i>
-            </span>
-          </a>  
-        </div> 
-        
-      </div> 
-      
-    </div>
-    
-  </div> 
-</footer>
--->
-
-<footer class="footer">
-  <div class="container">
-<!--    <div class="text-center">JM Taylor <?php echo date('Y'); ?></div>-->
-  </div>
-</footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
 <script src="resources/js/script.js"></script>
+
 </body>
 </html>

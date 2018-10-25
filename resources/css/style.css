@@ -1,37 +1,7 @@
-@font-face {
-  font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?k3qefu');
-  src:  url('../fonts/icomoon.eot?k3qefu#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?k3qefu') format('truetype'),
-    url('../fonts/icomoon.woff?k3qefu') format('woff'),
-    url('../fonts/icomoon.svg?k3qefu#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
 
-[class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-jquery:before {
-  content: "\e900";
-}
-.icon-photoshop:before {
-  content: "\e901";
-}
-
-/* ------GENERAL ELEMENTS------ */
+/**************************************/
+/*  GENERAL-ELEMENTS                  */ 
+/**************************************/
 
 body {
   background-color: #5378BB;
@@ -64,7 +34,9 @@ h2 {
   font-weight: 200;
 }
 
-/* ------NAVBAR------ */
+/**************************************/
+/*  NAVBAR                            */ 
+/**************************************/
 
 .navbar-color { background-color: #5378BB; }
 .navbar-color { background-color: rgb(83,120,187,.97); }
@@ -77,7 +49,6 @@ h2 {
 
 .myname { 
 	display: inline-block;
-/*	animation-delay: 1s;*/
   transition: all .25s;
   opacity: 0;
 }
@@ -93,7 +64,117 @@ h2 {
 
 .sticky-top { z-index: 9999; }
 
-/* ------CONTENT BLOCKS------ */
+/**************************************/
+/*  NAVBAR-TOGGLER                    */ 
+/**************************************/
+
+button.navbar-toggler { border:none; }
+button.navbar-toggler:focus { outline:0; }
+
+/*SOURCE: https://bootsnipp.com/snippets/PEkG1*/
+ #nav-icon0 {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  margin: 0 auto;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+#nav-icon0 span {
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 50%;
+  background: #fff;
+  opacity: 1;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+#nav-icon0 span:nth-child(even) {
+  left: 50%;
+  border-radius: 0 9px 9px 0;
+}
+
+#nav-icon0 span:nth-child(odd) {
+  left:0px;
+  border-radius: 9px 0 0 9px;
+}
+
+#nav-icon0 span:nth-child(1), #nav-icon0 span:nth-child(2) {
+  top: 6px;
+}
+
+#nav-icon0 span:nth-child(3), #nav-icon0 span:nth-child(4) {
+  top: 16px;
+}
+
+#nav-icon0 span:nth-child(5), #nav-icon0 span:nth-child(6) {
+  top: 26px;
+}
+
+#nav-icon0.open span:nth-child(1),#nav-icon0.open span:nth-child(6) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#nav-icon0.open span:nth-child(2),#nav-icon0.open span:nth-child(5) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+#nav-icon0.open span:nth-child(1) {
+  left: 3px;
+  top: 9px;
+}
+
+#nav-icon0.open span:nth-child(2) {
+  left: calc(50% - 2px);
+  top: 9px;
+}
+
+#nav-icon0.open span:nth-child(3) {
+  left: -40%;
+  opacity: 0;
+}
+
+#nav-icon0.open span:nth-child(4) {
+  left: 90%;
+  opacity: 0;
+}
+
+#nav-icon0.open span:nth-child(5) {
+  left: 3px;
+  top: 19px;
+}
+
+#nav-icon0.open span:nth-child(6) {
+  left: calc(50% - 2px);
+  top: 19px;
+}
+/*END SOURCE*/
+
+/**************************************/
+/*  CONTENT BLOCKS                    */ 
+/**************************************/
 
 .content-block {
   margin-bottom: 40px;
@@ -101,7 +182,8 @@ h2 {
   padding: 60px 40px 60px 40px;
 }
 
-/* first block */
+/**************************************/
+/* INTRO */
 
 #intro-block {
 	width: 100vw;
@@ -167,7 +249,8 @@ h2 {
   margin-bottom: 0;
 }
 
-/* second block */
+/**************************************/
+/* PORTFOLIO */
 
 #portfolio-block {
 	color: #808080;	
@@ -312,7 +395,8 @@ h2 {
   display: none;
 }
 
-/*EDUCATION*/
+/**************************************/
+/* EDUCATION */
 
 #education-block {
   opacity: 0;
@@ -329,7 +413,8 @@ h2 {
 	color: #5378BB;
 }
 
-/* third block */
+/**************************************/
+/* CONTACT */
 
 #contact-block {
 	opacity: 0;
@@ -348,7 +433,8 @@ h2 {
     color: #808080;
 }
 
-/* form */
+/**************************************/
+/* FORM */
 
 input:-webkit-autofill {
   -webkit-box-shadow: inset 0 0 0px 9000px #5378BB;
@@ -423,8 +509,6 @@ label { display: none; }
 	font-weight: 200;
 }
 
-/* Change Autocomplete styles in Chrome*/
-
 #contact-text {
   font-size: 18px;
 	font-weight: 300;
@@ -443,123 +527,78 @@ label { display: none; }
 
 #links-section a:hover { color: #e67e22; }
 
-/* ------FOOTER------ */
-
-.footer {
-  background: #5378BB;
-  height: 60px;
-  line-height: 60px;
-}
-
 /**************************************/
-/*  NAVBAR-TOGGLER                    */ 
+/* SWEET ALERT                        */
 /**************************************/
-
-button.navbar-toggler { border:none; }
-button.navbar-toggler:focus { outline:0; }
-
-/*SOURCE: https://bootsnipp.com/snippets/PEkG1*/
- #nav-icon0 {
-  width: 30px;
-  height: 30px;
-  position: relative;
-  margin: 0 auto;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: .5s ease-in-out;
-  -moz-transition: .5s ease-in-out;
-  -o-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
-  cursor: pointer;
-}
-
-#nav-icon0 span {
-  display: block;
-  position: absolute;
-  height: 2px;
-  width: 50%;
-/*  background: #a3acad;*/
-  background: #fff;
-  opacity: 1;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: .25s ease-in-out;
-  -moz-transition: .25s ease-in-out;
-  -o-transition: .25s ease-in-out;
-  transition: .25s ease-in-out;
-}
-
-#nav-icon0 span:nth-child(even) {
-  left: 50%;
-  border-radius: 0 9px 9px 0;
-}
-
-#nav-icon0 span:nth-child(odd) {
-  left:0px;
-  border-radius: 9px 0 0 9px;
-}
-
-#nav-icon0 span:nth-child(1), #nav-icon0 span:nth-child(2) {
-  top: 6px;
-}
-
-#nav-icon0 span:nth-child(3), #nav-icon0 span:nth-child(4) {
-  top: 16px;
-}
-
-#nav-icon0 span:nth-child(5), #nav-icon0 span:nth-child(6) {
-  top: 26px;
-}
-
-#nav-icon0.open span:nth-child(1),#nav-icon0.open span:nth-child(6) {
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-#nav-icon0.open span:nth-child(2),#nav-icon0.open span:nth-child(5) {
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-}
-
-#nav-icon0.open span:nth-child(1) {
-  left: 3px;
-  top: 9px;
-}
-
-#nav-icon0.open span:nth-child(2) {
-  left: calc(50% - 2px);
-  top: 9px;
-}
-
-#nav-icon0.open span:nth-child(3) {
-  left: -40%;
-  opacity: 0;
-}
-
-#nav-icon0.open span:nth-child(4) {
-  left: 90%;
-  opacity: 0;
-}
-
-#nav-icon0.open span:nth-child(5) {
-  left: 3px;
-  top: 19px;
-}
-
-#nav-icon0.open span:nth-child(6) {
-  left: calc(50% - 2px);
-  top: 19px;
-}
-/*END SOURCE*/
 
 .swal2-container {
   z-index: 9500 !important;
 }
+
+/**************************************/
+/* 404 PAGE                           */
+/**************************************/
+
+.error-page-msg {
+  margin-top: 80px;
+  border: 12px solid #e67e22;
+  padding: 24px;
+  font-size: 1.25em;
+}
+
+.error-page-msg h1 {
+  font-size: 3em;
+}
+
+.error-code {
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+.error-page-msg button {
+  border: none;
+  padding: 10px;
+}
+
+.error-body {
+  margin: 0;
+}
+
+/**************************************/
+/* CUSTOM ICONS                       */
+/**************************************/
+
+/* SOURCE: https://icomoon.io/ */
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?k3qefu');
+  src:  url('../fonts/icomoon.eot?k3qefu#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?k3qefu') format('truetype'),
+    url('../fonts/icomoon.woff?k3qefu') format('woff'),
+    url('../fonts/icomoon.svg?k3qefu#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-jquery:before {
+  content: "\e900";
+}
+.icon-photoshop:before {
+  content: "\e901";
+}
+/* END SOURCE */
