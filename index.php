@@ -1,8 +1,10 @@
 <!DOCTYPE html>
+
 <?php
   session_start();
   $token = $_SESSION['token'] = md5(uniqid(mt_rand(), true));
 ?>
+
 <html lang="en">
 
   <head>

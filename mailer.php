@@ -1,5 +1,7 @@
 <?php
 
+  include '.env';
+
   session_start();
   // Prevents swal from triggering without mailer redirect
   $_SESSION["mailer"] = 1;
@@ -25,7 +27,7 @@
 //          exit;
 //      }
 //        
-//    	$secretKey = "6LdBMSITAAAAAG7To3SzmNlU-5lHzN-OXPIRLOGd";
+//    	$secretKey = $reCapKey;
 //    	$ip = $_SERVER['REMOTE_ADDR'];
 //      $response=file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$secretKey."&response=".$captcha."&remoteip=".$ip);
 //    	$responseKeys = json_decode($response,true);
@@ -62,8 +64,10 @@
 
           $email_content .= "Message:\n$message\n";
           $email_headers = "From: $name <$email>";
-//          mail($recipient, $subject, $email_content, $email_headers);
-          header("Location: /jmotaylor/Portfolio/index.php?status=0#contact-block");
+          mail($recipient, $subject, $email_content, $email_headers);
+//          header("Location: /jmotaylor/Portfolio/index.php?status=0#contact-block");
+          header("Location: https://jmotaylor.com/index.php?status=0#contact-block");
+
 
 //      }
 
