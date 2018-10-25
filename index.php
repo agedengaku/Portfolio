@@ -8,9 +8,20 @@
 <html lang="en">
 
   <head>
+   
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <title>JM Taylor</title>
+    
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#2b5797">
+<meta name="theme-color" content="#ffffff">  
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">  
   <!--  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-9ralMzdK1QYsk4yBY680hmsb4/hJ98xK3w0TIaJ3ll4POWpWUYaA2bRjGGujGT8w" crossorigin="anonymous">-->
@@ -112,7 +123,7 @@
                     <div class="card"> 	
                     <h5 class="card-title p-3"><a href="https://streetfighter2ttt.com" target="_blank">Tic Tac Toe</a></h5>					
                     <div class="card-img-frame">
-                      <a href="https://streetfighter2ttt.com" target="_blank"><img class="card-img-top" src="resources/img/tictactoe-web.jpg" alt="Tic Tac Toe image" target="_blank"></a>
+                      <a href="https://streetfighter2ttt.com" target="_blank"><img class="card-img-top" src="resources/img/tictactoe-web-min.jpg" alt="Tic Tac Toe image" target="_blank"></a>
                     </div>
 
                     <div class="card-body p-3">
@@ -137,7 +148,7 @@
                   <div class="card">
                     <h5 class="card-title p-3"><a href="https://codepen.io/agedengaku/full/gjLOra/" target="_blank">Simon Game</a></h5>
                     <div class="card-img-frame">
-                      <a href="https://codepen.io/agedengaku/full/gjLOra/" target="_blank"><img class="card-img-top" src="resources/img/simon-web.jpg" alt="Simon game image" target="_blank"></a>
+                      <a href="https://codepen.io/agedengaku/full/gjLOra/" target="_blank"><img class="card-img-top" src="resources/img/simon-web-min.jpg" alt="Simon game image" target="_blank"></a>
                     </div>
 
                     <div class="card-body p-3">	
@@ -166,7 +177,7 @@
                     <div class="card"> 	
                     <h5 class="card-title p-3"><a href="https://codepen.io/agedengaku/full/NYPyWy/" target="_blank">Javascript Calculator</a></h5>					
                     <div class="card-img-frame">
-                      <a href="https://codepen.io/agedengaku/full/NYPyWy/"><img class="card-img-top" src="resources/img/calculator-web.jpg" alt="Javascript Calculator image" target="_blank"></a>
+                      <a href="https://codepen.io/agedengaku/full/NYPyWy/"><img class="card-img-top" src="resources/img/calculator-web-min.jpg" alt="Javascript Calculator image" target="_blank"></a>
                     </div>
 
                     <div class="card-body p-3">
@@ -185,7 +196,7 @@
                   <div class="card">
                     <h5 class="card-title p-3"><a href="https://codepen.io/agedengaku/full/bvZbGx/" target="_blank">Pomodoro Clock</a></h5>
                     <div class="card-img-frame">
-                      <a href="https://codepen.io/agedengaku/full/bvZbGx/" target="_blank"><img class="card-img-top" src="resources/img/pomodoro-web.jpg" alt="Pomodoro Clock image" target="_blank"></a>
+                      <a href="https://codepen.io/agedengaku/full/bvZbGx/" target="_blank"><img class="card-img-top" src="resources/img/pomodoro-web-min.jpg" alt="Pomodoro Clock image" target="_blank"></a>
                     </div>
 
                     <div class="card-body p-3">	
@@ -211,7 +222,7 @@
                     <div class="card"> 	
                     <h5 class="card-title p-3"><a href="https://japaneselessonstokyo.com" target="_blank">Japanese Lessons Tokyo</a></h5>					
                     <div class="card-img-frame">
-                      <a href="https://japaneselessonstokyo.com" target="_blank"><img class="card-img-top" src="resources/img/jlt-web.jpg" alt="Japanese Lessons Tokyo website image"></a>
+                      <a href="https://japaneselessonstokyo.com" target="_blank"><img class="card-img-top" src="resources/img/jlt-web-min.jpg" alt="Japanese Lessons Tokyo website image"></a>
                     </div>
 
                     <div class="card-body p-3">
@@ -233,7 +244,7 @@
                   <div class="card">
                     <h5 class="card-title p-3"><a href="http://jmotaylor.com/xps/" target="_blank">XPS Tokyo</a></h5>
                     <div class="card-img-frame">
-                      <a href="http://jmotaylor.com/xps/" target="_blank"><img class="card-img-top" src="resources/img/xpstokyo-web.jpg" alt="XPS Tokyo website image"></a>
+                      <a href="http://jmotaylor.com/xps/" target="_blank"><img class="card-img-top" src="resources/img/xpstokyo-web-min.jpg" alt="XPS Tokyo website image"></a>
                     </div>
 
                     <div class="card-body p-3">	
@@ -259,7 +270,7 @@
                     <div class="card"> 	
                     <h5 class="card-title p-3"><a href="/designquotes" target="_blank">Design Quotes</a></h5>					
                     <div class="card-img-frame">
-                      <a href="/designquotes" target="_blank"><img class="card-img-top" src="resources/img/quotes-web.jpg" alt="Design Quotes website image"></a>
+                      <a href="/designquotes" target="_blank"><img class="card-img-top" src="resources/img/quotes-web-min.jpg" alt="Design Quotes website image"></a>
                     </div>
 
                     <div class="card-body p-3">
@@ -278,7 +289,7 @@
                     <div class="card"> 	
                     <h5 class="card-title p-3"><a href="https://duterteipsum.com" target="_blank">Duterte Ipsum</a></h5>					
                     <div class="card-img-frame">
-                      <a href="https://duterteipsum.com" target="_blank"><img class="card-img-top" src="resources/img/duterte-web.jpg" alt="Duterte Ipsum website image"></a>
+                      <a href="https://duterteipsum.com" target="_blank"><img class="card-img-top" src="resources/img/duterte-web-min.jpg" alt="Duterte Ipsum website image"></a>
                     </div>
 
                     <div class="card-body p-3">
@@ -304,7 +315,7 @@
                   <div class="card">
                     <h5 class="card-title p-3"><a href="/wikiviewer" target="_blank">Wikipedia Viewer</a></h5>
                     <div class="card-img-frame">
-                      <a href="/wikiviewer" target="_blank"><img class="card-img-top" src="resources/img/wiki-web.jpg" alt="Wikipedia Viewer image"></a>
+                      <a href="/wikiviewer" target="_blank"><img class="card-img-top" src="resources/img/wiki-web-min.jpg" alt="Wikipedia Viewer image"></a>
                     </div>
 
                     <div class="card-body p-3">	
@@ -323,7 +334,7 @@
                   <div class="card">
                     <h5 class="card-title p-3"><a href="/hello/colorgame" target="_blank">Color Game</a></h5>
                     <div class="card-img-frame">
-                      <a href="/hello/colorgame" target="_blank"><img class="card-img-top" src="resources/img/color-web.jpg" alt="Color Game image"></a>
+                      <a href="/hello/colorgame" target="_blank"><img class="card-img-top" src="resources/img/color-web-min.jpg" alt="Color Game image"></a>
                     </div>
 
                     <div class="card-body p-3">	
