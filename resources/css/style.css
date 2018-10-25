@@ -25,11 +25,11 @@ a, a:link, a:visited, a:hover, a:active  {
 } 
 
 h1 {
-  font-family: "Raleway";
+  font-family: "Raleway", Helvetica;
 }
 
 h2 {
-  font-family: "Raleway";
+  font-family: "Raleway", Helvetica;
   margin-bottom: 40px;
   font-weight: 200;
 }
@@ -43,7 +43,7 @@ h2 {
 
 .navbar-brand { 
 	font-size: 28px; 
-	font-family: 'Raleway';
+	font-family: 'Raleway', Helvetica;
 	font-weight: 200;
 }
 
@@ -237,7 +237,7 @@ button.navbar-toggler:focus { outline:0; }
 }
 
 #skill-block p {
-  font-family: "Raleway";
+  font-family: "Raleway", Helvetica;
   margin-bottom: 0;
 }
 
@@ -281,7 +281,7 @@ button.navbar-toggler:focus { outline:0; }
 }
 
 .card-title {
-	font-family: "Raleway";
+	font-family: "Raleway", Helvetica;
 	font-weight: 400;
 	font-size: 1.25rem;
 	margin-bottom: 0;
@@ -505,7 +505,7 @@ label { display: none; }
 .js-email-label,
 .js-phone-label,
 .js-message-label {
-	font-family: "Raleway", sans-serif;
+	font-family: "Raleway", Helvetica;
 	font-weight: 200;
 }
 
